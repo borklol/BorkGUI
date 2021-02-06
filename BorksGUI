@@ -15,11 +15,11 @@ local RejoinGame = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
 local OpenGUI = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
 local SuggestionsGUI = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
 local DestroyGUI = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -149,6 +149,20 @@ OpenGUI.TextWrapped = true
 
 UICorner_7.Parent = OpenGUI
 
+TextLabel_2.Parent = BorksFriendsPunch
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.887962937, 0)
+TextLabel_2.Size = UDim2.new(0.154556021, 0, 0.100000001, 0)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "This GUI is a WIP expect some things to not work"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeTransparency = 0.500
+TextLabel_2.TextWrapped = true
+
 SuggestionsGUI.Name = "SuggestionsGUI"
 SuggestionsGUI.Parent = BorksFriendsPunch
 SuggestionsGUI.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
@@ -180,23 +194,9 @@ DestroyGUI.TextWrapped = true
 
 UICorner_9.Parent = DestroyGUI
 
-TextLabel_2.Parent = BorksFriendsPunch
-TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.5, 0, 0.887962937, 0)
-TextLabel_2.Size = UDim2.new(0.154556021, 0, 0.100000001, 0)
-TextLabel_2.Font = Enum.Font.Gotham
-TextLabel_2.Text = "This GUI is a WIP expect some things to not work"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextStrokeTransparency = 0.500
-TextLabel_2.TextWrapped = true
-
 -- Scripts:
 
-local function RSTB_fake_script() -- UIButton.LocalScript 
+local function XRBO_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.UIPlayerBox.FocusLost:connect(
@@ -216,8 +216,6 @@ local function RSTB_fake_script() -- UIButton.LocalScript
 	
 		game.ReplicatedStorage.Block.OnClientEvent:Connect(function()
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.PlayerName.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, 10)
-			
-			local noclip = true char = game.Players.LocalPlayer.Character while true do if noclip == true then for _,v in pairs(char:children()) do pcall(function() if v.className == "Part" then v.CanCollide = false elseif v.ClassName == "Model" then v.Head.CanCollide = false end end) end end game:service("RunService").Stepped:wait() end
 		end)	
 	end)
 	
@@ -229,8 +227,8 @@ local function RSTB_fake_script() -- UIButton.LocalScript
 	end
 	
 end
-coroutine.wrap(RSTB_fake_script)()
-local function GCIFR_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(XRBO_fake_script)()
+local function VDGXJUA_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.FlingPlayerBox.FocusLost:connect(
@@ -251,64 +249,9 @@ local function GCIFR_fake_script() -- FlingButton.LocalScript
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, -10000000000)
 		end
 	end)
-	
-	local testsquadAIR    = {
-	}
-	
-	local ContextAction = game:GetService("ContextActionService")
-	local RunService    = game:GetService("RunService")
-	
-	local function ForEach(t, f)
-		for Index, Value in pairs(t) do
-			f(Value, Index)
-		end
-	end _G.ForEach=ForEach;
-	local function Create(ClassName)
-		local Object = Instance.new(ClassName)
-		return function(Properties)
-			ForEach(Properties, function(Value, Property)
-				Object[Property] = Value
-			end)
-			return Object
-		end
-	end _G.Create=Create;
-	
-	do
-		local airwalkState     = false
-		local currentPart    = nil
-		RunService.RenderStepped:connect(function()
-			if airwalkState then
-				if not currentPart then
-					warn "On"
-					currentPart = Create "Part" {
-						Parent = workspace.CurrentCamera;
-						Name = "AWP";
-						Transparency = 1;
-						Size = Vector3.new(2, 1, 2);
-						Anchored = true;
-					}
-				end
-				local character = game.Players.LocalPlayer.Character
-				if character then
-					currentPart.CFrame = character.HumanoidRootPart.CFrame - Vector3.new(0, 3.6, 0)
-				end
-			else
-				if currentPart then
-					warn "Off"
-					currentPart:Destroy()
-					currentPart = nil
-				end        
-			end
-		end)
-		ContextAction:BindAction("Airwalk", function(_, InputState)
-			if InputState == Enum.UserInputState.Begin then
-				airwalkState = not airwalkState
-			end
-		end, false, testsquadAIR.Airwalk)
-	end
 end
-coroutine.wrap(GCIFR_fake_script)()
-local function LPGTSLH_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(VDGXJUA_fake_script)()
+local function TXYNAIW_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -318,8 +261,8 @@ local function LPGTSLH_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(LPGTSLH_fake_script)()
-local function DGHBBS_fake_script() -- Frame.SmoothDrag 
+coroutine.wrap(TXYNAIW_fake_script)()
+local function LIYW_fake_script() -- Frame.SmoothDrag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local Drag = script.Parent.Parent.Frame
@@ -362,8 +305,8 @@ local function DGHBBS_fake_script() -- Frame.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(DGHBBS_fake_script)()
-local function XDYJNAG_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(LIYW_fake_script)()
+local function XZWWAS_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -376,18 +319,18 @@ local function XDYJNAG_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XDYJNAG_fake_script)()
-local function JOGDKYD_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(XZWWAS_fake_script)()
+local function WYZCA_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	
 end
-coroutine.wrap(JOGDKYD_fake_script)()
-local function PSTIPBL_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(WYZCA_fake_script)()
+local function WFNEAJD_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(PSTIPBL_fake_script)()
+coroutine.wrap(WFNEAJD_fake_script)()
