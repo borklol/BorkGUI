@@ -1,3 +1,4 @@
+
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
@@ -19,15 +20,17 @@ local TextBox = Instance.new("TextBox")
 local UICorner_7 = Instance.new("UICorner")
 local KillButton = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local OpenGUI = Instance.new("TextButton")
+local BringButton = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
-local SuggestionsGUI = Instance.new("TextButton")
+local OpenGUI = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
-local DestroyGUI = Instance.new("TextButton")
+local SuggestionsGUI = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
+local DestroyGUI = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local Notification = Instance.new("Frame")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local Notif = Instance.new("TextLabel")
 local NotifDes = Instance.new("TextLabel")
 
@@ -102,7 +105,7 @@ RejoinGame.Name = "RejoinGame"
 RejoinGame.Parent = ButtonsFrame
 RejoinGame.AnchorPoint = Vector2.new(0.5, 0.5)
 RejoinGame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-RejoinGame.Position = UDim2.new(0.868843257, 0, 0.875196576, 0)
+RejoinGame.Position = UDim2.new(0.499990791, 0, 0.875196576, 0)
 RejoinGame.Size = UDim2.new(0, 109, 0, 50)
 RejoinGame.AutoButtonColor = false
 RejoinGame.Font = Enum.Font.GothamBold
@@ -147,8 +150,8 @@ UICorner_6.Parent = HealButton
 TextBox.Parent = ButtonsFrame
 TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
 TextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-TextBox.Position = UDim2.new(0.5, 0, 0.100000001, 0)
-TextBox.Size = UDim2.new(0, 200, 0, 45)
+TextBox.Position = UDim2.new(0.498612791, 0, 0.099999994, 0)
+TextBox.Size = UDim2.new(0, 563, 0, 45)
 TextBox.Font = Enum.Font.GothamBold
 TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.PlaceholderText = "Enter Player Name Here"
@@ -175,6 +178,21 @@ KillButton.TextWrapped = true
 
 UICorner_8.Parent = KillButton
 
+BringButton.Name = "BringButton"
+BringButton.Parent = ButtonsFrame
+BringButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+BringButton.Position = UDim2.new(0.631245494, 0, 0.650409341, 0)
+BringButton.Size = UDim2.new(0, 200, 0, 50)
+BringButton.AutoButtonColor = false
+BringButton.Font = Enum.Font.Gotham
+BringButton.Text = "Bring"
+BringButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+BringButton.TextScaled = true
+BringButton.TextSize = 14.000
+BringButton.TextWrapped = true
+
+UICorner_9.Parent = BringButton
+
 OpenGUI.Name = "OpenGUI"
 OpenGUI.Parent = BorksFriendsPunch
 OpenGUI.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
@@ -188,7 +206,7 @@ OpenGUI.TextScaled = true
 OpenGUI.TextSize = 14.000
 OpenGUI.TextWrapped = true
 
-UICorner_9.Parent = OpenGUI
+UICorner_10.Parent = OpenGUI
 
 SuggestionsGUI.Name = "SuggestionsGUI"
 SuggestionsGUI.Parent = BorksFriendsPunch
@@ -204,7 +222,7 @@ SuggestionsGUI.TextScaled = true
 SuggestionsGUI.TextSize = 14.000
 SuggestionsGUI.TextWrapped = true
 
-UICorner_10.Parent = SuggestionsGUI
+UICorner_11.Parent = SuggestionsGUI
 
 DestroyGUI.Name = "DestroyGUI"
 DestroyGUI.Parent = BorksFriendsPunch
@@ -219,7 +237,7 @@ DestroyGUI.TextScaled = true
 DestroyGUI.TextSize = 14.000
 DestroyGUI.TextWrapped = true
 
-UICorner_11.Parent = DestroyGUI
+UICorner_12.Parent = DestroyGUI
 
 TextLabel_2.Parent = BorksFriendsPunch
 TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -243,7 +261,7 @@ Notification.Position = UDim2.new(0.5, 0, 0.0906721875, 0)
 Notification.Size = UDim2.new(0, 636, 0, 173)
 Notification.Visible = false
 
-UICorner_12.Parent = Notification
+UICorner_13.Parent = Notification
 
 Notif.Name = "Notif"
 Notif.Parent = Notification
@@ -272,7 +290,7 @@ NotifDes.TextWrapped = true
 
 -- Scripts:
 
-local function OQIE_fake_script() -- UIButton.LocalScript 
+local function KSLRZQ_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -307,8 +325,8 @@ local function OQIE_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(OQIE_fake_script)()
-local function SFJY_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(KSLRZQ_fake_script)()
+local function AGQJRX_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -334,8 +352,8 @@ local function SFJY_fake_script() -- FlingButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SFJY_fake_script)()
-local function BIQDM_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(AGQJRX_fake_script)()
+local function CKDBBO_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -345,8 +363,8 @@ local function BIQDM_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(BIQDM_fake_script)()
-local function OQXFXW_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(CKDBBO_fake_script)()
+local function XCRJC_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -368,8 +386,8 @@ local function OQXFXW_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(OQXFXW_fake_script)()
-local function FZHDQRT_fake_script() -- HealButton.LocalScript 
+coroutine.wrap(XCRJC_fake_script)()
+local function ITGY_fake_script() -- HealButton.LocalScript 
 	local script = Instance.new('LocalScript', HealButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -403,8 +421,8 @@ local function FZHDQRT_fake_script() -- HealButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FZHDQRT_fake_script)()
-local function EBZKV_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(ITGY_fake_script)()
+local function IVGSVA_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -415,8 +433,8 @@ local function EBZKV_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EBZKV_fake_script)()
-local function VTGZJH_fake_script() -- KillButton.LocalScript 
+coroutine.wrap(IVGSVA_fake_script)()
+local function VBBQWDP_fake_script() -- KillButton.LocalScript 
 	local script = Instance.new('LocalScript', KillButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -450,8 +468,43 @@ local function VTGZJH_fake_script() -- KillButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VTGZJH_fake_script)()
-local function NEQA_fake_script() -- Main.SmoothDrag 
+coroutine.wrap(VBBQWDP_fake_script)()
+local function OOGMOQP_fake_script() -- BringButton.LocalScript 
+	local script = Instance.new('LocalScript', BringButton)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	
+	local Players = game:FindService("Players")
+	
+	for i,v in pairs(Players:GetChildren()) do
+		if v.Name == PlayerName then
+			print("Player Found!")
+		end
+	end
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				local args = {
+					[1] = "Light",
+					[2] = 0,
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+			end
+		end
+	end)
+end
+coroutine.wrap(OOGMOQP_fake_script)()
+local function PNOFUU_fake_script() -- Main.SmoothDrag 
 	local script = Instance.new('LocalScript', Main)
 
 	local Drag = script.Parent
@@ -494,8 +547,8 @@ local function NEQA_fake_script() -- Main.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(NEQA_fake_script)()
-local function RSXDALE_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(PNOFUU_fake_script)()
+local function WVRMT_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -508,18 +561,18 @@ local function RSXDALE_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RSXDALE_fake_script)()
-local function IDDS_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(WVRMT_fake_script)()
+local function AALKEU_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	
 end
-coroutine.wrap(IDDS_fake_script)()
-local function XYXAI_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(AALKEU_fake_script)()
+local function BMQCEP_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(XYXAI_fake_script)()
+coroutine.wrap(BMQCEP_fake_script)()
