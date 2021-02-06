@@ -1,3 +1,4 @@
+
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
@@ -23,15 +24,19 @@ local HealPlayerBox = Instance.new("TextBox")
 local UICorner_9 = Instance.new("UICorner")
 local UIPlayerBox = Instance.new("TextBox")
 local UICorner_10 = Instance.new("UICorner")
-local OpenGUI = Instance.new("TextButton")
+local KillButton = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
-local SuggestionsGUI = Instance.new("TextButton")
+local KillPlayerBox = Instance.new("TextBox")
 local UICorner_12 = Instance.new("UICorner")
-local DestroyGUI = Instance.new("TextButton")
+local OpenGUI = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
+local SuggestionsGUI = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local DestroyGUI = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local Notification = Instance.new("Frame")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local Notif = Instance.new("TextLabel")
 local NotifDes = Instance.new("TextLabel")
 
@@ -49,7 +54,6 @@ Main.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Main.Position = UDim2.new(0.5, 0, 0.502177596, 0)
 Main.Size = UDim2.new(0, 636, 0, 679)
 Main.Visible = false
-Main.ZIndex = 99999
 
 UICorner.Parent = Main
 
@@ -213,6 +217,37 @@ UIPlayerBox.TextWrapped = true
 
 UICorner_10.Parent = UIPlayerBox
 
+KillButton.Name = "KillButton"
+KillButton.Parent = ButtonsFrame
+KillButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+KillButton.Position = UDim2.new(0.619496822, 0, 0.728262603, 0)
+KillButton.Size = UDim2.new(0, 200, 0, 50)
+KillButton.AutoButtonColor = false
+KillButton.Font = Enum.Font.Gotham
+KillButton.Text = "Heal"
+KillButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillButton.TextScaled = true
+KillButton.TextSize = 14.000
+KillButton.TextWrapped = true
+
+UICorner_11.Parent = KillButton
+
+KillPlayerBox.Name = "KillPlayerBox"
+KillPlayerBox.Parent = ButtonsFrame
+KillPlayerBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+KillPlayerBox.Position = UDim2.new(0.619496822, 0, 0.641343713, 0)
+KillPlayerBox.Size = UDim2.new(0, 200, 0, 45)
+KillPlayerBox.Font = Enum.Font.GothamBold
+KillPlayerBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+KillPlayerBox.PlaceholderText = "Enter Player Name Here"
+KillPlayerBox.Text = ""
+KillPlayerBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillPlayerBox.TextScaled = true
+KillPlayerBox.TextSize = 14.000
+KillPlayerBox.TextWrapped = true
+
+UICorner_12.Parent = KillPlayerBox
+
 OpenGUI.Name = "OpenGUI"
 OpenGUI.Parent = BorksFriendsPunch
 OpenGUI.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
@@ -226,7 +261,7 @@ OpenGUI.TextScaled = true
 OpenGUI.TextSize = 14.000
 OpenGUI.TextWrapped = true
 
-UICorner_11.Parent = OpenGUI
+UICorner_13.Parent = OpenGUI
 
 SuggestionsGUI.Name = "SuggestionsGUI"
 SuggestionsGUI.Parent = BorksFriendsPunch
@@ -242,7 +277,7 @@ SuggestionsGUI.TextScaled = true
 SuggestionsGUI.TextSize = 14.000
 SuggestionsGUI.TextWrapped = true
 
-UICorner_12.Parent = SuggestionsGUI
+UICorner_14.Parent = SuggestionsGUI
 
 DestroyGUI.Name = "DestroyGUI"
 DestroyGUI.Parent = BorksFriendsPunch
@@ -257,7 +292,7 @@ DestroyGUI.TextScaled = true
 DestroyGUI.TextSize = 14.000
 DestroyGUI.TextWrapped = true
 
-UICorner_13.Parent = DestroyGUI
+UICorner_15.Parent = DestroyGUI
 
 TextLabel_2.Parent = BorksFriendsPunch
 TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -281,7 +316,7 @@ Notification.Position = UDim2.new(0.5, 0, 0.0906721875, 0)
 Notification.Size = UDim2.new(0, 636, 0, 173)
 Notification.Visible = false
 
-UICorner_14.Parent = Notification
+UICorner_16.Parent = Notification
 
 Notif.Name = "Notif"
 Notif.Parent = Notification
@@ -310,7 +345,7 @@ NotifDes.TextWrapped = true
 
 -- Scripts:
 
-local function CRPZPUO_fake_script() -- UIButton.LocalScript 
+local function ANWU_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.UIPlayerBox.FocusLost:connect(
@@ -339,8 +374,8 @@ local function CRPZPUO_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(CRPZPUO_fake_script)()
-local function NLHDDF_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(ANWU_fake_script)()
+local function LMHBB_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.FlingPlayerBox.FocusLost:connect(
@@ -366,8 +401,8 @@ local function NLHDDF_fake_script() -- FlingButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NLHDDF_fake_script)()
-local function HOUC_fake_script() -- FlingPlayerBox.LocalScript 
+coroutine.wrap(LMHBB_fake_script)()
+local function WZEIFXJ_fake_script() -- FlingPlayerBox.LocalScript 
 	local script = Instance.new('LocalScript', FlingPlayerBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -378,8 +413,8 @@ local function HOUC_fake_script() -- FlingPlayerBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HOUC_fake_script)()
-local function JAMJYS_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(WZEIFXJ_fake_script)()
+local function ZYTSCU_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -389,8 +424,8 @@ local function JAMJYS_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(JAMJYS_fake_script)()
-local function PFQAI_fake_script() -- TeleportPlayerBox.LocalScript 
+coroutine.wrap(ZYTSCU_fake_script)()
+local function YVIMJ_fake_script() -- TeleportPlayerBox.LocalScript 
 	local script = Instance.new('LocalScript', TeleportPlayerBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -401,8 +436,8 @@ local function PFQAI_fake_script() -- TeleportPlayerBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PFQAI_fake_script)()
-local function YLGBSDD_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(YVIMJ_fake_script)()
+local function ZJJP_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TeleportPlayerBox.FocusLost:connect(
@@ -424,8 +459,8 @@ local function YLGBSDD_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(YLGBSDD_fake_script)()
-local function UDBA_fake_script() -- HealButton.LocalScript 
+coroutine.wrap(ZJJP_fake_script)()
+local function WKACOS_fake_script() -- HealButton.LocalScript 
 	local script = Instance.new('LocalScript', HealButton)
 
 	script.Parent.Parent.HealPlayerBox.FocusLost:connect(
@@ -459,8 +494,8 @@ local function UDBA_fake_script() -- HealButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UDBA_fake_script)()
-local function WKMVWEC_fake_script() -- HealPlayerBox.LocalScript 
+coroutine.wrap(WKACOS_fake_script)()
+local function VRLBS_fake_script() -- HealPlayerBox.LocalScript 
 	local script = Instance.new('LocalScript', HealPlayerBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -471,8 +506,8 @@ local function WKMVWEC_fake_script() -- HealPlayerBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WKMVWEC_fake_script)()
-local function ZBACNYM_fake_script() -- UIPlayerBox.LocalScript 
+coroutine.wrap(VRLBS_fake_script)()
+local function KHOPY_fake_script() -- UIPlayerBox.LocalScript 
 	local script = Instance.new('LocalScript', UIPlayerBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -483,8 +518,55 @@ local function ZBACNYM_fake_script() -- UIPlayerBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZBACNYM_fake_script)()
-local function BEIZHIF_fake_script() -- Main.SmoothDrag 
+coroutine.wrap(KHOPY_fake_script)()
+local function DPWAI_fake_script() -- KillButton.LocalScript 
+	local script = Instance.new('LocalScript', KillButton)
+
+	script.Parent.Parent.HealPlayerBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.HealPlayerBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.HealPlayerBox
+	
+	local Players = game:FindService("Players")
+	
+	for i,v in pairs(Players:GetChildren()) do
+		if v.Name == PlayerName then
+			print("Player Found!")
+		end
+	end
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				local args = {
+					[1] = "Light",
+					[2] = 100,
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+			end
+		end
+	end)
+end
+coroutine.wrap(DPWAI_fake_script)()
+local function EDIC_fake_script() -- KillPlayerBox.LocalScript 
+	local script = Instance.new('LocalScript', KillPlayerBox)
+
+	script.Parent.FocusLost:connect(function()
+		for i,v in pairs(game.Players:GetChildren()) do
+			if (string.sub(string.lower(v.Name),1,string.len(script.Parent.Text))) == string.lower(script.Parent.Text) then
+				script.Parent.Text = v.Name
+			end
+		end
+	end)
+end
+coroutine.wrap(EDIC_fake_script)()
+local function TRIZZZI_fake_script() -- Main.SmoothDrag 
 	local script = Instance.new('LocalScript', Main)
 
 	local Drag = script.Parent
@@ -527,8 +609,8 @@ local function BEIZHIF_fake_script() -- Main.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(BEIZHIF_fake_script)()
-local function PKCZSYJ_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(TRIZZZI_fake_script)()
+local function NYMYFQH_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -541,18 +623,18 @@ local function PKCZSYJ_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PKCZSYJ_fake_script)()
-local function OXIHAY_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(NYMYFQH_fake_script)()
+local function NVLXN_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	
 end
-coroutine.wrap(OXIHAY_fake_script)()
-local function WQBBW_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(NVLXN_fake_script)()
+local function HYNAQWM_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(WQBBW_fake_script)()
+coroutine.wrap(HYNAQWM_fake_script)()
