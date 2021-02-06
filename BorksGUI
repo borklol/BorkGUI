@@ -40,6 +40,7 @@ Frame.AnchorPoint = Vector2.new(0.5, 0.5)
 Frame.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Frame.Position = UDim2.new(0.5, 0, 0.502177596, 0)
 Frame.Size = UDim2.new(0, 636, 0, 679)
+Frame.Visible = false
 
 UICorner.Parent = Frame
 
@@ -234,7 +235,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function TLIR_fake_script() -- UIButton.LocalScript 
+local function RIPL_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.UIPlayerBox.FocusLost:connect(
@@ -259,8 +260,8 @@ local function TLIR_fake_script() -- UIButton.LocalScript
 	end
 	
 end
-coroutine.wrap(TLIR_fake_script)()
-local function MQGL_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(RIPL_fake_script)()
+local function SNGS_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.FlingPlayerBox.FocusLost:connect(
@@ -282,8 +283,8 @@ local function MQGL_fake_script() -- FlingButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MQGL_fake_script)()
-local function MUKJDQS_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(SNGS_fake_script)()
+local function YCEU_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -293,8 +294,8 @@ local function MUKJDQS_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(MUKJDQS_fake_script)()
-local function PONZI_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(YCEU_fake_script)()
+local function CEOYO_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.FlingPlayerBox.FocusLost:connect(
@@ -311,8 +312,8 @@ local function PONZI_fake_script() -- TeleportButton.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.PlayerName.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(PONZI_fake_script)()
-local function TLYAK_fake_script() -- Frame.SmoothDrag 
+coroutine.wrap(CEOYO_fake_script)()
+local function QBNWZVY_fake_script() -- Frame.SmoothDrag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local Drag = script.Parent.Parent.Frame
@@ -355,8 +356,8 @@ local function TLYAK_fake_script() -- Frame.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(TLYAK_fake_script)()
-local function AYCR_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(QBNWZVY_fake_script)()
+local function NLSX_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -369,18 +370,18 @@ local function AYCR_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AYCR_fake_script)()
-local function XSNJH_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(NLSX_fake_script)()
+local function GVRQX_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	
 end
-coroutine.wrap(XSNJH_fake_script)()
-local function MJFNOQ_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(GVRQX_fake_script)()
+local function OGHM_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(MJFNOQ_fake_script)()
+coroutine.wrap(OGHM_fake_script)()
