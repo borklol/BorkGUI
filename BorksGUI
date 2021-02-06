@@ -1,4 +1,3 @@
-
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
@@ -16,12 +15,16 @@ local FlingPlayerBox = Instance.new("TextBox")
 local UICorner_5 = Instance.new("UICorner")
 local RejoinGame = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
-local OpenGUI = Instance.new("TextButton")
+local TeleportPlayerBox = Instance.new("TextBox")
 local UICorner_7 = Instance.new("UICorner")
-local SuggestionsGUI = Instance.new("TextButton")
+local TeleportButton = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local DestroyGUI = Instance.new("TextButton")
+local OpenGUI = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
+local SuggestionsGUI = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local DestroyGUI = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 
 --Properties:
@@ -34,9 +37,8 @@ BorksFriendsPunch.ResetOnSpawn = false
 Frame.Parent = BorksFriendsPunch
 Frame.AnchorPoint = Vector2.new(0.5, 0.5)
 Frame.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
-Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
-Frame.Size = UDim2.new(0, 636, 0, 408)
-Frame.Visible = false
+Frame.Position = UDim2.new(0.5, 0, 0.502177596, 0)
+Frame.Size = UDim2.new(0, 636, 0, 679)
 
 UICorner.Parent = Frame
 
@@ -126,7 +128,7 @@ RejoinGame.Name = "RejoinGame"
 RejoinGame.Parent = ButtonsFrame
 RejoinGame.AnchorPoint = Vector2.new(0.5, 0.5)
 RejoinGame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-RejoinGame.Position = UDim2.new(0.5, 0, 0.800000012, 0)
+RejoinGame.Position = UDim2.new(0.776729584, 0, 0.42908138, 0)
 RejoinGame.Size = UDim2.new(0, 200, 0, 50)
 RejoinGame.AutoButtonColor = false
 RejoinGame.Font = Enum.Font.GothamBold
@@ -137,6 +139,37 @@ RejoinGame.TextSize = 14.000
 RejoinGame.TextWrapped = true
 
 UICorner_6.Parent = RejoinGame
+
+TeleportPlayerBox.Name = "TeleportPlayerBox"
+TeleportPlayerBox.Parent = ButtonsFrame
+TeleportPlayerBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TeleportPlayerBox.Position = UDim2.new(0.036163494, 0, 0.386624902, 0)
+TeleportPlayerBox.Size = UDim2.new(0, 200, 0, 45)
+TeleportPlayerBox.Font = Enum.Font.GothamBold
+TeleportPlayerBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TeleportPlayerBox.PlaceholderText = "Player Name"
+TeleportPlayerBox.Text = ""
+TeleportPlayerBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportPlayerBox.TextScaled = true
+TeleportPlayerBox.TextSize = 14.000
+TeleportPlayerBox.TextWrapped = true
+
+UICorner_7.Parent = TeleportPlayerBox
+
+TeleportButton.Name = "TeleportButton"
+TeleportButton.Parent = ButtonsFrame
+TeleportButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TeleportButton.Position = UDim2.new(0.036163494, 0, 0.476895362, 0)
+TeleportButton.Size = UDim2.new(0, 200, 0, 50)
+TeleportButton.AutoButtonColor = false
+TeleportButton.Font = Enum.Font.Gotham
+TeleportButton.Text = "Teleport "
+TeleportButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportButton.TextScaled = true
+TeleportButton.TextSize = 14.000
+TeleportButton.TextWrapped = true
+
+UICorner_8.Parent = TeleportButton
 
 OpenGUI.Name = "OpenGUI"
 OpenGUI.Parent = BorksFriendsPunch
@@ -151,7 +184,7 @@ OpenGUI.TextScaled = true
 OpenGUI.TextSize = 14.000
 OpenGUI.TextWrapped = true
 
-UICorner_7.Parent = OpenGUI
+UICorner_9.Parent = OpenGUI
 
 SuggestionsGUI.Name = "SuggestionsGUI"
 SuggestionsGUI.Parent = BorksFriendsPunch
@@ -167,7 +200,7 @@ SuggestionsGUI.TextScaled = true
 SuggestionsGUI.TextSize = 14.000
 SuggestionsGUI.TextWrapped = true
 
-UICorner_8.Parent = SuggestionsGUI
+UICorner_10.Parent = SuggestionsGUI
 
 DestroyGUI.Name = "DestroyGUI"
 DestroyGUI.Parent = BorksFriendsPunch
@@ -182,7 +215,7 @@ DestroyGUI.TextScaled = true
 DestroyGUI.TextSize = 14.000
 DestroyGUI.TextWrapped = true
 
-UICorner_9.Parent = DestroyGUI
+UICorner_11.Parent = DestroyGUI
 
 TextLabel_2.Parent = BorksFriendsPunch
 TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -200,7 +233,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function YQIMPL_fake_script() -- UIButton.LocalScript 
+local function SVDD_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.UIPlayerBox.FocusLost:connect(
@@ -225,8 +258,8 @@ local function YQIMPL_fake_script() -- UIButton.LocalScript
 	end
 	
 end
-coroutine.wrap(YQIMPL_fake_script)()
-local function SQIORFA_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(SVDD_fake_script)()
+local function SNLLG_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.FlingPlayerBox.FocusLost:connect(
@@ -242,14 +275,14 @@ local function SQIORFA_fake_script() -- FlingButton.LocalScript
 	script.Parent.MouseButton1Click:Connect(function()
 		while true do
 			wait(0.0000001)
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, 2)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.PlayerName.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, 2)
 			wait(0.0000001)
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, -10000000000)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.PlayerName.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, -10000000000)
 		end
 	end)
 end
-coroutine.wrap(SQIORFA_fake_script)()
-local function BUTJ_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(SNLLG_fake_script)()
+local function NLOCM_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -259,8 +292,26 @@ local function BUTJ_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(BUTJ_fake_script)()
-local function JUAQB_fake_script() -- Frame.SmoothDrag 
+coroutine.wrap(NLOCM_fake_script)()
+local function KQVMBJQ_fake_script() -- TeleportButton.LocalScript 
+	local script = Instance.new('LocalScript', TeleportButton)
+
+	script.Parent.Parent.FlingPlayerBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.FlingPlayerBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.FlingPlayerBox.Text
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.PlayerName.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+	end)
+end
+coroutine.wrap(KQVMBJQ_fake_script)()
+local function HTDJZW_fake_script() -- Frame.SmoothDrag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local Drag = script.Parent.Parent.Frame
@@ -303,8 +354,8 @@ local function JUAQB_fake_script() -- Frame.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(JUAQB_fake_script)()
-local function OUBV_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(HTDJZW_fake_script)()
+local function JXHDIJ_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -317,18 +368,18 @@ local function OUBV_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OUBV_fake_script)()
-local function GQYQLR_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(JXHDIJ_fake_script)()
+local function ILAQLBR_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	
 end
-coroutine.wrap(GQYQLR_fake_script)()
-local function ULQOYWQ_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(ILAQLBR_fake_script)()
+local function NBNL_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(ULQOYWQ_fake_script)()
+coroutine.wrap(NBNL_fake_script)()
