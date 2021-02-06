@@ -5,39 +5,62 @@ local BorksFriendsPunch = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local ButtonsFrame1 = Instance.new("Frame")
 local UIButton = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 local FlingButton = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
-local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
 local TeleportButton = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
 local HealButton = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
 local TextBox = Instance.new("TextBox")
 local UICorner_6 = Instance.new("UICorner")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
 local KillButton = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
 local BringButton = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local OpenGUI = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
 local SuggestionsGUI = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
 local DestroyGUI = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
 local TextLabel_2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
 local Notification = Instance.new("Frame")
 local UICorner_12 = Instance.new("UICorner")
 local Notif = Instance.new("TextLabel")
 local NotifDes = Instance.new("TextLabel")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
 local Previous = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
 local Next = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
 local RejoinGame = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
 
 --Properties:
 
@@ -51,7 +74,7 @@ Main.Parent = BorksFriendsPunch
 Main.AnchorPoint = Vector2.new(0.5, 0.5)
 Main.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Main.Position = UDim2.new(0.488496244, 0, 0.5, 0)
-Main.Size = UDim2.new(0, 364, 0, 380)
+Main.Size = UDim2.new(0.189682126, 0, 0.351851851, 0)
 Main.Visible = false
 
 UICorner.Parent = Main
@@ -60,13 +83,16 @@ TextLabel.Parent = Main
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(-0.000626951805, 0, -0.00139521551, 0)
-TextLabel.Size = UDim2.new(0, 363, 0, 69)
+TextLabel.Size = UDim2.new(0.997252762, 0, 0.181578949, 0)
 TextLabel.Font = Enum.Font.GothamBold
 TextLabel.Text = "Bork's Punch Your Friends Simulator GUI"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
+
+UITextSizeConstraint.Parent = TextLabel
+UITextSizeConstraint.MaxTextSize = 68
 
 ButtonsFrame1.Name = "ButtonsFrame1"
 ButtonsFrame1.Parent = Main
@@ -91,6 +117,9 @@ UIButton.TextWrapped = true
 
 UICorner_2.Parent = UIButton
 
+UITextSizeConstraint_2.Parent = UIButton
+UITextSizeConstraint_2.MaxTextSize = 27
+
 FlingButton.Name = "FlingButton"
 FlingButton.Parent = ButtonsFrame1
 FlingButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
@@ -106,8 +135,8 @@ FlingButton.TextWrapped = true
 
 UICorner_3.Parent = FlingButton
 
-UITextSizeConstraint.Parent = FlingButton
-UITextSizeConstraint.MaxTextSize = 50
+UITextSizeConstraint_3.Parent = FlingButton
+UITextSizeConstraint_3.MaxTextSize = 50
 
 TeleportButton.Name = "TeleportButton"
 TeleportButton.Parent = ButtonsFrame1
@@ -124,6 +153,9 @@ TeleportButton.TextWrapped = true
 
 UICorner_4.Parent = TeleportButton
 
+UITextSizeConstraint_4.Parent = TeleportButton
+UITextSizeConstraint_4.MaxTextSize = 43
+
 HealButton.Name = "HealButton"
 HealButton.Parent = ButtonsFrame1
 HealButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
@@ -139,11 +171,14 @@ HealButton.TextWrapped = true
 
 UICorner_5.Parent = HealButton
 
+UITextSizeConstraint_5.Parent = HealButton
+UITextSizeConstraint_5.MaxTextSize = 50
+
 TextBox.Parent = ButtonsFrame1
 TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
 TextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
 TextBox.Position = UDim2.new(0.489173979, 0, 0.156892776, 0)
-TextBox.Size = UDim2.new(0, 326, 0, 45)
+TextBox.Size = UDim2.new(0.895604372, 0, 0.13474606, 0)
 TextBox.Font = Enum.Font.GothamBold
 TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.PlaceholderText = "Enter Player Name Here"
@@ -155,11 +190,14 @@ TextBox.TextWrapped = true
 
 UICorner_6.Parent = TextBox
 
+UITextSizeConstraint_6.Parent = TextBox
+UITextSizeConstraint_6.MaxTextSize = 29
+
 KillButton.Name = "KillButton"
 KillButton.Parent = ButtonsFrame1
 KillButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
 KillButton.Position = UDim2.new(0.512807071, 0, 0.434815556, 0)
-KillButton.Size = UDim2.new(0.450034738, 0, 0.150000006, 0)
+KillButton.Size = UDim2.new(0.450034708, 0, 0.150000006, 0)
 KillButton.AutoButtonColor = false
 KillButton.Font = Enum.Font.Gotham
 KillButton.Text = "Kill"
@@ -169,6 +207,9 @@ KillButton.TextSize = 14.000
 KillButton.TextWrapped = true
 
 UICorner_7.Parent = KillButton
+
+UITextSizeConstraint_7.Parent = KillButton
+UITextSizeConstraint_7.MaxTextSize = 50
 
 BringButton.Name = "BringButton"
 BringButton.Parent = ButtonsFrame1
@@ -185,11 +226,17 @@ BringButton.TextWrapped = true
 
 UICorner_8.Parent = BringButton
 
+UITextSizeConstraint_8.Parent = BringButton
+UITextSizeConstraint_8.MaxTextSize = 50
+
+UIAspectRatioConstraint.Parent = Main
+UIAspectRatioConstraint.AspectRatio = 0.958
+
 OpenGUI.Name = "OpenGUI"
 OpenGUI.Parent = BorksFriendsPunch
 OpenGUI.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 OpenGUI.Position = UDim2.new(0.854925334, 0, 0.918518543, 0)
-OpenGUI.Size = UDim2.new(0, 264, 0, 50)
+OpenGUI.Size = UDim2.new(0.137571648, 0, 0.0462962948, 0)
 OpenGUI.AutoButtonColor = false
 OpenGUI.Font = Enum.Font.GothamBlack
 OpenGUI.Text = "Open GUI"
@@ -200,11 +247,17 @@ OpenGUI.TextWrapped = true
 
 UICorner_9.Parent = OpenGUI
 
+UIAspectRatioConstraint_2.Parent = OpenGUI
+UIAspectRatioConstraint_2.AspectRatio = 5.280
+
+UITextSizeConstraint_9.Parent = OpenGUI
+UITextSizeConstraint_9.MaxTextSize = 49
+
 SuggestionsGUI.Name = "SuggestionsGUI"
 SuggestionsGUI.Parent = BorksFriendsPunch
 SuggestionsGUI.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 SuggestionsGUI.Position = UDim2.new(0.854925334, 0, 0.791666687, 0)
-SuggestionsGUI.Size = UDim2.new(0, 264, 0, 50)
+SuggestionsGUI.Size = UDim2.new(0.137571648, 0, 0.0462962948, 0)
 SuggestionsGUI.Visible = false
 SuggestionsGUI.AutoButtonColor = false
 SuggestionsGUI.Font = Enum.Font.GothamBlack
@@ -216,11 +269,17 @@ SuggestionsGUI.TextWrapped = true
 
 UICorner_10.Parent = SuggestionsGUI
 
+UIAspectRatioConstraint_3.Parent = SuggestionsGUI
+UIAspectRatioConstraint_3.AspectRatio = 5.280
+
+UITextSizeConstraint_10.Parent = SuggestionsGUI
+UITextSizeConstraint_10.MaxTextSize = 46
+
 DestroyGUI.Name = "DestroyGUI"
 DestroyGUI.Parent = BorksFriendsPunch
 DestroyGUI.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 DestroyGUI.Position = UDim2.new(0.854925334, 0, 0.864814818, 0)
-DestroyGUI.Size = UDim2.new(0, 264, 0, 50)
+DestroyGUI.Size = UDim2.new(0.137571648, 0, 0.0462962948, 0)
 DestroyGUI.AutoButtonColor = false
 DestroyGUI.Font = Enum.Font.GothamBlack
 DestroyGUI.Text = "Destroy GUI"
@@ -230,6 +289,12 @@ DestroyGUI.TextSize = 14.000
 DestroyGUI.TextWrapped = true
 
 UICorner_11.Parent = DestroyGUI
+
+UIAspectRatioConstraint_4.Parent = DestroyGUI
+UIAspectRatioConstraint_4.AspectRatio = 5.280
+
+UITextSizeConstraint_11.Parent = DestroyGUI
+UITextSizeConstraint_11.MaxTextSize = 48
 
 TextLabel_2.Parent = BorksFriendsPunch
 TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -245,12 +310,17 @@ TextLabel_2.TextSize = 14.000
 TextLabel_2.TextStrokeTransparency = 0.500
 TextLabel_2.TextWrapped = true
 
+UIAspectRatioConstraint_5.Parent = TextLabel_2
+UIAspectRatioConstraint_5.AspectRatio = 2.746
+
+UITextSizeConstraint_12.Parent = TextLabel_2
+
 Notification.Name = "Notification"
 Notification.Parent = BorksFriendsPunch
 Notification.AnchorPoint = Vector2.new(0.5, 0.5)
 Notification.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Notification.Position = UDim2.new(0.500025451, 0, 0.100277573, 0)
-Notification.Size = UDim2.new(0, 635, 0, 186)
+Notification.Size = UDim2.new(0.330901504, 0, 0.172222227, 0)
 Notification.Visible = false
 
 UICorner_12.Parent = Notification
@@ -280,12 +350,15 @@ NotifDes.TextScaled = true
 NotifDes.TextSize = 14.000
 NotifDes.TextWrapped = true
 
+UIAspectRatioConstraint_6.Parent = Notification
+UIAspectRatioConstraint_6.AspectRatio = 3.414
+
 Previous.Name = "Previous"
 Previous.Parent = BorksFriendsPunch
 Previous.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Previous.BorderColor3 = Color3.fromRGB(68, 68, 68)
 Previous.Position = UDim2.new(0.393434078, 0, 0.67592591, 0)
-Previous.Size = UDim2.new(0, 139, 0, 50)
+Previous.Size = UDim2.new(0.0724335611, 0, 0.0462962948, 0)
 Previous.Visible = false
 Previous.AutoButtonColor = false
 Previous.Font = Enum.Font.GothamBold
@@ -297,12 +370,18 @@ Previous.TextWrapped = true
 
 UICorner_13.Parent = Previous
 
+UIAspectRatioConstraint_7.Parent = Previous
+UIAspectRatioConstraint_7.AspectRatio = 2.780
+
+UITextSizeConstraint_13.Parent = Previous
+UITextSizeConstraint_13.MaxTextSize = 35
+
 Next.Name = "Next"
 Next.Parent = BorksFriendsPunch
 Next.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Next.BorderColor3 = Color3.fromRGB(68, 68, 68)
 Next.Position = UDim2.new(0.510161579, 0, 0.67592591, 0)
-Next.Size = UDim2.new(0, 139, 0, 50)
+Next.Size = UDim2.new(0.0724335611, 0, 0.0462962948, 0)
 Next.Visible = false
 Next.AutoButtonColor = false
 Next.Font = Enum.Font.GothamBold
@@ -314,12 +393,18 @@ Next.TextWrapped = true
 
 UICorner_14.Parent = Next
 
+UIAspectRatioConstraint_8.Parent = Next
+UIAspectRatioConstraint_8.AspectRatio = 2.780
+
+UITextSizeConstraint_14.Parent = Next
+UITextSizeConstraint_14.MaxTextSize = 50
+
 RejoinGame.Name = "RejoinGame"
 RejoinGame.Parent = BorksFriendsPunch
 RejoinGame.AnchorPoint = Vector2.new(0.5, 0.5)
 RejoinGame.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 RejoinGame.Position = UDim2.new(0.923404634, 0, 0.832407415, 0)
-RejoinGame.Size = UDim2.new(0, 264, 0, 50)
+RejoinGame.Size = UDim2.new(0.137571648, 0, 0.0462962948, 0)
 RejoinGame.AutoButtonColor = false
 RejoinGame.Font = Enum.Font.GothamBlack
 RejoinGame.Text = "Rejoin"
@@ -330,9 +415,15 @@ RejoinGame.TextWrapped = true
 
 UICorner_15.Parent = RejoinGame
 
+UIAspectRatioConstraint_9.Parent = RejoinGame
+UIAspectRatioConstraint_9.AspectRatio = 5.280
+
+UITextSizeConstraint_15.Parent = RejoinGame
+UITextSizeConstraint_15.MaxTextSize = 49
+
 -- Scripts:
 
-local function GUMFR_fake_script() -- UIButton.LocalScript 
+local function RJHTYXD_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -367,8 +458,8 @@ local function GUMFR_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(GUMFR_fake_script)()
-local function NIDOH_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(RJHTYXD_fake_script)()
+local function FZJHOC_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -405,8 +496,8 @@ local function NIDOH_fake_script() -- FlingButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NIDOH_fake_script)()
-local function FSELU_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(FZJHOC_fake_script)()
+local function TGMAKSZ_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -428,8 +519,8 @@ local function FSELU_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(FSELU_fake_script)()
-local function OLCXEUW_fake_script() -- HealButton.LocalScript 
+coroutine.wrap(TGMAKSZ_fake_script)()
+local function SFLW_fake_script() -- HealButton.LocalScript 
 	local script = Instance.new('LocalScript', HealButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -463,8 +554,8 @@ local function OLCXEUW_fake_script() -- HealButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OLCXEUW_fake_script)()
-local function DDBI_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(SFLW_fake_script)()
+local function RWGS_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -475,8 +566,8 @@ local function DDBI_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DDBI_fake_script)()
-local function CFRTL_fake_script() -- KillButton.LocalScript 
+coroutine.wrap(RWGS_fake_script)()
+local function VRWDZG_fake_script() -- KillButton.LocalScript 
 	local script = Instance.new('LocalScript', KillButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -510,8 +601,8 @@ local function CFRTL_fake_script() -- KillButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CFRTL_fake_script)()
-local function FIUEDBG_fake_script() -- BringButton.LocalScript 
+coroutine.wrap(VRWDZG_fake_script)()
+local function ZUIUT_fake_script() -- BringButton.LocalScript 
 	local script = Instance.new('LocalScript', BringButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -545,8 +636,8 @@ local function FIUEDBG_fake_script() -- BringButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FIUEDBG_fake_script)()
-local function XJNRS_fake_script() -- Main.SmoothDrag 
+coroutine.wrap(ZUIUT_fake_script)()
+local function ZZTUIGU_fake_script() -- Main.SmoothDrag 
 	local script = Instance.new('LocalScript', Main)
 
 	local Drag = script.Parent
@@ -589,8 +680,8 @@ local function XJNRS_fake_script() -- Main.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(XJNRS_fake_script)()
-local function COFVMD_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(ZZTUIGU_fake_script)()
+local function EUFHY_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -603,22 +694,22 @@ local function COFVMD_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(COFVMD_fake_script)()
-local function IWZXCP_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(EUFHY_fake_script)()
+local function TCVG_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	
 end
-coroutine.wrap(IWZXCP_fake_script)()
-local function CWUA_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(TCVG_fake_script)()
+local function FWKDTX_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(CWUA_fake_script)()
-local function RPJCTUV_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(FWKDTX_fake_script)()
+local function IHJG_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -628,4 +719,4 @@ local function RPJCTUV_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(RPJCTUV_fake_script)()
+coroutine.wrap(IHJG_fake_script)()
