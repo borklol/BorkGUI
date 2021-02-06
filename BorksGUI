@@ -1,3 +1,4 @@
+
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
@@ -233,7 +234,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function SVDD_fake_script() -- UIButton.LocalScript 
+local function TLIR_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.UIPlayerBox.FocusLost:connect(
@@ -258,8 +259,8 @@ local function SVDD_fake_script() -- UIButton.LocalScript
 	end
 	
 end
-coroutine.wrap(SVDD_fake_script)()
-local function SNLLG_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(TLIR_fake_script)()
+local function MQGL_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.FlingPlayerBox.FocusLost:connect(
@@ -281,8 +282,8 @@ local function SNLLG_fake_script() -- FlingButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SNLLG_fake_script)()
-local function NLOCM_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(MQGL_fake_script)()
+local function MUKJDQS_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -292,8 +293,8 @@ local function NLOCM_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(NLOCM_fake_script)()
-local function KQVMBJQ_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(MUKJDQS_fake_script)()
+local function PONZI_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.FlingPlayerBox.FocusLost:connect(
@@ -310,8 +311,8 @@ local function KQVMBJQ_fake_script() -- TeleportButton.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.PlayerName.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(KQVMBJQ_fake_script)()
-local function HTDJZW_fake_script() -- Frame.SmoothDrag 
+coroutine.wrap(PONZI_fake_script)()
+local function TLYAK_fake_script() -- Frame.SmoothDrag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local Drag = script.Parent.Parent.Frame
@@ -354,8 +355,8 @@ local function HTDJZW_fake_script() -- Frame.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(HTDJZW_fake_script)()
-local function JXHDIJ_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(TLYAK_fake_script)()
+local function AYCR_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -368,18 +369,18 @@ local function JXHDIJ_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JXHDIJ_fake_script)()
-local function ILAQLBR_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(AYCR_fake_script)()
+local function XSNJH_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	
 end
-coroutine.wrap(ILAQLBR_fake_script)()
-local function NBNL_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(XSNJH_fake_script)()
+local function MJFNOQ_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(NBNL_fake_script)()
+coroutine.wrap(MJFNOQ_fake_script)()
