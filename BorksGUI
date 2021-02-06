@@ -1,3 +1,4 @@
+
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
@@ -320,7 +321,7 @@ RejoinGame.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 RejoinGame.Position = UDim2.new(0.923404634, 0, 0.832407415, 0)
 RejoinGame.Size = UDim2.new(0, 264, 0, 50)
 RejoinGame.AutoButtonColor = false
-RejoinGame.Font = Enum.Font.GothamBold
+RejoinGame.Font = Enum.Font.GothamBlack
 RejoinGame.Text = "Rejoin"
 RejoinGame.TextColor3 = Color3.fromRGB(255, 255, 255)
 RejoinGame.TextScaled = true
@@ -331,7 +332,7 @@ UICorner_15.Parent = RejoinGame
 
 -- Scripts:
 
-local function LBCJW_fake_script() -- UIButton.LocalScript 
+local function GUMFR_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -366,8 +367,8 @@ local function LBCJW_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(LBCJW_fake_script)()
-local function RZVPMY_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(GUMFR_fake_script)()
+local function NIDOH_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -404,8 +405,8 @@ local function RZVPMY_fake_script() -- FlingButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RZVPMY_fake_script)()
-local function UMRUQQG_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(NIDOH_fake_script)()
+local function FSELU_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -427,8 +428,8 @@ local function UMRUQQG_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(UMRUQQG_fake_script)()
-local function NZVLF_fake_script() -- HealButton.LocalScript 
+coroutine.wrap(FSELU_fake_script)()
+local function OLCXEUW_fake_script() -- HealButton.LocalScript 
 	local script = Instance.new('LocalScript', HealButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -462,8 +463,8 @@ local function NZVLF_fake_script() -- HealButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NZVLF_fake_script)()
-local function EOKYQC_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(OLCXEUW_fake_script)()
+local function DDBI_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -474,8 +475,8 @@ local function EOKYQC_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EOKYQC_fake_script)()
-local function LZCGRL_fake_script() -- KillButton.LocalScript 
+coroutine.wrap(DDBI_fake_script)()
+local function CFRTL_fake_script() -- KillButton.LocalScript 
 	local script = Instance.new('LocalScript', KillButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -509,8 +510,8 @@ local function LZCGRL_fake_script() -- KillButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LZCGRL_fake_script)()
-local function YXMJGK_fake_script() -- BringButton.LocalScript 
+coroutine.wrap(CFRTL_fake_script)()
+local function FIUEDBG_fake_script() -- BringButton.LocalScript 
 	local script = Instance.new('LocalScript', BringButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -544,8 +545,8 @@ local function YXMJGK_fake_script() -- BringButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YXMJGK_fake_script)()
-local function QLXXDYT_fake_script() -- Main.SmoothDrag 
+coroutine.wrap(FIUEDBG_fake_script)()
+local function XJNRS_fake_script() -- Main.SmoothDrag 
 	local script = Instance.new('LocalScript', Main)
 
 	local Drag = script.Parent
@@ -588,8 +589,8 @@ local function QLXXDYT_fake_script() -- Main.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(QLXXDYT_fake_script)()
-local function HBJMKPW_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(XJNRS_fake_script)()
+local function COFVMD_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -602,22 +603,22 @@ local function HBJMKPW_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HBJMKPW_fake_script)()
-local function BOGMVB_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(COFVMD_fake_script)()
+local function IWZXCP_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	
 end
-coroutine.wrap(BOGMVB_fake_script)()
-local function IUXDMDL_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(IWZXCP_fake_script)()
+local function CWUA_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(IUXDMDL_fake_script)()
-local function RUOR_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(CWUA_fake_script)()
+local function RPJCTUV_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -627,4 +628,4 @@ local function RUOR_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(RUOR_fake_script)()
+coroutine.wrap(RPJCTUV_fake_script)()
