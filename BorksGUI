@@ -1,4 +1,3 @@
-
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
@@ -10,33 +9,25 @@ local UIButton = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local FlingButton = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
-local FlingPlayerBox = Instance.new("TextBox")
-local UICorner_4 = Instance.new("UICorner")
 local RejoinGame = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local TeleportPlayerBox = Instance.new("TextBox")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local TeleportButton = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local HealButton = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local HealPlayerBox = Instance.new("TextBox")
-local UICorner_9 = Instance.new("UICorner")
-local UIPlayerBox = Instance.new("TextBox")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
 local KillButton = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local KillPlayerBox = Instance.new("TextBox")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local OpenGUI = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local SuggestionsGUI = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local DestroyGUI = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local Notification = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local Notif = Instance.new("TextLabel")
 local NotifDes = Instance.new("TextLabel")
 
@@ -51,8 +42,8 @@ Main.Name = "Main"
 Main.Parent = BorksFriendsPunch
 Main.AnchorPoint = Vector2.new(0.5, 0.5)
 Main.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
-Main.Position = UDim2.new(0.5, 0, 0.502177596, 0)
-Main.Size = UDim2.new(0, 636, 0, 679)
+Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+Main.Size = UDim2.new(0, 610, 0, 380)
 Main.Visible = false
 
 UICorner.Parent = Main
@@ -60,8 +51,8 @@ UICorner.Parent = Main
 TextLabel.Parent = Main
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(-0.000626951456, 0, -0.00139518082, 0)
-TextLabel.Size = UDim2.new(0, 636, 0, 50)
+TextLabel.Position = UDim2.new(-0.000626961119, 0, -0.00139521551, 0)
+TextLabel.Size = UDim2.new(0, 610, 0, 50)
 TextLabel.Font = Enum.Font.GothamBold
 TextLabel.Text = "Bork's Punch Your Friends Simulator GUI"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -80,7 +71,7 @@ ButtonsFrame.Size = UDim2.new(1, 0, 0.878846109, 0)
 UIButton.Name = "UIButton"
 UIButton.Parent = ButtonsFrame
 UIButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-UIButton.Position = UDim2.new(0.0361635238, 0, 0.16733171, 0)
+UIButton.Position = UDim2.new(0.03452418, 0, 0.284111619, 0)
 UIButton.Size = UDim2.new(0, 200, 0, 50)
 UIButton.AutoButtonColor = false
 UIButton.Font = Enum.Font.Gotham
@@ -95,7 +86,7 @@ UICorner_2.Parent = UIButton
 FlingButton.Name = "FlingButton"
 FlingButton.Parent = ButtonsFrame
 FlingButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-FlingButton.Position = UDim2.new(0.619496822, 0, 0.16733171, 0)
+FlingButton.Position = UDim2.new(0.632611573, 0, 0.28111729, 0)
 FlingButton.Size = UDim2.new(0, 200, 0, 50)
 FlingButton.AutoButtonColor = false
 FlingButton.Font = Enum.Font.Gotham
@@ -107,28 +98,12 @@ FlingButton.TextWrapped = true
 
 UICorner_3.Parent = FlingButton
 
-FlingPlayerBox.Name = "FlingPlayerBox"
-FlingPlayerBox.Parent = ButtonsFrame
-FlingPlayerBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-FlingPlayerBox.Position = UDim2.new(0.619496822, 0, 0.0770859495, 0)
-FlingPlayerBox.Size = UDim2.new(0, 200, 0, 45)
-FlingPlayerBox.Font = Enum.Font.GothamBold
-FlingPlayerBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-FlingPlayerBox.PlaceholderText = "Enter Player Name Here"
-FlingPlayerBox.Text = ""
-FlingPlayerBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlingPlayerBox.TextScaled = true
-FlingPlayerBox.TextSize = 14.000
-FlingPlayerBox.TextWrapped = true
-
-UICorner_4.Parent = FlingPlayerBox
-
 RejoinGame.Name = "RejoinGame"
 RejoinGame.Parent = ButtonsFrame
 RejoinGame.AnchorPoint = Vector2.new(0.5, 0.5)
 RejoinGame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-RejoinGame.Position = UDim2.new(0.5, 0, 0.878190875, 0)
-RejoinGame.Size = UDim2.new(0, 200, 0, 50)
+RejoinGame.Position = UDim2.new(0.868843257, 0, 0.875196576, 0)
+RejoinGame.Size = UDim2.new(0, 109, 0, 50)
 RejoinGame.AutoButtonColor = false
 RejoinGame.Font = Enum.Font.GothamBold
 RejoinGame.Text = "Rejoin"
@@ -137,23 +112,7 @@ RejoinGame.TextScaled = true
 RejoinGame.TextSize = 14.000
 RejoinGame.TextWrapped = true
 
-UICorner_5.Parent = RejoinGame
-
-TeleportPlayerBox.Name = "TeleportPlayerBox"
-TeleportPlayerBox.Parent = ButtonsFrame
-TeleportPlayerBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-TeleportPlayerBox.Position = UDim2.new(0.036163494, 0, 0.386624902, 0)
-TeleportPlayerBox.Size = UDim2.new(0, 200, 0, 45)
-TeleportPlayerBox.Font = Enum.Font.GothamBold
-TeleportPlayerBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-TeleportPlayerBox.PlaceholderText = "Enter Player Name Here"
-TeleportPlayerBox.Text = ""
-TeleportPlayerBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-TeleportPlayerBox.TextScaled = true
-TeleportPlayerBox.TextSize = 14.000
-TeleportPlayerBox.TextWrapped = true
-
-UICorner_6.Parent = TeleportPlayerBox
+UICorner_4.Parent = RejoinGame
 
 TeleportButton.Name = "TeleportButton"
 TeleportButton.Parent = ButtonsFrame
@@ -168,12 +127,12 @@ TeleportButton.TextScaled = true
 TeleportButton.TextSize = 14.000
 TeleportButton.TextWrapped = true
 
-UICorner_7.Parent = TeleportButton
+UICorner_5.Parent = TeleportButton
 
 HealButton.Name = "HealButton"
 HealButton.Parent = ButtonsFrame
 HealButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-HealButton.Position = UDim2.new(0.0361634791, 0, 0.728262603, 0)
+HealButton.Position = UDim2.new(0.0361634791, 0, 0.653403699, 0)
 HealButton.Size = UDim2.new(0, 200, 0, 50)
 HealButton.AutoButtonColor = false
 HealButton.Font = Enum.Font.Gotham
@@ -183,44 +142,28 @@ HealButton.TextScaled = true
 HealButton.TextSize = 14.000
 HealButton.TextWrapped = true
 
-UICorner_8.Parent = HealButton
+UICorner_6.Parent = HealButton
 
-HealPlayerBox.Name = "HealPlayerBox"
-HealPlayerBox.Parent = ButtonsFrame
-HealPlayerBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-HealPlayerBox.Position = UDim2.new(0.036163494, 0, 0.641343713, 0)
-HealPlayerBox.Size = UDim2.new(0, 200, 0, 45)
-HealPlayerBox.Font = Enum.Font.GothamBold
-HealPlayerBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-HealPlayerBox.PlaceholderText = "Enter Player Name Here"
-HealPlayerBox.Text = ""
-HealPlayerBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-HealPlayerBox.TextScaled = true
-HealPlayerBox.TextSize = 14.000
-HealPlayerBox.TextWrapped = true
+TextBox.Parent = ButtonsFrame
+TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextBox.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 45)
+TextBox.Font = Enum.Font.GothamBold
+TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.PlaceholderText = "Enter Player Name Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
 
-UICorner_9.Parent = HealPlayerBox
-
-UIPlayerBox.Name = "UIPlayerBox"
-UIPlayerBox.Parent = ButtonsFrame
-UIPlayerBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-UIPlayerBox.Position = UDim2.new(0.0361635238, 0, 0.0770859495, 0)
-UIPlayerBox.Size = UDim2.new(0, 200, 0, 45)
-UIPlayerBox.Font = Enum.Font.GothamBold
-UIPlayerBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-UIPlayerBox.PlaceholderText = "Enter Player Name Here"
-UIPlayerBox.Text = ""
-UIPlayerBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-UIPlayerBox.TextScaled = true
-UIPlayerBox.TextSize = 14.000
-UIPlayerBox.TextWrapped = true
-
-UICorner_10.Parent = UIPlayerBox
+UICorner_7.Parent = TextBox
 
 KillButton.Name = "KillButton"
 KillButton.Parent = ButtonsFrame
 KillButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-KillButton.Position = UDim2.new(0.619496822, 0, 0.728262603, 0)
+KillButton.Position = UDim2.new(0.632611573, 0, 0.476736635, 0)
 KillButton.Size = UDim2.new(0, 200, 0, 50)
 KillButton.AutoButtonColor = false
 KillButton.Font = Enum.Font.Gotham
@@ -230,23 +173,7 @@ KillButton.TextScaled = true
 KillButton.TextSize = 14.000
 KillButton.TextWrapped = true
 
-UICorner_11.Parent = KillButton
-
-KillPlayerBox.Name = "KillPlayerBox"
-KillPlayerBox.Parent = ButtonsFrame
-KillPlayerBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-KillPlayerBox.Position = UDim2.new(0.619496822, 0, 0.641343713, 0)
-KillPlayerBox.Size = UDim2.new(0, 200, 0, 45)
-KillPlayerBox.Font = Enum.Font.GothamBold
-KillPlayerBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-KillPlayerBox.PlaceholderText = "Enter Player Name Here"
-KillPlayerBox.Text = ""
-KillPlayerBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-KillPlayerBox.TextScaled = true
-KillPlayerBox.TextSize = 14.000
-KillPlayerBox.TextWrapped = true
-
-UICorner_12.Parent = KillPlayerBox
+UICorner_8.Parent = KillButton
 
 OpenGUI.Name = "OpenGUI"
 OpenGUI.Parent = BorksFriendsPunch
@@ -261,7 +188,7 @@ OpenGUI.TextScaled = true
 OpenGUI.TextSize = 14.000
 OpenGUI.TextWrapped = true
 
-UICorner_13.Parent = OpenGUI
+UICorner_9.Parent = OpenGUI
 
 SuggestionsGUI.Name = "SuggestionsGUI"
 SuggestionsGUI.Parent = BorksFriendsPunch
@@ -277,7 +204,7 @@ SuggestionsGUI.TextScaled = true
 SuggestionsGUI.TextSize = 14.000
 SuggestionsGUI.TextWrapped = true
 
-UICorner_14.Parent = SuggestionsGUI
+UICorner_10.Parent = SuggestionsGUI
 
 DestroyGUI.Name = "DestroyGUI"
 DestroyGUI.Parent = BorksFriendsPunch
@@ -292,7 +219,7 @@ DestroyGUI.TextScaled = true
 DestroyGUI.TextSize = 14.000
 DestroyGUI.TextWrapped = true
 
-UICorner_15.Parent = DestroyGUI
+UICorner_11.Parent = DestroyGUI
 
 TextLabel_2.Parent = BorksFriendsPunch
 TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -316,7 +243,7 @@ Notification.Position = UDim2.new(0.5, 0, 0.0906721875, 0)
 Notification.Size = UDim2.new(0, 636, 0, 173)
 Notification.Visible = false
 
-UICorner_16.Parent = Notification
+UICorner_12.Parent = Notification
 
 Notif.Name = "Notif"
 Notif.Parent = Notification
@@ -345,25 +272,31 @@ NotifDes.TextWrapped = true
 
 -- Scripts:
 
-local function JZKN_fake_script() -- UIButton.LocalScript 
+local function OQIE_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
-	script.Parent.Parent.UIPlayerBox.FocusLost:connect(
+	script.Parent.Parent.TextBox.FocusLost:connect(
 		function(enterPressed)
 			if enterPressed then
-				print(script.Parent.Parent.UIPlayerBox.Text)
+				print(script.Parent.Parent.TextBox.Text)
 			end
 		end
 	)
 	
-	local PlayerName = script.Parent.Parent.UIPlayerBox.Text
+	local PlayerName = script.Parent.Parent.TextBox
 	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
 	local currentHealth = humanoid.Health
 	
 	script.Parent.MouseButton1Click:Connect(function()
 	for i,v in pairs(game.Workspace:GetChildren()) do
-		if v.Name == PlayerName.Text then
-				game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0, -10)	
+			if v.Name == PlayerName.Text then
+				game.ReplicatedStorage.Unblock.OnClientEvent:Connect(function()
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, -10)
+				end)
+	
+				game.ReplicatedStorage.Block.OnClientEvent:Connect(function()
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, 10)
+				end)
 	
 				while true do
 					local Event = game:GetService("ReplicatedStorage").Block
@@ -374,19 +307,19 @@ local function JZKN_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(JZKN_fake_script)()
-local function FPQTAO_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(OQIE_fake_script)()
+local function SFJY_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
-	script.Parent.Parent.FlingPlayerBox.FocusLost:connect(
+	script.Parent.Parent.TextBox.FocusLost:connect(
 		function(enterPressed)
 			if enterPressed then
-				print(script.Parent.Parent.FlingPlayerBox.Text)
+				print(script.Parent.Parent.TextBox)
 			end
 		end
 	)
 	
-	local PlayerName = script.Parent.Parent.FlingPlayerBox.Text
+	local PlayerName = script.Parent.Parent.TextBox
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Workspace:GetChildren()) do
@@ -401,20 +334,8 @@ local function FPQTAO_fake_script() -- FlingButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FPQTAO_fake_script)()
-local function DLGVVCJ_fake_script() -- FlingPlayerBox.LocalScript 
-	local script = Instance.new('LocalScript', FlingPlayerBox)
-
-	script.Parent.FocusLost:connect(function()
-		for i,v in pairs(game.Players:GetChildren()) do
-			if (string.sub(string.lower(v.Name),1,string.len(script.Parent.Text))) == string.lower(script.Parent.Text) then
-				script.Parent.Text = v.Name
-			end
-		end
-	end)
-end
-coroutine.wrap(DLGVVCJ_fake_script)()
-local function YZDIVL_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(SFJY_fake_script)()
+local function BIQDM_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -424,31 +345,19 @@ local function YZDIVL_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(YZDIVL_fake_script)()
-local function OYTR_fake_script() -- TeleportPlayerBox.LocalScript 
-	local script = Instance.new('LocalScript', TeleportPlayerBox)
-
-	script.Parent.FocusLost:connect(function()
-		for i,v in pairs(game.Players:GetChildren()) do
-			if (string.sub(string.lower(v.Name),1,string.len(script.Parent.Text))) == string.lower(script.Parent.Text) then
-				script.Parent.Text = v.Name
-			end
-		end
-	end)
-end
-coroutine.wrap(OYTR_fake_script)()
-local function LJRAT_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(BIQDM_fake_script)()
+local function OQXFXW_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
-	script.Parent.Parent.TeleportPlayerBox.FocusLost:connect(
+	script.Parent.Parent.TextBox.FocusLost:connect(
 		function(enterPressed)
 			if enterPressed then
-				print(script.Parent.Parent.TeleportPlayerBox.Text)
+				print(script.Parent.Parent.TextBox.Text)
 			end
 		end
 	)
 	
-	local PlayerName = script.Parent.Parent.TeleportPlayerBox
+	local PlayerName = script.Parent.Parent.TextBox
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Workspace:GetChildren()) do
@@ -459,19 +368,19 @@ local function LJRAT_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(LJRAT_fake_script)()
-local function MLZZ_fake_script() -- HealButton.LocalScript 
+coroutine.wrap(OQXFXW_fake_script)()
+local function FZHDQRT_fake_script() -- HealButton.LocalScript 
 	local script = Instance.new('LocalScript', HealButton)
 
-	script.Parent.Parent.HealPlayerBox.FocusLost:connect(
+	script.Parent.Parent.TextBox.FocusLost:connect(
 		function(enterPressed)
 			if enterPressed then
-				print(script.Parent.Parent.HealPlayerBox.Text)
+				print(script.Parent.Parent.TextBox.Text)
 			end
 		end
 	)
 	
-	local PlayerName = script.Parent.Parent.HealPlayerBox
+	local PlayerName = script.Parent.Parent.TextBox
 	
 	local Players = game:FindService("Players")
 	
@@ -494,9 +403,9 @@ local function MLZZ_fake_script() -- HealButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MLZZ_fake_script)()
-local function SXOMG_fake_script() -- HealPlayerBox.LocalScript 
-	local script = Instance.new('LocalScript', HealPlayerBox)
+coroutine.wrap(FZHDQRT_fake_script)()
+local function EBZKV_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
 		for i,v in pairs(game.Players:GetChildren()) do
@@ -506,31 +415,19 @@ local function SXOMG_fake_script() -- HealPlayerBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SXOMG_fake_script)()
-local function KOVPA_fake_script() -- UIPlayerBox.LocalScript 
-	local script = Instance.new('LocalScript', UIPlayerBox)
-
-	script.Parent.FocusLost:connect(function()
-		for i,v in pairs(game.Players:GetChildren()) do
-			if (string.sub(string.lower(v.Name),1,string.len(script.Parent.Text))) == string.lower(script.Parent.Text) then
-				script.Parent.Text = v.Name
-			end
-		end
-	end)
-end
-coroutine.wrap(KOVPA_fake_script)()
-local function NEHB_fake_script() -- KillButton.LocalScript 
+coroutine.wrap(EBZKV_fake_script)()
+local function VTGZJH_fake_script() -- KillButton.LocalScript 
 	local script = Instance.new('LocalScript', KillButton)
 
-	script.Parent.Parent.KillPlayerBox.FocusLost:connect(
+	script.Parent.Parent.TextBox.FocusLost:connect(
 		function(enterPressed)
 			if enterPressed then
-				print(script.Parent.Parent.KillPlayerBox.Text)
+				print(script.Parent.Parent.TextBox.Text)
 			end
 		end
 	)
 	
-	local PlayerName = script.Parent.Parent.KillPlayerBox
+	local PlayerName = script.Parent.Parent.TextBox
 	
 	local Players = game:FindService("Players")
 	
@@ -553,20 +450,8 @@ local function NEHB_fake_script() -- KillButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NEHB_fake_script)()
-local function AEJRYQ_fake_script() -- KillPlayerBox.LocalScript 
-	local script = Instance.new('LocalScript', KillPlayerBox)
-
-	script.Parent.FocusLost:connect(function()
-		for i,v in pairs(game.Players:GetChildren()) do
-			if (string.sub(string.lower(v.Name),1,string.len(script.Parent.Text))) == string.lower(script.Parent.Text) then
-				script.Parent.Text = v.Name
-			end
-		end
-	end)
-end
-coroutine.wrap(AEJRYQ_fake_script)()
-local function CPYA_fake_script() -- Main.SmoothDrag 
+coroutine.wrap(VTGZJH_fake_script)()
+local function NEQA_fake_script() -- Main.SmoothDrag 
 	local script = Instance.new('LocalScript', Main)
 
 	local Drag = script.Parent
@@ -609,8 +494,8 @@ local function CPYA_fake_script() -- Main.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(CPYA_fake_script)()
-local function RFKAM_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(NEQA_fake_script)()
+local function RSXDALE_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -623,18 +508,18 @@ local function RFKAM_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RFKAM_fake_script)()
-local function UMPTLLM_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(RSXDALE_fake_script)()
+local function IDDS_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	
 end
-coroutine.wrap(UMPTLLM_fake_script)()
-local function QQCFV_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(IDDS_fake_script)()
+local function XYXAI_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(QQCFV_fake_script)()
+coroutine.wrap(XYXAI_fake_script)()
