@@ -779,7 +779,7 @@ local function SBMWK_fake_script() -- TimeSkipFrame.TimeSkip
 					s.Name = "Sound"
 					s.SoundId = "http://www.roblox.com/asset/?id=3381429040"
 					s.Volume = 1
-					s.Looped = true
+					s.Looped = false
 					s.archivable = false
 					s.Parent = game.Workspace
 	
@@ -1052,46 +1052,53 @@ local function DVUPAX_fake_script() -- DonutButton.LocalScript
 		end
 	end
 	
-	local Anim = Instance.new("Animation")
-	Anim.AnimationId = "rbxassetid://204062532"
-	local track = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
-	local swingACTIVE = false
-	game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
-		track = character:WaitForChild("Humanoid"):LoadAnimation(Anim)
-		swingACTIVE = false
-	end)
-	
-	script.Parent.MouseButton1Click:Connect(function()
-	for i,v in pairs(game.Workspace:GetChildren()) do
-		if v.Name == PlayerName.Text then
+for i,v in pairs(Players:GetChildren()) do
+	if v.Name == PlayerName then
+		print("Player Found!")
+	end
+end
+
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://204062532"
+local track = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+local swingACTIVE = false
+game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
+	track = character:WaitForChild("Humanoid"):LoadAnimation(Anim)
+	swingACTIVE = false
+end)
+
+script.Parent.MouseButton1Click:Connect(function()
+for i,v in pairs(game.Workspace:GetChildren()) do
+	if v.Name == PlayerName.Text then
+		
+		local args = {
+			[1] = "Heavy",
+			[2] = tonumber(dmgNumber.Text),
+			[3] = v.Humanoid,
+			[4] = "TheyWouldntNeverSeeThis"
+			}
 			
-			local args = {
-				[1] = "Heavy",
-				[2] = tonumber(dmgNumber.Text),
-				[3] = v.Humanoid,
-				[4] = "TheyWouldntNeverSeeThis"
-				}
-				
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,1)
-			wait(.05)
-				track:Play()
-				
-				local s = Instance.new("Sound")
-				s.Name = "Sound"
-				s.SoundId = "http://www.roblox.com/asset/?id=1280294111"
-				s.Volume = 1
-				s.Looped = true
-				s.archivable = false
-				s.Parent = game.Workspace
-				
-				s:play()
-			wait(.25)
-				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
-				
-				
-			end
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,1)
+		wait(.05)
+			track:Play()
+			
+			local s = Instance.new("Sound")
+			s.Name = "Sound"
+			s.SoundId = "http://www.roblox.com/asset/?id=1280294111"
+			s.Volume = 1
+			s.Looped = false
+			s.archivable = false
+			s.Parent = game.Workspace
+			
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("King Crimson's Ability", "All")
+			s:play()
+		wait(.25)
+			game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+			
+			
 		end
-	end)
+	end
+end)
 end
 coroutine.wrap(DVUPAX_fake_script)()
 local function GMQE_fake_script() -- Pages.SmoothDrag 
