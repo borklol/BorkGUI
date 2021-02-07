@@ -2,81 +2,43 @@
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
-local Main = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
-local ButtonsFrame1 = Instance.new("Frame")
-local UIButton = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
-local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
-local FlingButton = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
-local TeleportButton = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
-local TextBox = Instance.new("TextBox")
-local UICorner_5 = Instance.new("UICorner")
-local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
-local DamageButton = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
-local BringButton = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
-local NumberTextBox = Instance.new("TextBox")
-local UICorner_8 = Instance.new("UICorner")
-local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
-local DonutButton = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local OpenGUI = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local SuggestionsGUI = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+local UICorner_2 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 local DestroyGUI = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local GUI = Instance.new("TextLabel")
 local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
-local TextLabel_2 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
 local Notification = Instance.new("Frame")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local Notif = Instance.new("TextLabel")
 local NotifDes = Instance.new("TextLabel")
-local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
-local Previous = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
-local Next = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 local RejoinGame = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
+local UICorner_5 = Instance.new("UICorner")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
 local Suggestions = Instance.new("Frame")
-local TextLabel_3 = Instance.new("TextLabel")
-local UICorner_17 = Instance.new("UICorner")
-local TextLabel_4 = Instance.new("TextLabel")
-local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
 local OkButton = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
-local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
+local UICorner_7 = Instance.new("UICorner")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
 local CopyButton = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
-local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local SkipTime = Instance.new("TextLabel")
 local TimeSkipFrame = Instance.new("Frame")
 local TimeErase1 = Instance.new("ImageLabel")
 local TimeErase10 = Instance.new("ImageLabel")
@@ -96,6 +58,45 @@ local TimeErase6 = Instance.new("ImageLabel")
 local TimeErase7 = Instance.new("ImageLabel")
 local TimeErase8 = Instance.new("ImageLabel")
 local TimeErase9 = Instance.new("ImageLabel")
+local Pages = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local ButtonsFrame1 = Instance.new("Frame")
+local UIButton = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local FlingButton = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local TeleportButton = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+local TextBox = Instance.new("TextBox")
+local UICorner_14 = Instance.new("UICorner")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+local DamageButton = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local BringButton = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+local NumberTextBox = Instance.new("TextBox")
+local UICorner_17 = Instance.new("UICorner")
+local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
+local DonutButton = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local UIPageLayout = Instance.new("UIPageLayout")
+local Previous = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
+local Next = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
 
 --Properties:
 
@@ -103,189 +104,6 @@ BorksFriendsPunch.Name = "BorksFriendsPunch"
 BorksFriendsPunch.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 BorksFriendsPunch.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 BorksFriendsPunch.ResetOnSpawn = false
-
-Main.Name = "Main"
-Main.Parent = BorksFriendsPunch
-Main.AnchorPoint = Vector2.new(0.5, 0.5)
-Main.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
-Main.Position = UDim2.new(0.897563457, 0, 0.567592621, 0)
-Main.Size = UDim2.new(0.189682126, 0, 0.351851851, 0)
-Main.Visible = false
-
-UICorner.Parent = Main
-
-TextLabel.Parent = Main
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(-0.000626951805, 0, -0.00139521551, 0)
-TextLabel.Size = UDim2.new(0.997252762, 0, 0.181578949, 0)
-TextLabel.Font = Enum.Font.GothamBold
-TextLabel.Text = "Bork's Punch Your Friends Simulator GUI"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-UITextSizeConstraint.Parent = TextLabel
-UITextSizeConstraint.MaxTextSize = 68
-
-ButtonsFrame1.Name = "ButtonsFrame1"
-ButtonsFrame1.Parent = Main
-ButtonsFrame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonsFrame1.BackgroundTransparency = 1.000
-ButtonsFrame1.BorderColor3 = Color3.fromRGB(27, 42, 53)
-ButtonsFrame1.Position = UDim2.new(0, 0, 0.121153891, 0)
-ButtonsFrame1.Size = UDim2.new(1, 0, 0.878846109, 0)
-
-UIButton.Name = "UIButton"
-UIButton.Parent = ButtonsFrame1
-UIButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-UIButton.Position = UDim2.new(0.0361911617, 0, 0.263151139, 0)
-UIButton.Size = UDim2.new(0.447695851, 0, 0.150000006, 0)
-UIButton.AutoButtonColor = false
-UIButton.Font = Enum.Font.Gotham
-UIButton.Text = "Ultra Instinct"
-UIButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-UIButton.TextScaled = true
-UIButton.TextSize = 14.000
-UIButton.TextWrapped = true
-
-UICorner_2.Parent = UIButton
-
-UITextSizeConstraint_2.Parent = UIButton
-UITextSizeConstraint_2.MaxTextSize = 27
-
-FlingButton.Name = "FlingButton"
-FlingButton.Parent = ButtonsFrame1
-FlingButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-FlingButton.Position = UDim2.new(0.515252233, 0, 0.26315105, 0)
-FlingButton.Size = UDim2.new(0.44989118, 0, 0.149717852, 0)
-FlingButton.AutoButtonColor = false
-FlingButton.Font = Enum.Font.Gotham
-FlingButton.Text = "Fling"
-FlingButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlingButton.TextScaled = true
-FlingButton.TextSize = 14.000
-FlingButton.TextWrapped = true
-
-UICorner_3.Parent = FlingButton
-
-UITextSizeConstraint_3.Parent = FlingButton
-UITextSizeConstraint_3.MaxTextSize = 50
-
-TeleportButton.Name = "TeleportButton"
-TeleportButton.Parent = ButtonsFrame1
-TeleportButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-TeleportButton.Position = UDim2.new(0.0359371714, 0, 0.434974372, 0)
-TeleportButton.Size = UDim2.new(0.447695851, 0, 0.150000006, 0)
-TeleportButton.AutoButtonColor = false
-TeleportButton.Font = Enum.Font.Gotham
-TeleportButton.Text = "Teleport "
-TeleportButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TeleportButton.TextScaled = true
-TeleportButton.TextSize = 14.000
-TeleportButton.TextWrapped = true
-
-UICorner_4.Parent = TeleportButton
-
-UITextSizeConstraint_4.Parent = TeleportButton
-UITextSizeConstraint_4.MaxTextSize = 43
-
-TextBox.Parent = ButtonsFrame1
-TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
-TextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-TextBox.Position = UDim2.new(0.489173979, 0, 0.156892776, 0)
-TextBox.Size = UDim2.new(0.895604372, 0, 0.13474606, 0)
-TextBox.Font = Enum.Font.GothamBold
-TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-TextBox.PlaceholderText = "Enter Player Name Here"
-TextBox.Text = ""
-TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextBox.TextScaled = true
-TextBox.TextSize = 14.000
-TextBox.TextWrapped = true
-
-UICorner_5.Parent = TextBox
-
-UITextSizeConstraint_5.Parent = TextBox
-UITextSizeConstraint_5.MaxTextSize = 29
-
-DamageButton.Name = "DamageButton"
-DamageButton.Parent = ButtonsFrame1
-DamageButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-DamageButton.Position = UDim2.new(0.512807071, 0, 0.434815556, 0)
-DamageButton.Size = UDim2.new(0.450034708, 0, 0.150000006, 0)
-DamageButton.AutoButtonColor = false
-DamageButton.Font = Enum.Font.Gotham
-DamageButton.Text = "Damage"
-DamageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-DamageButton.TextScaled = true
-DamageButton.TextSize = 14.000
-DamageButton.TextWrapped = true
-
-UICorner_6.Parent = DamageButton
-
-UITextSizeConstraint_6.Parent = DamageButton
-UITextSizeConstraint_6.MaxTextSize = 50
-
-BringButton.Name = "BringButton"
-BringButton.Parent = ButtonsFrame1
-BringButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-BringButton.Position = UDim2.new(0.511441052, 0, 0.61148262, 0)
-BringButton.Size = UDim2.new(0.451400787, 0, 0.150000006, 0)
-BringButton.AutoButtonColor = false
-BringButton.Font = Enum.Font.Gotham
-BringButton.Text = "Bring"
-BringButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-BringButton.TextScaled = true
-BringButton.TextSize = 14.000
-BringButton.TextWrapped = true
-
-UICorner_7.Parent = BringButton
-
-UITextSizeConstraint_7.Parent = BringButton
-UITextSizeConstraint_7.MaxTextSize = 50
-
-NumberTextBox.Name = "NumberTextBox"
-NumberTextBox.Parent = ButtonsFrame1
-NumberTextBox.AnchorPoint = Vector2.new(0.5, 0.5)
-NumberTextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-NumberTextBox.Position = UDim2.new(0.483679473, 0, 0.875538468, 0)
-NumberTextBox.Size = UDim2.new(0.895604372, 0, 0.13474606, 0)
-NumberTextBox.Font = Enum.Font.GothamBold
-NumberTextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-NumberTextBox.PlaceholderText = "Enter Damage or Heal Input here"
-NumberTextBox.Text = ""
-NumberTextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-NumberTextBox.TextScaled = true
-NumberTextBox.TextSize = 14.000
-NumberTextBox.TextWrapped = true
-
-UICorner_8.Parent = NumberTextBox
-
-UITextSizeConstraint_8.Parent = NumberTextBox
-UITextSizeConstraint_8.MaxTextSize = 29
-
-DonutButton.Name = "DonutButton"
-DonutButton.Parent = ButtonsFrame1
-DonutButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-DonutButton.Position = UDim2.new(0.040279597, 0, 0.61148262, 0)
-DonutButton.Size = UDim2.new(0.450034708, 0, 0.150000006, 0)
-DonutButton.AutoButtonColor = false
-DonutButton.Font = Enum.Font.Gotham
-DonutButton.Text = "Donut"
-DonutButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-DonutButton.TextScaled = true
-DonutButton.TextSize = 14.000
-DonutButton.TextWrapped = true
-
-UICorner_9.Parent = DonutButton
-
-UITextSizeConstraint_9.Parent = DonutButton
-UITextSizeConstraint_9.MaxTextSize = 50
-
-UIAspectRatioConstraint.Parent = Main
-UIAspectRatioConstraint.AspectRatio = 0.958
 
 OpenGUI.Name = "OpenGUI"
 OpenGUI.Parent = BorksFriendsPunch
@@ -300,13 +118,13 @@ OpenGUI.TextScaled = true
 OpenGUI.TextSize = 14.000
 OpenGUI.TextWrapped = true
 
-UICorner_10.Parent = OpenGUI
+UICorner.Parent = OpenGUI
 
-UIAspectRatioConstraint_2.Parent = OpenGUI
-UIAspectRatioConstraint_2.AspectRatio = 5.280
+UIAspectRatioConstraint.Parent = OpenGUI
+UIAspectRatioConstraint.AspectRatio = 5.280
 
-UITextSizeConstraint_10.Parent = OpenGUI
-UITextSizeConstraint_10.MaxTextSize = 49
+UITextSizeConstraint.Parent = OpenGUI
+UITextSizeConstraint.MaxTextSize = 49
 
 SuggestionsGUI.Name = "SuggestionsGUI"
 SuggestionsGUI.Parent = BorksFriendsPunch
@@ -321,13 +139,13 @@ SuggestionsGUI.TextScaled = true
 SuggestionsGUI.TextSize = 14.000
 SuggestionsGUI.TextWrapped = true
 
-UICorner_11.Parent = SuggestionsGUI
+UICorner_2.Parent = SuggestionsGUI
 
-UIAspectRatioConstraint_3.Parent = SuggestionsGUI
-UIAspectRatioConstraint_3.AspectRatio = 5.280
+UIAspectRatioConstraint_2.Parent = SuggestionsGUI
+UIAspectRatioConstraint_2.AspectRatio = 5.280
 
-UITextSizeConstraint_11.Parent = SuggestionsGUI
-UITextSizeConstraint_11.MaxTextSize = 46
+UITextSizeConstraint_2.Parent = SuggestionsGUI
+UITextSizeConstraint_2.MaxTextSize = 46
 
 DestroyGUI.Name = "DestroyGUI"
 DestroyGUI.Parent = BorksFriendsPunch
@@ -342,32 +160,33 @@ DestroyGUI.TextScaled = true
 DestroyGUI.TextSize = 14.000
 DestroyGUI.TextWrapped = true
 
-UICorner_12.Parent = DestroyGUI
+UICorner_3.Parent = DestroyGUI
 
-UIAspectRatioConstraint_4.Parent = DestroyGUI
-UIAspectRatioConstraint_4.AspectRatio = 5.280
+UIAspectRatioConstraint_3.Parent = DestroyGUI
+UIAspectRatioConstraint_3.AspectRatio = 5.280
 
-UITextSizeConstraint_12.Parent = DestroyGUI
-UITextSizeConstraint_12.MaxTextSize = 48
+UITextSizeConstraint_3.Parent = DestroyGUI
+UITextSizeConstraint_3.MaxTextSize = 48
 
-TextLabel_2.Parent = BorksFriendsPunch
-TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.5, 0, 0.887962937, 0)
-TextLabel_2.Size = UDim2.new(0.154556021, 0, 0.100000001, 0)
-TextLabel_2.Font = Enum.Font.Gotham
-TextLabel_2.Text = "This GUI is a WIP expect some things to not work"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextStrokeTransparency = 0.500
-TextLabel_2.TextWrapped = true
+GUI.Name = "GUI"
+GUI.Parent = BorksFriendsPunch
+GUI.AnchorPoint = Vector2.new(0.5, 0.5)
+GUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUI.BackgroundTransparency = 1.000
+GUI.Position = UDim2.new(0.5, 0, 0.887962937, 0)
+GUI.Size = UDim2.new(0.154556021, 0, 0.100000001, 0)
+GUI.Font = Enum.Font.Gotham
+GUI.Text = "This GUI is a WIP expect some things to not work"
+GUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+GUI.TextScaled = true
+GUI.TextSize = 14.000
+GUI.TextStrokeTransparency = 0.500
+GUI.TextWrapped = true
 
-UIAspectRatioConstraint_5.Parent = TextLabel_2
-UIAspectRatioConstraint_5.AspectRatio = 2.746
+UIAspectRatioConstraint_4.Parent = GUI
+UIAspectRatioConstraint_4.AspectRatio = 2.746
 
-UITextSizeConstraint_13.Parent = TextLabel_2
+UITextSizeConstraint_4.Parent = GUI
 
 Notification.Name = "Notification"
 Notification.Parent = BorksFriendsPunch
@@ -377,7 +196,7 @@ Notification.Position = UDim2.new(0.500025451, 0, 0.100277573, 0)
 Notification.Size = UDim2.new(0.330901504, 0, 0.172222227, 0)
 Notification.Visible = false
 
-UICorner_13.Parent = Notification
+UICorner_4.Parent = Notification
 
 Notif.Name = "Notif"
 Notif.Parent = Notification
@@ -404,54 +223,8 @@ NotifDes.TextScaled = true
 NotifDes.TextSize = 14.000
 NotifDes.TextWrapped = true
 
-UIAspectRatioConstraint_6.Parent = Notification
-UIAspectRatioConstraint_6.AspectRatio = 3.414
-
-Previous.Name = "Previous"
-Previous.Parent = BorksFriendsPunch
-Previous.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
-Previous.BorderColor3 = Color3.fromRGB(68, 68, 68)
-Previous.Position = UDim2.new(0.393434078, 0, 0.67592591, 0)
-Previous.Size = UDim2.new(0.0724335611, 0, 0.0462962948, 0)
-Previous.Visible = false
-Previous.AutoButtonColor = false
-Previous.Font = Enum.Font.GothamBold
-Previous.Text = "Previous"
-Previous.TextColor3 = Color3.fromRGB(255, 255, 255)
-Previous.TextScaled = true
-Previous.TextSize = 14.000
-Previous.TextWrapped = true
-
-UICorner_14.Parent = Previous
-
-UIAspectRatioConstraint_7.Parent = Previous
-UIAspectRatioConstraint_7.AspectRatio = 2.780
-
-UITextSizeConstraint_14.Parent = Previous
-UITextSizeConstraint_14.MaxTextSize = 35
-
-Next.Name = "Next"
-Next.Parent = BorksFriendsPunch
-Next.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
-Next.BorderColor3 = Color3.fromRGB(68, 68, 68)
-Next.Position = UDim2.new(0.510161579, 0, 0.67592591, 0)
-Next.Size = UDim2.new(0.0724335611, 0, 0.0462962948, 0)
-Next.Visible = false
-Next.AutoButtonColor = false
-Next.Font = Enum.Font.GothamBold
-Next.Text = "Next"
-Next.TextColor3 = Color3.fromRGB(255, 255, 255)
-Next.TextScaled = true
-Next.TextSize = 14.000
-Next.TextWrapped = true
-
-UICorner_15.Parent = Next
-
-UIAspectRatioConstraint_8.Parent = Next
-UIAspectRatioConstraint_8.AspectRatio = 2.780
-
-UITextSizeConstraint_15.Parent = Next
-UITextSizeConstraint_15.MaxTextSize = 50
+UIAspectRatioConstraint_5.Parent = Notification
+UIAspectRatioConstraint_5.AspectRatio = 3.414
 
 RejoinGame.Name = "RejoinGame"
 RejoinGame.Parent = BorksFriendsPunch
@@ -466,13 +239,13 @@ RejoinGame.TextScaled = true
 RejoinGame.TextSize = 14.000
 RejoinGame.TextWrapped = true
 
-UICorner_16.Parent = RejoinGame
+UICorner_5.Parent = RejoinGame
 
-UIAspectRatioConstraint_9.Parent = RejoinGame
-UIAspectRatioConstraint_9.AspectRatio = 5.280
+UIAspectRatioConstraint_6.Parent = RejoinGame
+UIAspectRatioConstraint_6.AspectRatio = 5.280
 
-UITextSizeConstraint_16.Parent = RejoinGame
-UITextSizeConstraint_16.MaxTextSize = 49
+UITextSizeConstraint_5.Parent = RejoinGame
+UITextSizeConstraint_5.MaxTextSize = 49
 
 Suggestions.Name = "Suggestions"
 Suggestions.Parent = BorksFriendsPunch
@@ -485,36 +258,36 @@ Suggestions.Size = UDim2.new(1, 0, 1, 0)
 Suggestions.Visible = false
 Suggestions.ZIndex = 3
 
-TextLabel_3.Parent = Suggestions
-TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
-TextLabel_3.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_3.Size = UDim2.new(0.984366834, 0, 0.978703678, 0)
-TextLabel_3.Font = Enum.Font.GothamBold
-TextLabel_3.Text = "Instructions"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
-TextLabel_3.TextYAlignment = Enum.TextYAlignment.Top
+TextLabel.Parent = Suggestions
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(0.984366834, 0, 0.978703678, 0)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Instructions"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+TextLabel.TextYAlignment = Enum.TextYAlignment.Top
 
-UICorner_17.Parent = TextLabel_3
+UICorner_6.Parent = TextLabel
 
-TextLabel_4.Parent = TextLabel_3
-TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.Position = UDim2.new(0.5, 0, 0.493017852, 0)
-TextLabel_4.Size = UDim2.new(0, 663, 0, 844)
-TextLabel_4.Font = Enum.Font.GothamBold
-TextLabel_4.Text = "1. Join the Discord https://discord.gg/a2G7wWr4Fk 2. Write your submission in the suggestions channel"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
-TextLabel_4.TextYAlignment = Enum.TextYAlignment.Top
+TextLabel_2.Parent = TextLabel
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.493017852, 0)
+TextLabel_2.Size = UDim2.new(0, 663, 0, 844)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "1. Join the Discord https://discord.gg/a2G7wWr4Fk 2. Write your submission in the suggestions channel"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextYAlignment = Enum.TextYAlignment.Top
 
-UITextSizeConstraint_17.Parent = TextLabel_3
+UITextSizeConstraint_6.Parent = TextLabel
 
 OkButton.Name = "OkButton"
 OkButton.Parent = Suggestions
@@ -530,10 +303,10 @@ OkButton.TextScaled = true
 OkButton.TextSize = 14.000
 OkButton.TextWrapped = true
 
-UICorner_18.Parent = OkButton
+UICorner_7.Parent = OkButton
 
-UITextSizeConstraint_18.Parent = OkButton
-UITextSizeConstraint_18.MaxTextSize = 50
+UITextSizeConstraint_7.Parent = OkButton
+UITextSizeConstraint_7.MaxTextSize = 50
 
 CopyButton.Name = "CopyButton"
 CopyButton.Parent = Suggestions
@@ -550,26 +323,27 @@ CopyButton.TextScaled = true
 CopyButton.TextSize = 14.000
 CopyButton.TextWrapped = true
 
-UICorner_19.Parent = CopyButton
+UICorner_8.Parent = CopyButton
 
-UITextSizeConstraint_19.Parent = CopyButton
-UITextSizeConstraint_19.MaxTextSize = 44
+UITextSizeConstraint_8.Parent = CopyButton
+UITextSizeConstraint_8.MaxTextSize = 44
 
-UIAspectRatioConstraint_10.Parent = Suggestions
-UIAspectRatioConstraint_10.AspectRatio = 1.777
+UIAspectRatioConstraint_7.Parent = Suggestions
+UIAspectRatioConstraint_7.AspectRatio = 1.777
 
-TextLabel_5.Parent = BorksFriendsPunch
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(0.895779073, 0, 0.344444454, 0)
-TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_5.Font = Enum.Font.GothamBlack
-TextLabel_5.Text = "V to Skip Time"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextScaled = true
-TextLabel_5.TextSize = 14.000
-TextLabel_5.TextStrokeTransparency = 0.500
-TextLabel_5.TextWrapped = true
+SkipTime.Name = "SkipTime"
+SkipTime.Parent = BorksFriendsPunch
+SkipTime.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SkipTime.BackgroundTransparency = 1.000
+SkipTime.Position = UDim2.new(0.895779073, 0, 0.344444454, 0)
+SkipTime.Size = UDim2.new(0, 200, 0, 50)
+SkipTime.Font = Enum.Font.GothamBlack
+SkipTime.Text = "V to Skip Time"
+SkipTime.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkipTime.TextScaled = true
+SkipTime.TextSize = 14.000
+SkipTime.TextStrokeTransparency = 0.500
+SkipTime.TextWrapped = true
 
 TimeSkipFrame.Name = "TimeSkipFrame"
 TimeSkipFrame.Parent = BorksFriendsPunch
@@ -703,303 +477,251 @@ TimeErase9.Size = UDim2.new(1, 0, 1, 0)
 TimeErase9.Visible = false
 TimeErase9.Image = "http://www.roblox.com/asset/?id=4573469861"
 
+Pages.Name = "Pages"
+Pages.Parent = BorksFriendsPunch
+Pages.AnchorPoint = Vector2.new(0.5, 0.5)
+Pages.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Pages.ClipsDescendants = true
+Pages.Position = UDim2.new(0.897081792, 0, 0.575925946, 0)
+Pages.Size = UDim2.new(0.189999998, 0, 0.351999998, 0)
+Pages.Visible = false
+
+UICorner_9.Parent = Pages
+
+Main.Name = "Main"
+Main.Parent = Pages
+Main.AnchorPoint = Vector2.new(0.5, 0.5)
+Main.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
+Main.BackgroundTransparency = 1.000
+Main.Position = UDim2.new(0.499878258, 0, 0.5, 0)
+Main.Size = UDim2.new(1, 0, 1, 0)
+
+UICorner_10.Parent = Main
+
+ButtonsFrame1.Name = "ButtonsFrame1"
+ButtonsFrame1.Parent = Main
+ButtonsFrame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonsFrame1.BackgroundTransparency = 1.000
+ButtonsFrame1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ButtonsFrame1.Size = UDim2.new(0.99999994, 0, 1, 0)
+
+UIButton.Name = "UIButton"
+UIButton.Parent = ButtonsFrame1
+UIButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+UIButton.Position = UDim2.new(0.0361911617, 0, 0.263151139, 0)
+UIButton.Size = UDim2.new(0.447695851, 0, 0.150000006, 0)
+UIButton.AutoButtonColor = false
+UIButton.Font = Enum.Font.Gotham
+UIButton.Text = "Ultra Instinct"
+UIButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+UIButton.TextScaled = true
+UIButton.TextSize = 14.000
+UIButton.TextWrapped = true
+
+UICorner_11.Parent = UIButton
+
+UITextSizeConstraint_9.Parent = UIButton
+UITextSizeConstraint_9.MaxTextSize = 27
+
+FlingButton.Name = "FlingButton"
+FlingButton.Parent = ButtonsFrame1
+FlingButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+FlingButton.Position = UDim2.new(0.515252233, 0, 0.26315105, 0)
+FlingButton.Size = UDim2.new(0.44989118, 0, 0.149717852, 0)
+FlingButton.AutoButtonColor = false
+FlingButton.Font = Enum.Font.Gotham
+FlingButton.Text = "Fling"
+FlingButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlingButton.TextScaled = true
+FlingButton.TextSize = 14.000
+FlingButton.TextWrapped = true
+
+UICorner_12.Parent = FlingButton
+
+UITextSizeConstraint_10.Parent = FlingButton
+UITextSizeConstraint_10.MaxTextSize = 50
+
+TeleportButton.Name = "TeleportButton"
+TeleportButton.Parent = ButtonsFrame1
+TeleportButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TeleportButton.Position = UDim2.new(0.0359371714, 0, 0.434974372, 0)
+TeleportButton.Size = UDim2.new(0.447695851, 0, 0.150000006, 0)
+TeleportButton.AutoButtonColor = false
+TeleportButton.Font = Enum.Font.Gotham
+TeleportButton.Text = "Teleport "
+TeleportButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportButton.TextScaled = true
+TeleportButton.TextSize = 14.000
+TeleportButton.TextWrapped = true
+
+UICorner_13.Parent = TeleportButton
+
+UITextSizeConstraint_11.Parent = TeleportButton
+UITextSizeConstraint_11.MaxTextSize = 43
+
+TextBox.Parent = ButtonsFrame1
+TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextBox.Position = UDim2.new(0.502106786, 0, 0.131042883, 0)
+TextBox.Size = UDim2.new(0.921470106, 0, 0.186445877, 0)
+TextBox.Font = Enum.Font.GothamBold
+TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.PlaceholderText = "Enter Player Name Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+UICorner_14.Parent = TextBox
+
+UITextSizeConstraint_12.Parent = TextBox
+UITextSizeConstraint_12.MaxTextSize = 29
+
+DamageButton.Name = "DamageButton"
+DamageButton.Parent = ButtonsFrame1
+DamageButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+DamageButton.Position = UDim2.new(0.512807071, 0, 0.434815556, 0)
+DamageButton.Size = UDim2.new(0.450034708, 0, 0.150000006, 0)
+DamageButton.AutoButtonColor = false
+DamageButton.Font = Enum.Font.Gotham
+DamageButton.Text = "Damage"
+DamageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DamageButton.TextScaled = true
+DamageButton.TextSize = 14.000
+DamageButton.TextWrapped = true
+
+UICorner_15.Parent = DamageButton
+
+UITextSizeConstraint_13.Parent = DamageButton
+UITextSizeConstraint_13.MaxTextSize = 50
+
+BringButton.Name = "BringButton"
+BringButton.Parent = ButtonsFrame1
+BringButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+BringButton.Position = UDim2.new(0.511441052, 0, 0.61148262, 0)
+BringButton.Size = UDim2.new(0.451400787, 0, 0.150000006, 0)
+BringButton.AutoButtonColor = false
+BringButton.Font = Enum.Font.Gotham
+BringButton.Text = "Bring"
+BringButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+BringButton.TextScaled = true
+BringButton.TextSize = 14.000
+BringButton.TextWrapped = true
+
+UICorner_16.Parent = BringButton
+
+UITextSizeConstraint_14.Parent = BringButton
+UITextSizeConstraint_14.MaxTextSize = 50
+
+NumberTextBox.Name = "NumberTextBox"
+NumberTextBox.Parent = ButtonsFrame1
+NumberTextBox.AnchorPoint = Vector2.new(0.5, 0.5)
+NumberTextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+NumberTextBox.Position = UDim2.new(0.500510335, 0, 0.886871517, 0)
+NumberTextBox.Size = UDim2.new(0.929266214, 0, 0.15741235, 0)
+NumberTextBox.Font = Enum.Font.GothamBold
+NumberTextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+NumberTextBox.PlaceholderText = "Enter Damage or Heal Input here"
+NumberTextBox.Text = ""
+NumberTextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+NumberTextBox.TextScaled = true
+NumberTextBox.TextSize = 14.000
+NumberTextBox.TextWrapped = true
+
+UICorner_17.Parent = NumberTextBox
+
+UITextSizeConstraint_15.Parent = NumberTextBox
+UITextSizeConstraint_15.MaxTextSize = 29
+
+DonutButton.Name = "DonutButton"
+DonutButton.Parent = ButtonsFrame1
+DonutButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+DonutButton.Position = UDim2.new(0.040279597, 0, 0.61148262, 0)
+DonutButton.Size = UDim2.new(0.450034708, 0, 0.150000006, 0)
+DonutButton.AutoButtonColor = false
+DonutButton.Font = Enum.Font.Gotham
+DonutButton.Text = "Donut"
+DonutButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DonutButton.TextScaled = true
+DonutButton.TextSize = 14.000
+DonutButton.TextWrapped = true
+
+UICorner_18.Parent = DonutButton
+
+UITextSizeConstraint_16.Parent = DonutButton
+UITextSizeConstraint_16.MaxTextSize = 50
+
+UIAspectRatioConstraint_8.Parent = Main
+UIAspectRatioConstraint_8.AspectRatio = 0.958
+
+UIPageLayout.Parent = Pages
+UIPageLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIPageLayout.Circular = true
+
+Previous.Name = "Previous"
+Previous.Parent = BorksFriendsPunch
+Previous.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Previous.BorderColor3 = Color3.fromRGB(68, 68, 68)
+Previous.Position = UDim2.new(0.350182235, 0, 0.944444299, 0)
+Previous.Size = UDim2.new(0.0724335611, 0, 0.114454083, 0)
+Previous.Visible = false
+Previous.AutoButtonColor = false
+Previous.Font = Enum.Font.GothamBold
+Previous.Text = "Previous Page"
+Previous.TextColor3 = Color3.fromRGB(255, 255, 255)
+Previous.TextScaled = true
+Previous.TextSize = 14.000
+Previous.TextWrapped = true
+
+UICorner_19.Parent = Previous
+
+UIAspectRatioConstraint_9.Parent = Previous
+UIAspectRatioConstraint_9.AspectRatio = 2.780
+
+UITextSizeConstraint_17.Parent = Previous
+UITextSizeConstraint_17.MaxTextSize = 35
+
+Next.Name = "Next"
+Next.Parent = BorksFriendsPunch
+Next.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Next.BorderColor3 = Color3.fromRGB(68, 68, 68)
+Next.Position = UDim2.new(0.576862991, 0, 0.944444299, 0)
+Next.Size = UDim2.new(0.0724335611, 0, 0.114454083, 0)
+Next.Visible = false
+Next.AutoButtonColor = false
+Next.Font = Enum.Font.GothamBold
+Next.Text = "Next Page"
+Next.TextColor3 = Color3.fromRGB(255, 255, 255)
+Next.TextScaled = true
+Next.TextSize = 14.000
+Next.TextWrapped = true
+
+UICorner_20.Parent = Next
+
+UIAspectRatioConstraint_10.Parent = Next
+UIAspectRatioConstraint_10.AspectRatio = 2.780
+
+UITextSizeConstraint_18.Parent = Next
+UITextSizeConstraint_18.MaxTextSize = 50
+
 -- Scripts:
 
-local function NWQZ_fake_script() -- UIButton.LocalScript 
-	local script = Instance.new('LocalScript', UIButton)
-
-	script.Parent.Parent.TextBox.FocusLost:connect(
-		function(enterPressed)
-			if enterPressed then
-				print(script.Parent.Parent.TextBox.Text)
-			end
-		end
-	)
-	
-	local PlayerName = script.Parent.Parent.TextBox
-	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-	local currentHealth = humanoid.Health
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Parent.Notification.Visible = true
-		script.Parent.Parent.Parent.Parent.Notification.NotifDes.Text = "Kinda Buggy"
-		wait(5)
-		script.Parent.Parent.Parent.Parent.Notification.Visible = false	
-	for i,v in pairs(game.Workspace:GetChildren()) do
-			if v.Name == PlayerName.Text then
-				game.ReplicatedStorage.Unblock.OnClientEvent:Connect(function()
-					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, -10)
-				end)
-	
-				game.ReplicatedStorage.Block.OnClientEvent:Connect(function()
-					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, 10)
-				end)
-	
-				while true do
-					local Event = game:GetService("ReplicatedStorage").Block
-					Event:FireServer()
-					wait(0.0000001)							
-				end		
-			end				
-		end	
-	end)
-end
-coroutine.wrap(NWQZ_fake_script)()
-local function KOUCR_fake_script() -- FlingButton.LocalScript 
-	local script = Instance.new('LocalScript', FlingButton)
-
-	script.Parent.Parent.TextBox.FocusLost:connect(
-		function(enterPressed)
-			if enterPressed then
-				print(script.Parent.Parent.TextBox)
-			end
-		end
-	)
-	
-	local PlayerName = script.Parent.Parent.TextBox
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		for i,v in pairs(game.Workspace:GetChildren()) do
-			if v.Name == PlayerName.Text then
-				script.Parent.Parent.Parent.Parent.Notification.Visible = true
-				script.Parent.Parent.Parent.Parent.Notification.NotifDes.Text = "Kinda Buggy"
-				wait(5)
-				script.Parent.Parent.Parent.Parent.Notification.Visible = false			
-				
-				local args = {
-					[1] = "Light",
-					[2] = 0,
-					[3] = v.Humanoid,
-					[4] = "TheyWouldntNeverSeeThis"
-				}
-	
-				game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Baseplate.CFrame * CFrame.new(0,10000000000, 10000000000)
-				wait(.1)
-				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
-				wait(2.5)
-				game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Baseplate.CFrame * CFrame.new(0,25,0)
-				end	
-			end
-			
-	end)
-end
-coroutine.wrap(KOUCR_fake_script)()
-local function ZWUKMAF_fake_script() -- TeleportButton.LocalScript 
-	local script = Instance.new('LocalScript', TeleportButton)
-
-	script.Parent.Parent.TextBox.FocusLost:connect(
-		function(enterPressed)
-			if enterPressed then
-				print(script.Parent.Parent.TextBox.Text)
-			end
-		end
-	)
-	
-	local PlayerName = script.Parent.Parent.TextBox
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		for i,v in pairs(game.Workspace:GetChildren()) do
-			if v.Name == PlayerName.Text then
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
-			end
-		end
-		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
-	end)
-end
-coroutine.wrap(ZWUKMAF_fake_script)()
-local function MHXAPIM_fake_script() -- TextBox.LocalScript 
-	local script = Instance.new('LocalScript', TextBox)
-
-	script.Parent.FocusLost:connect(function()
-		for i,v in pairs(game.Players:GetChildren()) do
-			if (string.sub(string.lower(v.Name),1,string.len(script.Parent.Text))) == string.lower(script.Parent.Text) then
-				script.Parent.Text = v.Name
-			end
-		end
-	end)
-end
-coroutine.wrap(MHXAPIM_fake_script)()
-local function IYVNKL_fake_script() -- DamageButton.LocalScript 
-	local script = Instance.new('LocalScript', DamageButton)
-
-	script.Parent.Parent.TextBox.FocusLost:connect(
-		function(enterPressed)
-			if enterPressed then
-				print(script.Parent.Parent.TextBox.Text)
-			end
-		end
-	)
-	
-	local PlayerName = script.Parent.Parent.TextBox
-	local dmgNumber = script.Parent.Parent.NumberTextBox
-	
-	local Players = game:FindService("Players")
-	
-	for i,v in pairs(Players:GetChildren()) do
-		if v.Name == PlayerName then
-			print("Player Found!")
-		end
-	end
-	script.Parent.MouseButton1Click:Connect(function()
-		for i,v in pairs(game.Workspace:GetChildren()) do
-			if v.Name == PlayerName.Text then
-				local args = {
-					[1] = "Light",
-					[2] = tonumber(dmgNumber.Text),
-					[3] = v.Humanoid,
-					[4] = "TheyWouldntNeverSeeThis"
-				}
-				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
-			end
-		end
-	end)
-end
-coroutine.wrap(IYVNKL_fake_script)()
-local function HSPE_fake_script() -- BringButton.LocalScript 
-	local script = Instance.new('LocalScript', BringButton)
-
-	script.Parent.Parent.TextBox.FocusLost:connect(
-		function(enterPressed)
-			if enterPressed then
-				print(script.Parent.Parent.TextBox.Text)
-			end
-		end
-	)
-	
-	local PlayerName = script.Parent.Parent.TextBox
-	
-	local Players = game:FindService("Players")
-	
-	for i,v in pairs(Players:GetChildren()) do
-		if v.Name == PlayerName then
-			print("Player Found!")
-		end
-	end
-	script.Parent.MouseButton1Click:Connect(function()
-		for i,v in pairs(game.Workspace:GetChildren()) do
-			if v.Name == PlayerName.Text then
-				local args = {
-					[1] = "Light",
-					[2] = 0,
-					[3] = v.Humanoid,
-					[4] = "TheyWouldntNeverSeeThis"
-				}
-				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
-			end
-		end
-	end)
-end
-coroutine.wrap(HSPE_fake_script)()
-local function OUYBU_fake_script() -- DonutButton.LocalScript 
-	local script = Instance.new('LocalScript', DonutButton)
-
-	script.Parent.Parent.TextBox.FocusLost:connect(
-		function(enterPressed)
-			if enterPressed then
-				print(script.Parent.Parent.TextBox.Text)
-			end
-		end
-	)
-	
-	local PlayerName = script.Parent.Parent.TextBox
-	local dmgNumber = script.Parent.Parent.NumberTextBox
-	
-	local Players = game:FindService("Players")
-	
-	for i,v in pairs(Players:GetChildren()) do
-		if v.Name == PlayerName then
-			print("Player Found!")
-		end
-	end
-	
-	local Anim = Instance.new("Animation")
-	Anim.AnimationId = "rbxassetid://204062532"
-	local track = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
-	local swingACTIVE = false
-	game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
-		track = character:WaitForChild("Humanoid"):LoadAnimation(Anim)
-		swingACTIVE = false
-	end)
-	
-	script.Parent.MouseButton1Click:Connect(function()
-	for i,v in pairs(game.Workspace:GetChildren()) do
-		if v.Name == PlayerName.Text then
-			
-			local args = {
-				[1] = "Heavy",
-				[2] = tonumber(dmgNumber.Text),
-				[3] = v.Humanoid,
-				[4] = "TheyWouldntNeverSeeThis"
-			}
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,1)
-			wait(.05)
-			track:Play()
-			wait(.25)
-			game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
-			end
-		end
-	end)
-end
-coroutine.wrap(OUYBU_fake_script)()
-local function VGTCKOR_fake_script() -- Main.SmoothDrag 
-	local script = Instance.new('LocalScript', Main)
-
-	local Drag = script.Parent
-	gsCoreGui = game:GetService("CoreGui")
-	gsTween = game:GetService("TweenService")
-	local UserInputService = game:GetService("UserInputService")
-		local dragging
-		local dragInput
-		local dragStart
-		local startPos
-		local function update(input)
-			local delta = input.Position - dragStart
-			local dragTime = 0.02
-			local SmoothDrag = {}
-			SmoothDrag.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-			local dragSmoothFunction = gsTween:Create(Drag, TweenInfo.new(dragTime, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), SmoothDrag)
-			dragSmoothFunction:Play()
-		end
-		Drag.InputBegan:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-				dragging = true
-				dragStart = input.Position
-				startPos = Drag.Position
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragging = false
-					end
-				end)
-			end
-		end)
-		Drag.InputChanged:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-				dragInput = input
-			end
-		end)
-		UserInputService.InputChanged:Connect(function(input)
-			if input == dragInput and dragging and Drag.Size then
-				update(input)
-			end
-		end)
-	
-end
-coroutine.wrap(VGTCKOR_fake_script)()
-local function GZVVYY_fake_script() -- OpenGUI.LocalScript 
+local function LESI_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Text == "Open GUI" then
-			script.Parent.Parent.Main.Visible = true
+			script.Parent.Parent.Pages.Visible = true
 			script.Parent.Text = "Close GUI"
 		else	
 			script.Parent.Text = "Open GUI"
-			script.Parent.Parent.Main.Visible = false
+			script.Parent.Parent.Pages.Visible = false
 		end
 	end)
 end
-coroutine.wrap(GZVVYY_fake_script)()
-local function POWQVA_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(LESI_fake_script)()
+local function STNV_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1007,16 +729,16 @@ local function POWQVA_fake_script() -- SuggestionsGUI.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)	
 	end)
 end
-coroutine.wrap(POWQVA_fake_script)()
-local function MUIT_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(STNV_fake_script)()
+local function XLKNJ_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(MUIT_fake_script)()
-local function JYCLJ_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(XLKNJ_fake_script)()
+local function WOUTBPN_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -1026,8 +748,8 @@ local function JYCLJ_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(JYCLJ_fake_script)()
-local function BJNY_fake_script() -- OkButton.LocalScript 
+coroutine.wrap(WOUTBPN_fake_script)()
+local function KRFWOZ_fake_script() -- OkButton.LocalScript 
 	local script = Instance.new('LocalScript', OkButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1035,8 +757,8 @@ local function BJNY_fake_script() -- OkButton.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
 	end)
 end
-coroutine.wrap(BJNY_fake_script)()
-local function UORZYS_fake_script() -- TimeSkipFrame.TimeSkip 
+coroutine.wrap(KRFWOZ_fake_script)()
+local function VHHHY_fake_script() -- TimeSkipFrame.TimeSkip 
 	local script = Instance.new('LocalScript', TimeSkipFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1054,6 +776,20 @@ local function UORZYS_fake_script() -- TimeSkipFrame.TimeSkip
 					
 					debounce = true
 					
+					local s = Instance.new("Sound")
+	
+					s.Name = "Sound"
+					s.SoundId = "rbxassetid://3381429040" -- Type your music ID here
+					s.Volume = 1
+					s.Pitch = 1
+					s.Looped = false
+					s.archivable = false
+	
+					s.Parent = game.Workspace
+	
+					wait(0.1)
+	
+					s:play()
 					script.Parent.TimeErase1.Visible = true
 					wait(.01)
 					script.Parent.TimeErase2.Visible = true
@@ -1114,4 +850,299 @@ local function UORZYS_fake_script() -- TimeSkipFrame.TimeSkip
 		end
 	end)
 end
-coroutine.wrap(UORZYS_fake_script)()
+coroutine.wrap(VHHHY_fake_script)()
+local function VIMHMVN_fake_script() -- UIButton.LocalScript 
+	local script = Instance.new('LocalScript', UIButton)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+	local currentHealth = humanoid.Health
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Notification.Visible = true
+		script.Parent.Parent.Parent.Parent.Notification.NotifDes.Text = "Kinda Buggy"
+		wait(5)
+		script.Parent.Parent.Parent.Parent.Notification.Visible = false	
+	for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				game.ReplicatedStorage.Unblock.OnClientEvent:Connect(function()
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, -10)
+				end)
+	
+				game.ReplicatedStorage.Block.OnClientEvent:Connect(function()
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, 10)
+				end)
+	
+				while true do
+					local Event = game:GetService("ReplicatedStorage").Block
+					Event:FireServer()
+					wait(0.0000001)							
+				end		
+			end				
+		end	
+	end)
+end
+coroutine.wrap(VIMHMVN_fake_script)()
+local function PFYS_fake_script() -- FlingButton.LocalScript 
+	local script = Instance.new('LocalScript', FlingButton)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				script.Parent.Parent.Parent.Parent.Notification.Visible = true
+				script.Parent.Parent.Parent.Parent.Notification.NotifDes.Text = "Kinda Buggy"
+				wait(5)
+				script.Parent.Parent.Parent.Parent.Notification.Visible = false			
+				
+				local args = {
+					[1] = "Light",
+					[2] = 0,
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+	
+				game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Baseplate.CFrame * CFrame.new(0,10000000000, 10000000000)
+				wait(.1)
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+				wait(2.5)
+				game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Baseplate.CFrame * CFrame.new(0,25,0)
+				end	
+			end
+			
+	end)
+end
+coroutine.wrap(PFYS_fake_script)()
+local function UCMS_fake_script() -- TeleportButton.LocalScript 
+	local script = Instance.new('LocalScript', TeleportButton)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
+			end
+		end
+		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+	end)
+end
+coroutine.wrap(UCMS_fake_script)()
+local function YLBZBQ_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	script.Parent.FocusLost:connect(function()
+		for i,v in pairs(game.Players:GetChildren()) do
+			if (string.sub(string.lower(v.Name),1,string.len(script.Parent.Text))) == string.lower(script.Parent.Text) then
+				script.Parent.Text = v.Name
+			end
+		end
+	end)
+end
+coroutine.wrap(YLBZBQ_fake_script)()
+local function BKKR_fake_script() -- DamageButton.LocalScript 
+	local script = Instance.new('LocalScript', DamageButton)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	local dmgNumber = script.Parent.Parent.NumberTextBox
+	
+	local Players = game:FindService("Players")
+	
+	for i,v in pairs(Players:GetChildren()) do
+		if v.Name == PlayerName then
+			print("Player Found!")
+		end
+	end
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				local args = {
+					[1] = "Light",
+					[2] = tonumber(dmgNumber.Text),
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+			end
+		end
+	end)
+end
+coroutine.wrap(BKKR_fake_script)()
+local function NPZUD_fake_script() -- BringButton.LocalScript 
+	local script = Instance.new('LocalScript', BringButton)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	
+	local Players = game:FindService("Players")
+	
+	for i,v in pairs(Players:GetChildren()) do
+		if v.Name == PlayerName then
+			print("Player Found!")
+		end
+	end
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				local args = {
+					[1] = "Light",
+					[2] = 0,
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+			end
+		end
+	end)
+end
+coroutine.wrap(NPZUD_fake_script)()
+local function AIKIJWZ_fake_script() -- DonutButton.LocalScript 
+	local script = Instance.new('LocalScript', DonutButton)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	local dmgNumber = script.Parent.Parent.NumberTextBox
+	
+	local Players = game:FindService("Players")
+	
+	for i,v in pairs(Players:GetChildren()) do
+		if v.Name == PlayerName then
+			print("Player Found!")
+		end
+	end
+	
+	local Anim = Instance.new("Animation")
+	Anim.AnimationId = "rbxassetid://6357435701"
+	local track = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+	local swingACTIVE = false
+	game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
+		track = character:WaitForChild("Humanoid"):LoadAnimation(Anim)
+		swingACTIVE = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	for i,v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == PlayerName.Text then
+			
+			local args = {
+				[1] = "Heavy",
+				[2] = tonumber(dmgNumber.Text),
+				[3] = v.Humanoid,
+				[4] = "TheyWouldntNeverSeeThis"
+				}
+				
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("King Crimson's Ability", "All")
+				local s = Instance.new("Sound")
+				s.Name = "Sound"
+				s.SoundId = "rbxassetid://1280294111" -- Type your music ID here
+				s.Volume = 1
+				s.Pitch = 1
+				s.Looped = false
+				s.archivable = false
+	
+				s.Parent = game.Workspace
+	
+				wait(0.1)
+	
+				s:play()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,1)
+			wait(.05)
+			track:Play()
+			wait(.25)
+			game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+			end
+		end
+	end)
+end
+coroutine.wrap(AIKIJWZ_fake_script)()
+local function ZJIAMWA_fake_script() -- Pages.SmoothDrag 
+	local script = Instance.new('LocalScript', Pages)
+
+	local Drag = script.Parent
+	gsCoreGui = game:GetService("CoreGui")
+	gsTween = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+		local function update(input)
+			local delta = input.Position - dragStart
+			local dragTime = 0.02
+			local SmoothDrag = {}
+			SmoothDrag.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			local dragSmoothFunction = gsTween:Create(Drag, TweenInfo.new(dragTime, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), SmoothDrag)
+			dragSmoothFunction:Play()
+		end
+		Drag.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = Drag.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+		Drag.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		UserInputService.InputChanged:Connect(function(input)
+			if input == dragInput and dragging and Drag.Size then
+				update(input)
+			end
+		end)
+	
+end
+coroutine.wrap(ZJIAMWA_fake_script)()
