@@ -888,13 +888,17 @@ local function CTLIN_fake_script() -- BorksFriendsPunch.TimeSkip
 	local script = Instance.new('LocalScript', BorksFriendsPunch)
 
 	local UIS = game:GetService("UserInputService")
-	
-	UIS.InputBegan:connect(function(Input)
+
+	UIS.InputBegan:connect(function(Input,isTyping)
 		local MouseInput = Input.UserInputType 
 		local KeyCode = Input.KeyCode
-	
+
 		if KeyCode == Enum.KeyCode.V then
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-20)
+			if isTyping then
+				return
+			else
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-20)
+			end
 		end
 	end)
 end
