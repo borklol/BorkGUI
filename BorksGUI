@@ -540,7 +540,7 @@ UIAspectRatioConstraint_10.AspectRatio = 1.777
 
 -- Scripts:
 
-local function UGCDVVM_fake_script() -- UIButton.LocalScript 
+local function MDJD_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -575,8 +575,8 @@ local function UGCDVVM_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(UGCDVVM_fake_script)()
-local function MPOYPUS_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(MDJD_fake_script)()
+local function WQNJIX_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -614,8 +614,8 @@ local function MPOYPUS_fake_script() -- FlingButton.LocalScript
 			
 	end)
 end
-coroutine.wrap(MPOYPUS_fake_script)()
-local function JWKMXCR_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(WQNJIX_fake_script)()
+local function PTZCBZK_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -637,8 +637,8 @@ local function JWKMXCR_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(JWKMXCR_fake_script)()
-local function FIQTP_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(PTZCBZK_fake_script)()
+local function SYTCH_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -649,8 +649,8 @@ local function FIQTP_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FIQTP_fake_script)()
-local function ZFRII_fake_script() -- DamageButton.LocalScript 
+coroutine.wrap(SYTCH_fake_script)()
+local function RXFUG_fake_script() -- DamageButton.LocalScript 
 	local script = Instance.new('LocalScript', DamageButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -685,8 +685,8 @@ local function ZFRII_fake_script() -- DamageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZFRII_fake_script)()
-local function YHTPEQH_fake_script() -- BringButton.LocalScript 
+coroutine.wrap(RXFUG_fake_script)()
+local function ICYBC_fake_script() -- BringButton.LocalScript 
 	local script = Instance.new('LocalScript', BringButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -720,8 +720,8 @@ local function YHTPEQH_fake_script() -- BringButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YHTPEQH_fake_script)()
-local function CYKFK_fake_script() -- DonutButton.LocalScript 
+coroutine.wrap(ICYBC_fake_script)()
+local function RGNLMU_fake_script() -- DonutButton.LocalScript 
 	local script = Instance.new('LocalScript', DonutButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -762,7 +762,7 @@ local function CYKFK_fake_script() -- DonutButton.LocalScript
 				[3] = v.Humanoid,
 				[4] = "TheyWouldntNeverSeeThis"
 			}
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,2)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,1)
 			wait(.05)
 			track:Play()
 			wait(.25)
@@ -771,8 +771,8 @@ local function CYKFK_fake_script() -- DonutButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CYKFK_fake_script)()
-local function RIAQ_fake_script() -- Main.SmoothDrag 
+coroutine.wrap(RGNLMU_fake_script)()
+local function KXEYQOV_fake_script() -- Main.SmoothDrag 
 	local script = Instance.new('LocalScript', Main)
 
 	local Drag = script.Parent
@@ -815,8 +815,8 @@ local function RIAQ_fake_script() -- Main.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(RIAQ_fake_script)()
-local function FTVDQYI_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(KXEYQOV_fake_script)()
+local function SIJNWI_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -829,8 +829,8 @@ local function FTVDQYI_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FTVDQYI_fake_script)()
-local function YNMUWY_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(SIJNWI_fake_script)()
+local function OCRR_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -838,16 +838,16 @@ local function YNMUWY_fake_script() -- SuggestionsGUI.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)	
 	end)
 end
-coroutine.wrap(YNMUWY_fake_script)()
-local function BRUUSN_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(OCRR_fake_script)()
+local function MIJSWO_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(BRUUSN_fake_script)()
-local function UTWHWL_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(MIJSWO_fake_script)()
+local function CMUHMPA_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -857,8 +857,8 @@ local function UTWHWL_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(UTWHWL_fake_script)()
-local function LOSWX_fake_script() -- OkButton.LocalScript 
+coroutine.wrap(CMUHMPA_fake_script)()
+local function WQLUQHK_fake_script() -- OkButton.LocalScript 
 	local script = Instance.new('LocalScript', OkButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -866,4 +866,4 @@ local function LOSWX_fake_script() -- OkButton.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
 	end)
 end
-coroutine.wrap(LOSWX_fake_script)()
+coroutine.wrap(WQLUQHK_fake_script)()
