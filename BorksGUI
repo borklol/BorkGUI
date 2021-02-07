@@ -829,7 +829,9 @@ local function PXTJOX_fake_script() -- CopyButton.LocalScript
 	local script = Instance.new('LocalScript', CopyButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		setclipboard(https://discord.gg/a2G7wWr4Fk)
+	Synapse:CopyString([[
+https://discord.gg/a2G7wWr4Fk
+]])()
 	end)
 end
 coroutine.wrap(PXTJOX_fake_script)()
