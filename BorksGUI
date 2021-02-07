@@ -540,7 +540,7 @@ UIAspectRatioConstraint_10.AspectRatio = 1.777
 
 -- Scripts:
 
-local function LMDQHTK_fake_script() -- UIButton.LocalScript 
+local function UGCDVVM_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -575,8 +575,8 @@ local function LMDQHTK_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(LMDQHTK_fake_script)()
-local function SKZOVT_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(UGCDVVM_fake_script)()
+local function MPOYPUS_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -614,8 +614,8 @@ local function SKZOVT_fake_script() -- FlingButton.LocalScript
 			
 	end)
 end
-coroutine.wrap(SKZOVT_fake_script)()
-local function CBWI_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(MPOYPUS_fake_script)()
+local function JWKMXCR_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -637,8 +637,8 @@ local function CBWI_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(CBWI_fake_script)()
-local function JBXBY_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(JWKMXCR_fake_script)()
+local function FIQTP_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -649,8 +649,8 @@ local function JBXBY_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JBXBY_fake_script)()
-local function SCFLT_fake_script() -- DamageButton.LocalScript 
+coroutine.wrap(FIQTP_fake_script)()
+local function ZFRII_fake_script() -- DamageButton.LocalScript 
 	local script = Instance.new('LocalScript', DamageButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -685,8 +685,8 @@ local function SCFLT_fake_script() -- DamageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SCFLT_fake_script)()
-local function VKLWTEY_fake_script() -- BringButton.LocalScript 
+coroutine.wrap(ZFRII_fake_script)()
+local function YHTPEQH_fake_script() -- BringButton.LocalScript 
 	local script = Instance.new('LocalScript', BringButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -720,8 +720,8 @@ local function VKLWTEY_fake_script() -- BringButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VKLWTEY_fake_script)()
-local function BDRW_fake_script() -- DonutButton.LocalScript 
+coroutine.wrap(YHTPEQH_fake_script)()
+local function CYKFK_fake_script() -- DonutButton.LocalScript 
 	local script = Instance.new('LocalScript', DonutButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -757,11 +757,13 @@ local function BDRW_fake_script() -- DonutButton.LocalScript
 		if v.Name == PlayerName.Text then
 			
 			local args = {
-				[1] = "Light",
+				[1] = "Heavy",
 				[2] = tonumber(dmgNumber.Text),
 				[3] = v.Humanoid,
 				[4] = "TheyWouldntNeverSeeThis"
 			}
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,2)
+			wait(.05)
 			track:Play()
 			wait(.25)
 			game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
@@ -769,8 +771,8 @@ local function BDRW_fake_script() -- DonutButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BDRW_fake_script)()
-local function DEXYMGO_fake_script() -- Main.SmoothDrag 
+coroutine.wrap(CYKFK_fake_script)()
+local function RIAQ_fake_script() -- Main.SmoothDrag 
 	local script = Instance.new('LocalScript', Main)
 
 	local Drag = script.Parent
@@ -813,8 +815,8 @@ local function DEXYMGO_fake_script() -- Main.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(DEXYMGO_fake_script)()
-local function LANLAM_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(RIAQ_fake_script)()
+local function FTVDQYI_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -827,8 +829,8 @@ local function LANLAM_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LANLAM_fake_script)()
-local function NJYL_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(FTVDQYI_fake_script)()
+local function YNMUWY_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -836,16 +838,16 @@ local function NJYL_fake_script() -- SuggestionsGUI.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)	
 	end)
 end
-coroutine.wrap(NJYL_fake_script)()
-local function GBMLNC_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(YNMUWY_fake_script)()
+local function BRUUSN_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(GBMLNC_fake_script)()
-local function PMIW_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(BRUUSN_fake_script)()
+local function UTWHWL_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -855,8 +857,8 @@ local function PMIW_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(PMIW_fake_script)()
-local function IHZC_fake_script() -- OkButton.LocalScript 
+coroutine.wrap(UTWHWL_fake_script)()
+local function LOSWX_fake_script() -- OkButton.LocalScript 
 	local script = Instance.new('LocalScript', OkButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -864,4 +866,4 @@ local function IHZC_fake_script() -- OkButton.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
 	end)
 end
-coroutine.wrap(IHZC_fake_script)()
+coroutine.wrap(LOSWX_fake_script)()
