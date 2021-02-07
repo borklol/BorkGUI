@@ -1,3 +1,4 @@
+
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
@@ -76,6 +77,25 @@ local UICorner_19 = Instance.new("UICorner")
 local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_5 = Instance.new("TextLabel")
+local TimeSkipFrame = Instance.new("Frame")
+local TimeErase1 = Instance.new("ImageLabel")
+local TimeErase10 = Instance.new("ImageLabel")
+local TimeErase11 = Instance.new("ImageLabel")
+local TimeErase12 = Instance.new("ImageLabel")
+local TimeErase13 = Instance.new("ImageLabel")
+local TimeErase14 = Instance.new("ImageLabel")
+local TimeErase15 = Instance.new("ImageLabel")
+local TimeErase16 = Instance.new("ImageLabel")
+local TimeErase17 = Instance.new("ImageLabel")
+local TimeErase18 = Instance.new("ImageLabel")
+local TimeErase2 = Instance.new("ImageLabel")
+local TimeErase3 = Instance.new("ImageLabel")
+local TimeErase4 = Instance.new("ImageLabel")
+local TimeErase5 = Instance.new("ImageLabel")
+local TimeErase6 = Instance.new("ImageLabel")
+local TimeErase7 = Instance.new("ImageLabel")
+local TimeErase8 = Instance.new("ImageLabel")
+local TimeErase9 = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -551,9 +571,141 @@ TextLabel_5.TextSize = 14.000
 TextLabel_5.TextStrokeTransparency = 0.500
 TextLabel_5.TextWrapped = true
 
+TimeSkipFrame.Name = "TimeSkipFrame"
+TimeSkipFrame.Parent = BorksFriendsPunch
+TimeSkipFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TimeSkipFrame.BackgroundTransparency = 1.000
+TimeSkipFrame.Size = UDim2.new(1, 0, 1, 0)
+
+TimeErase1.Name = "TimeErase1"
+TimeErase1.Parent = TimeSkipFrame
+TimeErase1.BackgroundTransparency = 1.000
+TimeErase1.Size = UDim2.new(1, 0, 1, 0)
+TimeErase1.Visible = false
+TimeErase1.Image = "rbxassetid://4573462670"
+
+TimeErase10.Name = "TimeErase10"
+TimeErase10.Parent = TimeSkipFrame
+TimeErase10.BackgroundTransparency = 1.000
+TimeErase10.Size = UDim2.new(1, 0, 1, 0)
+TimeErase10.Visible = false
+TimeErase10.Image = "http://www.roblox.com/asset/?id=4573470481"
+
+TimeErase11.Name = "TimeErase11"
+TimeErase11.Parent = TimeSkipFrame
+TimeErase11.BackgroundTransparency = 1.000
+TimeErase11.Size = UDim2.new(1, 0, 1, 0)
+TimeErase11.Visible = false
+TimeErase11.Image = "http://www.roblox.com/asset/?id=4573472230"
+
+TimeErase12.Name = "TimeErase12"
+TimeErase12.Parent = TimeSkipFrame
+TimeErase12.BackgroundTransparency = 1.000
+TimeErase12.Size = UDim2.new(1, 0, 1, 0)
+TimeErase12.Visible = false
+TimeErase12.Image = "http://www.roblox.com/asset/?id=4573472712"
+
+TimeErase13.Name = "TimeErase13"
+TimeErase13.Parent = TimeSkipFrame
+TimeErase13.BackgroundTransparency = 1.000
+TimeErase13.Size = UDim2.new(1, 0, 1, 0)
+TimeErase13.Visible = false
+TimeErase13.Image = "http://www.roblox.com/asset/?id=4573473408"
+
+TimeErase14.Name = "TimeErase14"
+TimeErase14.Parent = TimeSkipFrame
+TimeErase14.BackgroundTransparency = 1.000
+TimeErase14.Size = UDim2.new(1, 0, 1, 0)
+TimeErase14.Visible = false
+TimeErase14.Image = "http://www.roblox.com/asset/?id=4573474618"
+
+TimeErase15.Name = "TimeErase15"
+TimeErase15.Parent = TimeSkipFrame
+TimeErase15.BackgroundTransparency = 1.000
+TimeErase15.Size = UDim2.new(1, 0, 1, 0)
+TimeErase15.Visible = false
+TimeErase15.Image = "http://www.roblox.com/asset/?id=4573475743"
+
+TimeErase16.Name = "TimeErase16"
+TimeErase16.Parent = TimeSkipFrame
+TimeErase16.BackgroundTransparency = 1.000
+TimeErase16.Size = UDim2.new(1, 0, 1, 0)
+TimeErase16.Visible = false
+TimeErase16.Image = "http://www.roblox.com/asset/?id=4573476483"
+
+TimeErase17.Name = "TimeErase17"
+TimeErase17.Parent = TimeSkipFrame
+TimeErase17.BackgroundTransparency = 1.000
+TimeErase17.Size = UDim2.new(1, 0, 1, 0)
+TimeErase17.Visible = false
+TimeErase17.Image = "http://www.roblox.com/asset/?id=4573476928"
+
+TimeErase18.Name = "TimeErase18"
+TimeErase18.Parent = TimeSkipFrame
+TimeErase18.BackgroundTransparency = 1.000
+TimeErase18.Size = UDim2.new(1, 0, 1, 0)
+TimeErase18.Visible = false
+TimeErase18.Image = "http://www.roblox.com/asset/?id=4573477493"
+
+TimeErase2.Name = "TimeErase2"
+TimeErase2.Parent = TimeSkipFrame
+TimeErase2.BackgroundTransparency = 1.000
+TimeErase2.Size = UDim2.new(1, 0, 1, 0)
+TimeErase2.Visible = false
+TimeErase2.Image = "http://www.roblox.com/asset/?id=4573463247"
+
+TimeErase3.Name = "TimeErase3"
+TimeErase3.Parent = TimeSkipFrame
+TimeErase3.BackgroundTransparency = 1.000
+TimeErase3.Size = UDim2.new(1, 0, 1, 0)
+TimeErase3.Visible = false
+TimeErase3.Image = "http://www.roblox.com/asset/?id=4573464191"
+
+TimeErase4.Name = "TimeErase4"
+TimeErase4.Parent = TimeSkipFrame
+TimeErase4.BackgroundTransparency = 1.000
+TimeErase4.Size = UDim2.new(1, 0, 1, 0)
+TimeErase4.Visible = false
+TimeErase4.Image = "http://www.roblox.com/asset/?id=4573465237"
+
+TimeErase5.Name = "TimeErase5"
+TimeErase5.Parent = TimeSkipFrame
+TimeErase5.BackgroundTransparency = 1.000
+TimeErase5.Size = UDim2.new(1, 0, 1, 0)
+TimeErase5.Visible = false
+TimeErase5.Image = "http://www.roblox.com/asset/?id=4573466633"
+
+TimeErase6.Name = "TimeErase6"
+TimeErase6.Parent = TimeSkipFrame
+TimeErase6.BackgroundTransparency = 1.000
+TimeErase6.Size = UDim2.new(1, 0, 1, 0)
+TimeErase6.Visible = false
+TimeErase6.Image = "http://www.roblox.com/asset/?id=4573467848"
+
+TimeErase7.Name = "TimeErase7"
+TimeErase7.Parent = TimeSkipFrame
+TimeErase7.BackgroundTransparency = 1.000
+TimeErase7.Size = UDim2.new(1, 0, 1, 0)
+TimeErase7.Visible = false
+TimeErase7.Image = "http://www.roblox.com/asset/?id=4573468665"
+
+TimeErase8.Name = "TimeErase8"
+TimeErase8.Parent = TimeSkipFrame
+TimeErase8.BackgroundTransparency = 1.000
+TimeErase8.Size = UDim2.new(1, 0, 1, 0)
+TimeErase8.Visible = false
+TimeErase8.Image = "http://www.roblox.com/asset/?id=4573469255"
+
+TimeErase9.Name = "TimeErase9"
+TimeErase9.Parent = TimeSkipFrame
+TimeErase9.BackgroundTransparency = 1.000
+TimeErase9.Size = UDim2.new(1, 0, 1, 0)
+TimeErase9.Visible = false
+TimeErase9.Image = "http://www.roblox.com/asset/?id=4573469861"
+
 -- Scripts:
 
-local function NLWX_fake_script() -- UIButton.LocalScript 
+local function NWQZ_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -592,8 +744,8 @@ local function NLWX_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(NLWX_fake_script)()
-local function VJYVZI_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(NWQZ_fake_script)()
+local function KOUCR_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -631,8 +783,8 @@ local function VJYVZI_fake_script() -- FlingButton.LocalScript
 			
 	end)
 end
-coroutine.wrap(VJYVZI_fake_script)()
-local function FUXAN_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(KOUCR_fake_script)()
+local function ZWUKMAF_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -654,8 +806,8 @@ local function FUXAN_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(FUXAN_fake_script)()
-local function JAKXE_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(ZWUKMAF_fake_script)()
+local function MHXAPIM_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -666,8 +818,8 @@ local function JAKXE_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JAKXE_fake_script)()
-local function YIAREL_fake_script() -- DamageButton.LocalScript 
+coroutine.wrap(MHXAPIM_fake_script)()
+local function IYVNKL_fake_script() -- DamageButton.LocalScript 
 	local script = Instance.new('LocalScript', DamageButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -702,8 +854,8 @@ local function YIAREL_fake_script() -- DamageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YIAREL_fake_script)()
-local function MQZDIE_fake_script() -- BringButton.LocalScript 
+coroutine.wrap(IYVNKL_fake_script)()
+local function HSPE_fake_script() -- BringButton.LocalScript 
 	local script = Instance.new('LocalScript', BringButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -737,8 +889,8 @@ local function MQZDIE_fake_script() -- BringButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MQZDIE_fake_script)()
-local function GUOREGA_fake_script() -- DonutButton.LocalScript 
+coroutine.wrap(HSPE_fake_script)()
+local function OUYBU_fake_script() -- DonutButton.LocalScript 
 	local script = Instance.new('LocalScript', DonutButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -788,8 +940,8 @@ local function GUOREGA_fake_script() -- DonutButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GUOREGA_fake_script)()
-local function DAEXFU_fake_script() -- Main.SmoothDrag 
+coroutine.wrap(OUYBU_fake_script)()
+local function VGTCKOR_fake_script() -- Main.SmoothDrag 
 	local script = Instance.new('LocalScript', Main)
 
 	local Drag = script.Parent
@@ -832,8 +984,8 @@ local function DAEXFU_fake_script() -- Main.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(DAEXFU_fake_script)()
-local function VUJLQ_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(VGTCKOR_fake_script)()
+local function GZVVYY_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -846,8 +998,8 @@ local function VUJLQ_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VUJLQ_fake_script)()
-local function KQDGNIW_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(GZVVYY_fake_script)()
+local function POWQVA_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -855,16 +1007,16 @@ local function KQDGNIW_fake_script() -- SuggestionsGUI.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)	
 	end)
 end
-coroutine.wrap(KQDGNIW_fake_script)()
-local function SEUL_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(POWQVA_fake_script)()
+local function MUIT_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(SEUL_fake_script)()
-local function EPVZRU_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(MUIT_fake_script)()
+local function JYCLJ_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -874,8 +1026,8 @@ local function EPVZRU_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(EPVZRU_fake_script)()
-local function KZYXK_fake_script() -- OkButton.LocalScript 
+coroutine.wrap(JYCLJ_fake_script)()
+local function BJNY_fake_script() -- OkButton.LocalScript 
 	local script = Instance.new('LocalScript', OkButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -883,23 +1035,83 @@ local function KZYXK_fake_script() -- OkButton.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
 	end)
 end
-coroutine.wrap(KZYXK_fake_script)()
-local function CTLIN_fake_script() -- BorksFriendsPunch.TimeSkip 
-	local script = Instance.new('LocalScript', BorksFriendsPunch)
+coroutine.wrap(BJNY_fake_script)()
+local function UORZYS_fake_script() -- TimeSkipFrame.TimeSkip 
+	local script = Instance.new('LocalScript', TimeSkipFrame)
 
 	local UIS = game:GetService("UserInputService")
-
+	local debounce = false
+	
 	UIS.InputBegan:connect(function(Input,isTyping)
 		local MouseInput = Input.UserInputType 
 		local KeyCode = Input.KeyCode
-
+	
 		if KeyCode == Enum.KeyCode.V then
 			if isTyping then
 				return
 			else
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-20)
+				if not debounce then
+					
+					debounce = true
+					
+					script.Parent.TimeErase1.Visible = true
+					wait(.01)
+					script.Parent.TimeErase2.Visible = true
+					script.Parent.TimeErase1.Visible = false
+					wait(.01)
+					script.Parent.TimeErase3.Visible = true
+					script.Parent.TimeErase2.Visible = false
+					wait(.01)
+					script.Parent.TimeErase4.Visible = true
+					script.Parent.TimeErase3.Visible = false
+					wait(.01)
+					script.Parent.TimeErase5.Visible = true
+					script.Parent.TimeErase4.Visible = false
+					wait(.01)
+					script.Parent.TimeErase6.Visible = true
+					script.Parent.TimeErase5.Visible = false
+					wait(.01)
+					script.Parent.TimeErase7.Visible = true
+					script.Parent.TimeErase6.Visible = false
+					wait(.01)
+					script.Parent.TimeErase8.Visible = true
+					script.Parent.TimeErase7.Visible = false
+					wait(.01)
+					script.Parent.TimeErase9.Visible = true
+					script.Parent.TimeErase8.Visible = false
+					wait(.01)
+					script.Parent.TimeErase10.Visible = true
+					script.Parent.TimeErase9.Visible = false
+					wait(.01)
+					script.Parent.TimeErase11.Visible = true
+					script.Parent.TimeErase10.Visible = false
+					wait(.01)
+					script.Parent.TimeErase12.Visible = true
+					script.Parent.TimeErase11.Visible = false
+					wait(.01)
+					script.Parent.TimeErase13.Visible = true
+					script.Parent.TimeErase12.Visible = false
+					wait(.01)
+					script.Parent.TimeErase14.Visible = true
+					script.Parent.TimeErase13.Visible = false
+					wait(.01)
+					script.Parent.TimeErase15.Visible = true
+					script.Parent.TimeErase14.Visible = false
+					wait(.01)
+					script.Parent.TimeErase16.Visible = true
+					script.Parent.TimeErase15.Visible = false
+					wait(.01)
+					script.Parent.TimeErase17.Visible = true
+					script.Parent.TimeErase16.Visible = false
+					wait(.01)
+					script.Parent.TimeErase17.Visible = false
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-20)
+					wait(.5)
+					
+					debounce = false
+				end
 			end
 		end
 	end)
 end
-coroutine.wrap(CTLIN_fake_script)()
+coroutine.wrap(UORZYS_fake_script)()
