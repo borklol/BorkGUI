@@ -1,4 +1,3 @@
-
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
@@ -707,7 +706,7 @@ UITextSizeConstraint_18.MaxTextSize = 50
 
 -- Scripts:
 
-local function LESI_fake_script() -- OpenGUI.LocalScript 
+local function NQPZFIJ_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -720,8 +719,8 @@ local function LESI_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LESI_fake_script)()
-local function STNV_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(NQPZFIJ_fake_script)()
+local function RKZBTY_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -729,16 +728,16 @@ local function STNV_fake_script() -- SuggestionsGUI.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)	
 	end)
 end
-coroutine.wrap(STNV_fake_script)()
-local function XLKNJ_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(RKZBTY_fake_script)()
+local function NNID_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(XLKNJ_fake_script)()
-local function WOUTBPN_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(NNID_fake_script)()
+local function HOYSDK_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -748,8 +747,8 @@ local function WOUTBPN_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(WOUTBPN_fake_script)()
-local function KRFWOZ_fake_script() -- OkButton.LocalScript 
+coroutine.wrap(HOYSDK_fake_script)()
+local function NYPNU_fake_script() -- OkButton.LocalScript 
 	local script = Instance.new('LocalScript', OkButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -757,8 +756,8 @@ local function KRFWOZ_fake_script() -- OkButton.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
 	end)
 end
-coroutine.wrap(KRFWOZ_fake_script)()
-local function VHHHY_fake_script() -- TimeSkipFrame.TimeSkip 
+coroutine.wrap(NYPNU_fake_script)()
+local function SBMWK_fake_script() -- TimeSkipFrame.TimeSkip 
 	local script = Instance.new('LocalScript', TimeSkipFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -777,17 +776,12 @@ local function VHHHY_fake_script() -- TimeSkipFrame.TimeSkip
 					debounce = true
 					
 					local s = Instance.new("Sound")
-	
 					s.Name = "Sound"
-					s.SoundId = "rbxassetid://3381429040" -- Type your music ID here
+					s.SoundId = "http://www.roblox.com/asset/?id=3381429040"
 					s.Volume = 1
-					s.Pitch = 1
-					s.Looped = false
+					s.Looped = true
 					s.archivable = false
-	
 					s.Parent = game.Workspace
-	
-					wait(0.1)
 	
 					s:play()
 					script.Parent.TimeErase1.Visible = true
@@ -850,8 +844,8 @@ local function VHHHY_fake_script() -- TimeSkipFrame.TimeSkip
 		end
 	end)
 end
-coroutine.wrap(VHHHY_fake_script)()
-local function VIMHMVN_fake_script() -- UIButton.LocalScript 
+coroutine.wrap(SBMWK_fake_script)()
+local function AIDJDX_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -890,8 +884,8 @@ local function VIMHMVN_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(VIMHMVN_fake_script)()
-local function PFYS_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(AIDJDX_fake_script)()
+local function AAGR_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -929,8 +923,8 @@ local function PFYS_fake_script() -- FlingButton.LocalScript
 			
 	end)
 end
-coroutine.wrap(PFYS_fake_script)()
-local function UCMS_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(AAGR_fake_script)()
+local function SFSGA_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -952,8 +946,8 @@ local function UCMS_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(UCMS_fake_script)()
-local function YLBZBQ_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(SFSGA_fake_script)()
+local function TELY_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -964,8 +958,8 @@ local function YLBZBQ_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YLBZBQ_fake_script)()
-local function BKKR_fake_script() -- DamageButton.LocalScript 
+coroutine.wrap(TELY_fake_script)()
+local function MFWG_fake_script() -- DamageButton.LocalScript 
 	local script = Instance.new('LocalScript', DamageButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1000,8 +994,8 @@ local function BKKR_fake_script() -- DamageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BKKR_fake_script)()
-local function NPZUD_fake_script() -- BringButton.LocalScript 
+coroutine.wrap(MFWG_fake_script)()
+local function WESDGFI_fake_script() -- BringButton.LocalScript 
 	local script = Instance.new('LocalScript', BringButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1035,8 +1029,8 @@ local function NPZUD_fake_script() -- BringButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NPZUD_fake_script)()
-local function AIKIJWZ_fake_script() -- DonutButton.LocalScript 
+coroutine.wrap(WESDGFI_fake_script)()
+local function DVUPAX_fake_script() -- DonutButton.LocalScript 
 	local script = Instance.new('LocalScript', DonutButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1059,7 +1053,7 @@ local function AIKIJWZ_fake_script() -- DonutButton.LocalScript
 	end
 	
 	local Anim = Instance.new("Animation")
-	Anim.AnimationId = "rbxassetid://6357435701"
+	Anim.AnimationId = "rbxassetid://204062532"
 	local track = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
 	local swingACTIVE = false
 	game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
@@ -1078,31 +1072,29 @@ local function AIKIJWZ_fake_script() -- DonutButton.LocalScript
 				[4] = "TheyWouldntNeverSeeThis"
 				}
 				
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("King Crimson's Ability", "All")
-				local s = Instance.new("Sound")
-				s.Name = "Sound"
-				s.SoundId = "rbxassetid://1280294111" -- Type your music ID here
-				s.Volume = 1
-				s.Pitch = 1
-				s.Looped = false
-				s.archivable = false
-	
-				s.Parent = game.Workspace
-	
-				wait(0.1)
-	
-				s:play()
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,1)
 			wait(.05)
-			track:Play()
+				track:Play()
+				
+				local s = Instance.new("Sound")
+				s.Name = "Sound"
+				s.SoundId = "http://www.roblox.com/asset/?id=1280294111"
+				s.Volume = 1
+				s.Looped = true
+				s.archivable = false
+				s.Parent = game.Workspace
+				
+				s:play()
 			wait(.25)
-			game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+				
+				
 			end
 		end
 	end)
 end
-coroutine.wrap(AIKIJWZ_fake_script)()
-local function ZJIAMWA_fake_script() -- Pages.SmoothDrag 
+coroutine.wrap(DVUPAX_fake_script)()
+local function GMQE_fake_script() -- Pages.SmoothDrag 
 	local script = Instance.new('LocalScript', Pages)
 
 	local Drag = script.Parent
@@ -1145,4 +1137,4 @@ local function ZJIAMWA_fake_script() -- Pages.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(ZJIAMWA_fake_script)()
+coroutine.wrap(GMQE_fake_script)()
