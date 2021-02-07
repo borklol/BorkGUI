@@ -16,16 +16,16 @@ local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
 local TeleportButton = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
-local HealButton = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
 local UICorner_5 = Instance.new("UICorner")
 local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
-local TextBox = Instance.new("TextBox")
+local DamageButton = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
 local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
-local KillButton = Instance.new("TextButton")
+local BringButton = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
-local BringButton = Instance.new("TextButton")
+local NumberTextBox = Instance.new("TextBox")
 local UICorner_8 = Instance.new("UICorner")
 local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
@@ -87,7 +87,6 @@ Main.AnchorPoint = Vector2.new(0.5, 0.5)
 Main.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Main.Position = UDim2.new(0.897563457, 0, 0.567592621, 0)
 Main.Size = UDim2.new(0.189682126, 0, 0.351851851, 0)
-Main.Visible = false
 
 UICorner.Parent = Main
 
@@ -168,24 +167,6 @@ UICorner_4.Parent = TeleportButton
 UITextSizeConstraint_4.Parent = TeleportButton
 UITextSizeConstraint_4.MaxTextSize = 43
 
-HealButton.Name = "HealButton"
-HealButton.Parent = ButtonsFrame1
-HealButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-HealButton.Position = UDim2.new(0.0359371305, 0, 0.61148262, 0)
-HealButton.Size = UDim2.new(0.447695524, 0, 0.150000006, 0)
-HealButton.AutoButtonColor = false
-HealButton.Font = Enum.Font.Gotham
-HealButton.Text = "Heal"
-HealButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-HealButton.TextScaled = true
-HealButton.TextSize = 14.000
-HealButton.TextWrapped = true
-
-UICorner_5.Parent = HealButton
-
-UITextSizeConstraint_5.Parent = HealButton
-UITextSizeConstraint_5.MaxTextSize = 50
-
 TextBox.Parent = ButtonsFrame1
 TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
 TextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
@@ -200,28 +181,28 @@ TextBox.TextScaled = true
 TextBox.TextSize = 14.000
 TextBox.TextWrapped = true
 
-UICorner_6.Parent = TextBox
+UICorner_5.Parent = TextBox
 
-UITextSizeConstraint_6.Parent = TextBox
-UITextSizeConstraint_6.MaxTextSize = 29
+UITextSizeConstraint_5.Parent = TextBox
+UITextSizeConstraint_5.MaxTextSize = 29
 
-KillButton.Name = "KillButton"
-KillButton.Parent = ButtonsFrame1
-KillButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-KillButton.Position = UDim2.new(0.512807071, 0, 0.434815556, 0)
-KillButton.Size = UDim2.new(0.450034708, 0, 0.150000006, 0)
-KillButton.AutoButtonColor = false
-KillButton.Font = Enum.Font.Gotham
-KillButton.Text = "Kill"
-KillButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-KillButton.TextScaled = true
-KillButton.TextSize = 14.000
-KillButton.TextWrapped = true
+DamageButton.Name = "DamageButton"
+DamageButton.Parent = ButtonsFrame1
+DamageButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+DamageButton.Position = UDim2.new(0.512807071, 0, 0.434815556, 0)
+DamageButton.Size = UDim2.new(0.450034708, 0, 0.150000006, 0)
+DamageButton.AutoButtonColor = false
+DamageButton.Font = Enum.Font.Gotham
+DamageButton.Text = "Damage"
+DamageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DamageButton.TextScaled = true
+DamageButton.TextSize = 14.000
+DamageButton.TextWrapped = true
 
-UICorner_7.Parent = KillButton
+UICorner_6.Parent = DamageButton
 
-UITextSizeConstraint_7.Parent = KillButton
-UITextSizeConstraint_7.MaxTextSize = 50
+UITextSizeConstraint_6.Parent = DamageButton
+UITextSizeConstraint_6.MaxTextSize = 50
 
 BringButton.Name = "BringButton"
 BringButton.Parent = ButtonsFrame1
@@ -236,10 +217,30 @@ BringButton.TextScaled = true
 BringButton.TextSize = 14.000
 BringButton.TextWrapped = true
 
-UICorner_8.Parent = BringButton
+UICorner_7.Parent = BringButton
 
-UITextSizeConstraint_8.Parent = BringButton
-UITextSizeConstraint_8.MaxTextSize = 50
+UITextSizeConstraint_7.Parent = BringButton
+UITextSizeConstraint_7.MaxTextSize = 50
+
+NumberTextBox.Name = "NumberTextBox"
+NumberTextBox.Parent = ButtonsFrame1
+NumberTextBox.AnchorPoint = Vector2.new(0.5, 0.5)
+NumberTextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+NumberTextBox.Position = UDim2.new(0.483679473, 0, 0.875538468, 0)
+NumberTextBox.Size = UDim2.new(0.895604372, 0, 0.13474606, 0)
+NumberTextBox.Font = Enum.Font.GothamBold
+NumberTextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+NumberTextBox.PlaceholderText = "Enter Damage or Heal Input here"
+NumberTextBox.Text = ""
+NumberTextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+NumberTextBox.TextScaled = true
+NumberTextBox.TextSize = 14.000
+NumberTextBox.TextWrapped = true
+
+UICorner_8.Parent = NumberTextBox
+
+UITextSizeConstraint_8.Parent = NumberTextBox
+UITextSizeConstraint_8.MaxTextSize = 29
 
 UIAspectRatioConstraint.Parent = Main
 UIAspectRatioConstraint.AspectRatio = 0.958
@@ -517,7 +518,7 @@ UIAspectRatioConstraint_10.AspectRatio = 1.777
 
 -- Scripts:
 
-local function KEPTR_fake_script() -- UIButton.LocalScript 
+local function CYGNYP_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -552,8 +553,8 @@ local function KEPTR_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(KEPTR_fake_script)()
-local function NVJZXTX_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(CYGNYP_fake_script)()
+local function UWNOWWE_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -590,8 +591,8 @@ local function NVJZXTX_fake_script() -- FlingButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NVJZXTX_fake_script)()
-local function BTQHT_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(UWNOWWE_fake_script)()
+local function GNVFNKM_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -613,43 +614,8 @@ local function BTQHT_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(BTQHT_fake_script)()
-local function XKUGDHG_fake_script() -- HealButton.LocalScript 
-	local script = Instance.new('LocalScript', HealButton)
-
-	script.Parent.Parent.TextBox.FocusLost:connect(
-		function(enterPressed)
-			if enterPressed then
-				print(script.Parent.Parent.TextBox.Text)
-			end
-		end
-	)
-	
-	local PlayerName = script.Parent.Parent.TextBox
-	
-	local Players = game:FindService("Players")
-	
-	for i,v in pairs(Players:GetChildren()) do
-		if v.Name == PlayerName then
-			print("Player Found!")
-		end
-	end
-	script.Parent.MouseButton1Click:Connect(function()
-		for i,v in pairs(game.Workspace:GetChildren()) do
-			if v.Name == PlayerName.Text then
-				local args = {
-					[1] = "Light",
-					[2] = -math.huge,
-					[3] = v.Humanoid,
-					[4] = "TheyWouldntNeverSeeThis"
-				}
-				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
-			end
-		end
-	end)
-end
-coroutine.wrap(XKUGDHG_fake_script)()
-local function MHZWEVF_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(GNVFNKM_fake_script)()
+local function VKXYEUI_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -660,9 +626,9 @@ local function MHZWEVF_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MHZWEVF_fake_script)()
-local function JJGPXW_fake_script() -- KillButton.LocalScript 
-	local script = Instance.new('LocalScript', KillButton)
+coroutine.wrap(VKXYEUI_fake_script)()
+local function YANPNF_fake_script() -- DamageButton.LocalScript 
+	local script = Instance.new('LocalScript', DamageButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
 		function(enterPressed)
@@ -673,6 +639,7 @@ local function JJGPXW_fake_script() -- KillButton.LocalScript
 	)
 	
 	local PlayerName = script.Parent.Parent.TextBox
+	local dmgNumber = script.Parent.Parent.NumberTextBox
 	
 	local Players = game:FindService("Players")
 	
@@ -686,7 +653,7 @@ local function JJGPXW_fake_script() -- KillButton.LocalScript
 			if v.Name == PlayerName.Text then
 				local args = {
 					[1] = "Light",
-					[2] = math.huge,
+					[2] = tonumber(dmgNumber.Text),
 					[3] = v.Humanoid,
 					[4] = "TheyWouldntNeverSeeThis"
 				}
@@ -695,8 +662,8 @@ local function JJGPXW_fake_script() -- KillButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JJGPXW_fake_script)()
-local function YNRMKXK_fake_script() -- BringButton.LocalScript 
+coroutine.wrap(YANPNF_fake_script)()
+local function AVGMFG_fake_script() -- BringButton.LocalScript 
 	local script = Instance.new('LocalScript', BringButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -730,8 +697,8 @@ local function YNRMKXK_fake_script() -- BringButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YNRMKXK_fake_script)()
-local function QRARP_fake_script() -- Main.SmoothDrag 
+coroutine.wrap(AVGMFG_fake_script)()
+local function AHTV_fake_script() -- Main.SmoothDrag 
 	local script = Instance.new('LocalScript', Main)
 
 	local Drag = script.Parent
@@ -774,8 +741,8 @@ local function QRARP_fake_script() -- Main.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(QRARP_fake_script)()
-local function FHANAKR_fake_script() -- OpenGUI.LocalScript 
+coroutine.wrap(AHTV_fake_script)()
+local function PZTGTOH_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -788,8 +755,8 @@ local function FHANAKR_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FHANAKR_fake_script)()
-local function PGQQJFI_fake_script() -- SuggestionsGUI.LocalScript 
+coroutine.wrap(PZTGTOH_fake_script)()
+local function XXWSNB_fake_script() -- SuggestionsGUI.LocalScript 
 	local script = Instance.new('LocalScript', SuggestionsGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -797,16 +764,16 @@ local function PGQQJFI_fake_script() -- SuggestionsGUI.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)	
 	end)
 end
-coroutine.wrap(PGQQJFI_fake_script)()
-local function KZKSA_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(XXWSNB_fake_script)()
+local function AAZPZ_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(KZKSA_fake_script)()
-local function EAPVNGQ_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(AAZPZ_fake_script)()
+local function KJFFW_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -816,8 +783,8 @@ local function EAPVNGQ_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(EAPVNGQ_fake_script)()
-local function VUPUSN_fake_script() -- OkButton.LocalScript 
+coroutine.wrap(KJFFW_fake_script)()
+local function PTFEDH_fake_script() -- OkButton.LocalScript 
 	local script = Instance.new('LocalScript', OkButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -825,4 +792,4 @@ local function VUPUSN_fake_script() -- OkButton.LocalScript
 		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
 	end)
 end
-coroutine.wrap(VUPUSN_fake_script)()
+coroutine.wrap(PTFEDH_fake_script)()
