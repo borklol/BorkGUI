@@ -1105,7 +1105,7 @@ local function UORZYS_fake_script() -- TimeSkipFrame.TimeSkip
 					script.Parent.TimeErase16.Visible = false
 					wait(.01)
 					script.Parent.TimeErase17.Visible = false
-					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-20)
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-10)
 					wait(.5)
 					
 					debounce = false
