@@ -913,7 +913,7 @@ local function OUYBU_fake_script() -- DonutButton.LocalScript
 	end
 	
 	local Anim = Instance.new("Animation")
-	Anim.AnimationId = "rbxassetid://6357435701"
+	Anim.AnimationId = "rbxassetid://204062532"
 	local track = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
 	local swingACTIVE = false
 	game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
