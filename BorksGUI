@@ -1,3 +1,4 @@
+
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
@@ -5,38 +6,22 @@ local OpenGUI = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
-local SuggestionsGUI = Instance.new("TextButton")
+local DestroyGUI = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
-local DestroyGUI = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
+local GUI = Instance.new("TextLabel")
 local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
-local GUI = Instance.new("TextLabel")
-local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
 local Notification = Instance.new("Frame")
-local UICorner_4 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
 local Notif = Instance.new("TextLabel")
 local NotifDes = Instance.new("TextLabel")
-local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 local RejoinGame = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
-local Suggestions = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local UICorner_6 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
-local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
-local OkButton = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
-local CopyButton = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UICorner_4 = Instance.new("UICorner")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
 local SkipTime = Instance.new("TextLabel")
 local TimeSkipFrame = Instance.new("Frame")
 local TimeErase1 = Instance.new("ImageLabel")
@@ -58,44 +43,89 @@ local TimeErase7 = Instance.new("ImageLabel")
 local TimeErase8 = Instance.new("ImageLabel")
 local TimeErase9 = Instance.new("ImageLabel")
 local Pages = Instance.new("Frame")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local Main = Instance.new("Frame")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local ButtonsFrame1 = Instance.new("Frame")
 local UIButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local FlingButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local TeleportButton = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local TextBox = Instance.new("TextBox")
+local UICorner_10 = Instance.new("UICorner")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local DamageButton = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
-local FlingButton = Instance.new("TextButton")
+local BringButton = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
 local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
-local TeleportButton = Instance.new("TextButton")
+local NumberTextBox = Instance.new("TextBox")
 local UICorner_13 = Instance.new("UICorner")
 local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
-local TextBox = Instance.new("TextBox")
+local DonutButton = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
 local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
-local DamageButton = Instance.new("TextButton")
+local DonutComboButton = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
 local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
-local BringButton = Instance.new("TextButton")
+local HeavyDamageButton = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
 local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
-local NumberTextBox = Instance.new("TextBox")
+local TeleportsBehindYouButton = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
 local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
-local DonutButton = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
-local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
 local UIPageLayout = Instance.new("UIPageLayout")
-local Previous = Instance.new("TextButton")
+local Page2 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local ButtonsFrame1_2 = Instance.new("Frame")
+local UIButton_2 = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
-local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
-local Next = Instance.new("TextButton")
+local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
+local FlingButton_2 = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
-local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
+local TeleportButton_2 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
 local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_22 = Instance.new("UICorner")
+local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
+local DamageButton_2 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local UITextSizeConstraint_20 = Instance.new("UITextSizeConstraint")
+local BringButton_2 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local UITextSizeConstraint_21 = Instance.new("UITextSizeConstraint")
+local NumberTextBox_2 = Instance.new("TextBox")
+local UICorner_25 = Instance.new("UICorner")
+local UITextSizeConstraint_22 = Instance.new("UITextSizeConstraint")
+local DonutButton_2 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local UITextSizeConstraint_23 = Instance.new("UITextSizeConstraint")
+local DonutComboButton_2 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local UITextSizeConstraint_24 = Instance.new("UITextSizeConstraint")
+local HeavyDamageButton_2 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local UITextSizeConstraint_25 = Instance.new("UITextSizeConstraint")
+local TeleportsBehindYouButton_2 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local UITextSizeConstraint_26 = Instance.new("UITextSizeConstraint")
+local Previous = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_27 = Instance.new("UITextSizeConstraint")
+local Next = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_28 = Instance.new("UITextSizeConstraint")
+local TimeErase = Instance.new("TextLabel")
 
 --Properties:
 
@@ -125,27 +155,6 @@ UIAspectRatioConstraint.AspectRatio = 5.280
 UITextSizeConstraint.Parent = OpenGUI
 UITextSizeConstraint.MaxTextSize = 49
 
-SuggestionsGUI.Name = "SuggestionsGUI"
-SuggestionsGUI.Parent = BorksFriendsPunch
-SuggestionsGUI.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
-SuggestionsGUI.Position = UDim2.new(0.855000019, 0, 0.758333325, 0)
-SuggestionsGUI.Size = UDim2.new(0.137571648, 0, 0.0462962911, 0)
-SuggestionsGUI.AutoButtonColor = false
-SuggestionsGUI.Font = Enum.Font.GothamBlack
-SuggestionsGUI.Text = "Suggestions"
-SuggestionsGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
-SuggestionsGUI.TextScaled = true
-SuggestionsGUI.TextSize = 14.000
-SuggestionsGUI.TextWrapped = true
-
-UICorner_2.Parent = SuggestionsGUI
-
-UIAspectRatioConstraint_2.Parent = SuggestionsGUI
-UIAspectRatioConstraint_2.AspectRatio = 5.280
-
-UITextSizeConstraint_2.Parent = SuggestionsGUI
-UITextSizeConstraint_2.MaxTextSize = 46
-
 DestroyGUI.Name = "DestroyGUI"
 DestroyGUI.Parent = BorksFriendsPunch
 DestroyGUI.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
@@ -159,13 +168,13 @@ DestroyGUI.TextScaled = true
 DestroyGUI.TextSize = 14.000
 DestroyGUI.TextWrapped = true
 
-UICorner_3.Parent = DestroyGUI
+UICorner_2.Parent = DestroyGUI
 
-UIAspectRatioConstraint_3.Parent = DestroyGUI
-UIAspectRatioConstraint_3.AspectRatio = 5.280
+UIAspectRatioConstraint_2.Parent = DestroyGUI
+UIAspectRatioConstraint_2.AspectRatio = 5.280
 
-UITextSizeConstraint_3.Parent = DestroyGUI
-UITextSizeConstraint_3.MaxTextSize = 48
+UITextSizeConstraint_2.Parent = DestroyGUI
+UITextSizeConstraint_2.MaxTextSize = 48
 
 GUI.Name = "GUI"
 GUI.Parent = BorksFriendsPunch
@@ -182,10 +191,10 @@ GUI.TextSize = 14.000
 GUI.TextStrokeTransparency = 0.500
 GUI.TextWrapped = true
 
-UIAspectRatioConstraint_4.Parent = GUI
-UIAspectRatioConstraint_4.AspectRatio = 2.746
+UIAspectRatioConstraint_3.Parent = GUI
+UIAspectRatioConstraint_3.AspectRatio = 2.746
 
-UITextSizeConstraint_4.Parent = GUI
+UITextSizeConstraint_3.Parent = GUI
 
 Notification.Name = "Notification"
 Notification.Parent = BorksFriendsPunch
@@ -195,7 +204,7 @@ Notification.Position = UDim2.new(0.500025451, 0, 0.100277573, 0)
 Notification.Size = UDim2.new(0.330901504, 0, 0.172222227, 0)
 Notification.Visible = false
 
-UICorner_4.Parent = Notification
+UICorner_3.Parent = Notification
 
 Notif.Name = "Notif"
 Notif.Parent = Notification
@@ -222,8 +231,8 @@ NotifDes.TextScaled = true
 NotifDes.TextSize = 14.000
 NotifDes.TextWrapped = true
 
-UIAspectRatioConstraint_5.Parent = Notification
-UIAspectRatioConstraint_5.AspectRatio = 3.414
+UIAspectRatioConstraint_4.Parent = Notification
+UIAspectRatioConstraint_4.AspectRatio = 3.414
 
 RejoinGame.Name = "RejoinGame"
 RejoinGame.Parent = BorksFriendsPunch
@@ -238,103 +247,19 @@ RejoinGame.TextScaled = true
 RejoinGame.TextSize = 14.000
 RejoinGame.TextWrapped = true
 
-UICorner_5.Parent = RejoinGame
+UICorner_4.Parent = RejoinGame
 
-UIAspectRatioConstraint_6.Parent = RejoinGame
-UIAspectRatioConstraint_6.AspectRatio = 5.280
+UIAspectRatioConstraint_5.Parent = RejoinGame
+UIAspectRatioConstraint_5.AspectRatio = 5.280
 
-UITextSizeConstraint_5.Parent = RejoinGame
-UITextSizeConstraint_5.MaxTextSize = 49
-
-Suggestions.Name = "Suggestions"
-Suggestions.Parent = BorksFriendsPunch
-Suggestions.AnchorPoint = Vector2.new(0.5, 0.5)
-Suggestions.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-Suggestions.BorderColor3 = Color3.fromRGB(57, 57, 57)
-Suggestions.BorderSizePixel = 100
-Suggestions.Position = UDim2.new(0.5, 0, 0.5, 0)
-Suggestions.Size = UDim2.new(1, 0, 1, 0)
-Suggestions.Visible = false
-Suggestions.ZIndex = 3
-
-TextLabel.Parent = Suggestions
-TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
-TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel.Size = UDim2.new(0.984366834, 0, 0.978703678, 0)
-TextLabel.Font = Enum.Font.GothamBold
-TextLabel.Text = "Instructions"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-TextLabel.TextYAlignment = Enum.TextYAlignment.Top
-
-UICorner_6.Parent = TextLabel
-
-TextLabel_2.Parent = TextLabel
-TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.5, 0, 0.493017852, 0)
-TextLabel_2.Size = UDim2.new(0, 663, 0, 844)
-TextLabel_2.Font = Enum.Font.GothamBold
-TextLabel_2.Text = "1. Join the Discord https://discord.gg/a2G7wWr4Fk 2. Write your submission in the suggestions channel"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-TextLabel_2.TextYAlignment = Enum.TextYAlignment.Top
-
-UITextSizeConstraint_6.Parent = TextLabel
-
-OkButton.Name = "OkButton"
-OkButton.Parent = Suggestions
-OkButton.AnchorPoint = Vector2.new(0.5, 0.5)
-OkButton.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
-OkButton.Position = UDim2.new(0.5, 0, 0.94907409, 0)
-OkButton.Size = UDim2.new(0.104220949, 0, 0.0462962948, 0)
-OkButton.AutoButtonColor = false
-OkButton.Font = Enum.Font.SourceSans
-OkButton.Text = "Ok"
-OkButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-OkButton.TextScaled = true
-OkButton.TextSize = 14.000
-OkButton.TextWrapped = true
-
-UICorner_7.Parent = OkButton
-
-UITextSizeConstraint_7.Parent = OkButton
-UITextSizeConstraint_7.MaxTextSize = 50
-
-CopyButton.Name = "CopyButton"
-CopyButton.Parent = Suggestions
-CopyButton.AnchorPoint = Vector2.new(0.5, 0.5)
-CopyButton.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
-CopyButton.Position = UDim2.new(0.748491406, 0, 0.162962988, 0)
-CopyButton.Size = UDim2.new(0.142261595, 0, 0.0462962948, 0)
-CopyButton.Visible = false
-CopyButton.AutoButtonColor = false
-CopyButton.Font = Enum.Font.SourceSans
-CopyButton.Text = "Copy to Clipboard"
-CopyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-CopyButton.TextScaled = true
-CopyButton.TextSize = 14.000
-CopyButton.TextWrapped = true
-
-UICorner_8.Parent = CopyButton
-
-UITextSizeConstraint_8.Parent = CopyButton
-UITextSizeConstraint_8.MaxTextSize = 44
-
-UIAspectRatioConstraint_7.Parent = Suggestions
-UIAspectRatioConstraint_7.AspectRatio = 1.777
+UITextSizeConstraint_4.Parent = RejoinGame
+UITextSizeConstraint_4.MaxTextSize = 49
 
 SkipTime.Name = "SkipTime"
 SkipTime.Parent = BorksFriendsPunch
 SkipTime.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SkipTime.BackgroundTransparency = 1.000
-SkipTime.Position = UDim2.new(0.895779073, 0, 0.344444454, 0)
+SkipTime.Position = UDim2.new(-5.42402267e-05, 0, 0.953703701, 0)
 SkipTime.Size = UDim2.new(0, 200, 0, 50)
 SkipTime.Font = Enum.Font.GothamBlack
 SkipTime.Text = "V to Skip Time"
@@ -349,12 +274,14 @@ TimeSkipFrame.Parent = BorksFriendsPunch
 TimeSkipFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TimeSkipFrame.BackgroundTransparency = 1.000
 TimeSkipFrame.Size = UDim2.new(1, 0, 1, 0)
+TimeSkipFrame.ZIndex = 3
 
 TimeErase1.Name = "TimeErase1"
 TimeErase1.Parent = TimeSkipFrame
 TimeErase1.BackgroundTransparency = 1.000
 TimeErase1.Size = UDim2.new(1, 0, 1, 0)
 TimeErase1.Visible = false
+TimeErase1.ZIndex = 3
 TimeErase1.Image = "rbxassetid://4573462670"
 
 TimeErase10.Name = "TimeErase10"
@@ -362,6 +289,7 @@ TimeErase10.Parent = TimeSkipFrame
 TimeErase10.BackgroundTransparency = 1.000
 TimeErase10.Size = UDim2.new(1, 0, 1, 0)
 TimeErase10.Visible = false
+TimeErase10.ZIndex = 3
 TimeErase10.Image = "http://www.roblox.com/asset/?id=4573470481"
 
 TimeErase11.Name = "TimeErase11"
@@ -369,6 +297,7 @@ TimeErase11.Parent = TimeSkipFrame
 TimeErase11.BackgroundTransparency = 1.000
 TimeErase11.Size = UDim2.new(1, 0, 1, 0)
 TimeErase11.Visible = false
+TimeErase11.ZIndex = 3
 TimeErase11.Image = "http://www.roblox.com/asset/?id=4573472230"
 
 TimeErase12.Name = "TimeErase12"
@@ -376,6 +305,7 @@ TimeErase12.Parent = TimeSkipFrame
 TimeErase12.BackgroundTransparency = 1.000
 TimeErase12.Size = UDim2.new(1, 0, 1, 0)
 TimeErase12.Visible = false
+TimeErase12.ZIndex = 3
 TimeErase12.Image = "http://www.roblox.com/asset/?id=4573472712"
 
 TimeErase13.Name = "TimeErase13"
@@ -383,6 +313,7 @@ TimeErase13.Parent = TimeSkipFrame
 TimeErase13.BackgroundTransparency = 1.000
 TimeErase13.Size = UDim2.new(1, 0, 1, 0)
 TimeErase13.Visible = false
+TimeErase13.ZIndex = 3
 TimeErase13.Image = "http://www.roblox.com/asset/?id=4573473408"
 
 TimeErase14.Name = "TimeErase14"
@@ -390,6 +321,7 @@ TimeErase14.Parent = TimeSkipFrame
 TimeErase14.BackgroundTransparency = 1.000
 TimeErase14.Size = UDim2.new(1, 0, 1, 0)
 TimeErase14.Visible = false
+TimeErase14.ZIndex = 3
 TimeErase14.Image = "http://www.roblox.com/asset/?id=4573474618"
 
 TimeErase15.Name = "TimeErase15"
@@ -397,6 +329,7 @@ TimeErase15.Parent = TimeSkipFrame
 TimeErase15.BackgroundTransparency = 1.000
 TimeErase15.Size = UDim2.new(1, 0, 1, 0)
 TimeErase15.Visible = false
+TimeErase15.ZIndex = 3
 TimeErase15.Image = "http://www.roblox.com/asset/?id=4573475743"
 
 TimeErase16.Name = "TimeErase16"
@@ -404,6 +337,7 @@ TimeErase16.Parent = TimeSkipFrame
 TimeErase16.BackgroundTransparency = 1.000
 TimeErase16.Size = UDim2.new(1, 0, 1, 0)
 TimeErase16.Visible = false
+TimeErase16.ZIndex = 3
 TimeErase16.Image = "http://www.roblox.com/asset/?id=4573476483"
 
 TimeErase17.Name = "TimeErase17"
@@ -411,6 +345,7 @@ TimeErase17.Parent = TimeSkipFrame
 TimeErase17.BackgroundTransparency = 1.000
 TimeErase17.Size = UDim2.new(1, 0, 1, 0)
 TimeErase17.Visible = false
+TimeErase17.ZIndex = 3
 TimeErase17.Image = "http://www.roblox.com/asset/?id=4573476928"
 
 TimeErase18.Name = "TimeErase18"
@@ -418,6 +353,7 @@ TimeErase18.Parent = TimeSkipFrame
 TimeErase18.BackgroundTransparency = 1.000
 TimeErase18.Size = UDim2.new(1, 0, 1, 0)
 TimeErase18.Visible = false
+TimeErase18.ZIndex = 3
 TimeErase18.Image = "http://www.roblox.com/asset/?id=4573477493"
 
 TimeErase2.Name = "TimeErase2"
@@ -425,6 +361,7 @@ TimeErase2.Parent = TimeSkipFrame
 TimeErase2.BackgroundTransparency = 1.000
 TimeErase2.Size = UDim2.new(1, 0, 1, 0)
 TimeErase2.Visible = false
+TimeErase2.ZIndex = 3
 TimeErase2.Image = "http://www.roblox.com/asset/?id=4573463247"
 
 TimeErase3.Name = "TimeErase3"
@@ -432,6 +369,7 @@ TimeErase3.Parent = TimeSkipFrame
 TimeErase3.BackgroundTransparency = 1.000
 TimeErase3.Size = UDim2.new(1, 0, 1, 0)
 TimeErase3.Visible = false
+TimeErase3.ZIndex = 3
 TimeErase3.Image = "http://www.roblox.com/asset/?id=4573464191"
 
 TimeErase4.Name = "TimeErase4"
@@ -439,6 +377,7 @@ TimeErase4.Parent = TimeSkipFrame
 TimeErase4.BackgroundTransparency = 1.000
 TimeErase4.Size = UDim2.new(1, 0, 1, 0)
 TimeErase4.Visible = false
+TimeErase4.ZIndex = 3
 TimeErase4.Image = "http://www.roblox.com/asset/?id=4573465237"
 
 TimeErase5.Name = "TimeErase5"
@@ -446,6 +385,7 @@ TimeErase5.Parent = TimeSkipFrame
 TimeErase5.BackgroundTransparency = 1.000
 TimeErase5.Size = UDim2.new(1, 0, 1, 0)
 TimeErase5.Visible = false
+TimeErase5.ZIndex = 3
 TimeErase5.Image = "http://www.roblox.com/asset/?id=4573466633"
 
 TimeErase6.Name = "TimeErase6"
@@ -453,6 +393,7 @@ TimeErase6.Parent = TimeSkipFrame
 TimeErase6.BackgroundTransparency = 1.000
 TimeErase6.Size = UDim2.new(1, 0, 1, 0)
 TimeErase6.Visible = false
+TimeErase6.ZIndex = 3
 TimeErase6.Image = "http://www.roblox.com/asset/?id=4573467848"
 
 TimeErase7.Name = "TimeErase7"
@@ -460,6 +401,7 @@ TimeErase7.Parent = TimeSkipFrame
 TimeErase7.BackgroundTransparency = 1.000
 TimeErase7.Size = UDim2.new(1, 0, 1, 0)
 TimeErase7.Visible = false
+TimeErase7.ZIndex = 3
 TimeErase7.Image = "http://www.roblox.com/asset/?id=4573468665"
 
 TimeErase8.Name = "TimeErase8"
@@ -467,6 +409,7 @@ TimeErase8.Parent = TimeSkipFrame
 TimeErase8.BackgroundTransparency = 1.000
 TimeErase8.Size = UDim2.new(1, 0, 1, 0)
 TimeErase8.Visible = false
+TimeErase8.ZIndex = 3
 TimeErase8.Image = "http://www.roblox.com/asset/?id=4573469255"
 
 TimeErase9.Name = "TimeErase9"
@@ -474,6 +417,7 @@ TimeErase9.Parent = TimeSkipFrame
 TimeErase9.BackgroundTransparency = 1.000
 TimeErase9.Size = UDim2.new(1, 0, 1, 0)
 TimeErase9.Visible = false
+TimeErase9.ZIndex = 3
 TimeErase9.Image = "http://www.roblox.com/asset/?id=4573469861"
 
 Pages.Name = "Pages"
@@ -481,34 +425,34 @@ Pages.Parent = BorksFriendsPunch
 Pages.AnchorPoint = Vector2.new(0.5, 0.5)
 Pages.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Pages.ClipsDescendants = true
-Pages.Position = UDim2.new(0.897081792, 0, 0.575925946, 0)
-Pages.Size = UDim2.new(0.189999998, 0, 0.351999998, 0)
+Pages.Position = UDim2.new(0.897081792, 0, 0.584883511, 0)
+Pages.Size = UDim2.new(0.189999998, 0, 0.407553434, 0)
 Pages.Visible = false
 
-UICorner_9.Parent = Pages
+UICorner_5.Parent = Pages
 
 Main.Name = "Main"
 Main.Parent = Pages
 Main.AnchorPoint = Vector2.new(0.5, 0.5)
 Main.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
 Main.BackgroundTransparency = 1.000
-Main.Position = UDim2.new(0.499878258, 0, 0.5, 0)
-Main.Size = UDim2.new(1, 0, 1, 0)
+Main.Position = UDim2.new(0.499877959, 0, 0.506210566, 0)
+Main.Size = UDim2.new(1, 0, 0.987579048, 0)
 
-UICorner_10.Parent = Main
+UICorner_6.Parent = Main
 
 ButtonsFrame1.Name = "ButtonsFrame1"
 ButtonsFrame1.Parent = Main
 ButtonsFrame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ButtonsFrame1.BackgroundTransparency = 1.000
 ButtonsFrame1.BorderColor3 = Color3.fromRGB(27, 42, 53)
-ButtonsFrame1.Size = UDim2.new(0.99999994, 0, 1, 0)
+ButtonsFrame1.Size = UDim2.new(0.99999994, 0, 0.999999881, 0)
 
 UIButton.Name = "UIButton"
 UIButton.Parent = ButtonsFrame1
 UIButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-UIButton.Position = UDim2.new(0.0361911617, 0, 0.263151139, 0)
-UIButton.Size = UDim2.new(0.447695851, 0, 0.150000006, 0)
+UIButton.Position = UDim2.new(0.0334498808, 0, 0.118246868, 0)
+UIButton.Size = UDim2.new(0.447695851, 0, 0.0728583485, 0)
 UIButton.AutoButtonColor = false
 UIButton.Font = Enum.Font.Gotham
 UIButton.Text = "Ultra Instinct"
@@ -517,16 +461,16 @@ UIButton.TextScaled = true
 UIButton.TextSize = 14.000
 UIButton.TextWrapped = true
 
-UICorner_11.Parent = UIButton
+UICorner_7.Parent = UIButton
 
-UITextSizeConstraint_9.Parent = UIButton
-UITextSizeConstraint_9.MaxTextSize = 27
+UITextSizeConstraint_5.Parent = UIButton
+UITextSizeConstraint_5.MaxTextSize = 27
 
 FlingButton.Name = "FlingButton"
 FlingButton.Parent = ButtonsFrame1
 FlingButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-FlingButton.Position = UDim2.new(0.515252233, 0, 0.26315105, 0)
-FlingButton.Size = UDim2.new(0.44989118, 0, 0.149717852, 0)
+FlingButton.Position = UDim2.new(0.512511015, 0, 0.118246838, 0)
+FlingButton.Size = UDim2.new(0.44989118, 0, 0.0727213025, 0)
 FlingButton.AutoButtonColor = false
 FlingButton.Font = Enum.Font.Gotham
 FlingButton.Text = "Fling"
@@ -535,16 +479,16 @@ FlingButton.TextScaled = true
 FlingButton.TextSize = 14.000
 FlingButton.TextWrapped = true
 
-UICorner_12.Parent = FlingButton
+UICorner_8.Parent = FlingButton
 
-UITextSizeConstraint_10.Parent = FlingButton
-UITextSizeConstraint_10.MaxTextSize = 50
+UITextSizeConstraint_6.Parent = FlingButton
+UITextSizeConstraint_6.MaxTextSize = 50
 
 TeleportButton.Name = "TeleportButton"
 TeleportButton.Parent = ButtonsFrame1
 TeleportButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-TeleportButton.Position = UDim2.new(0.0359371714, 0, 0.434974372, 0)
-TeleportButton.Size = UDim2.new(0.447695851, 0, 0.150000006, 0)
+TeleportButton.Position = UDim2.new(0.0331959017, 0, 0.201705232, 0)
+TeleportButton.Size = UDim2.new(0.447695851, 0, 0.0728583485, 0)
 TeleportButton.AutoButtonColor = false
 TeleportButton.Font = Enum.Font.Gotham
 TeleportButton.Text = "Teleport "
@@ -553,16 +497,16 @@ TeleportButton.TextScaled = true
 TeleportButton.TextSize = 14.000
 TeleportButton.TextWrapped = true
 
-UICorner_13.Parent = TeleportButton
+UICorner_9.Parent = TeleportButton
 
-UITextSizeConstraint_11.Parent = TeleportButton
-UITextSizeConstraint_11.MaxTextSize = 43
+UITextSizeConstraint_7.Parent = TeleportButton
+UITextSizeConstraint_7.MaxTextSize = 43
 
 TextBox.Parent = ButtonsFrame1
 TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
 TextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-TextBox.Position = UDim2.new(0.502106786, 0, 0.131042883, 0)
-TextBox.Size = UDim2.new(0.921470106, 0, 0.186445877, 0)
+TextBox.Position = UDim2.new(0.499365687, 0, 0.0540789478, 0)
+TextBox.Size = UDim2.new(0.921470106, 0, 0.0905609056, 0)
 TextBox.Font = Enum.Font.GothamBold
 TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.PlaceholderText = "Enter Player Name Here"
@@ -572,16 +516,16 @@ TextBox.TextScaled = true
 TextBox.TextSize = 14.000
 TextBox.TextWrapped = true
 
-UICorner_14.Parent = TextBox
+UICorner_10.Parent = TextBox
 
-UITextSizeConstraint_12.Parent = TextBox
-UITextSizeConstraint_12.MaxTextSize = 29
+UITextSizeConstraint_8.Parent = TextBox
+UITextSizeConstraint_8.MaxTextSize = 29
 
 DamageButton.Name = "DamageButton"
 DamageButton.Parent = ButtonsFrame1
 DamageButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-DamageButton.Position = UDim2.new(0.512807071, 0, 0.434815556, 0)
-DamageButton.Size = UDim2.new(0.450034708, 0, 0.150000006, 0)
+DamageButton.Position = UDim2.new(0.510065913, 0, 0.201628104, 0)
+DamageButton.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
 DamageButton.AutoButtonColor = false
 DamageButton.Font = Enum.Font.Gotham
 DamageButton.Text = "Damage"
@@ -590,16 +534,16 @@ DamageButton.TextScaled = true
 DamageButton.TextSize = 14.000
 DamageButton.TextWrapped = true
 
-UICorner_15.Parent = DamageButton
+UICorner_11.Parent = DamageButton
 
-UITextSizeConstraint_13.Parent = DamageButton
-UITextSizeConstraint_13.MaxTextSize = 50
+UITextSizeConstraint_9.Parent = DamageButton
+UITextSizeConstraint_9.MaxTextSize = 50
 
 BringButton.Name = "BringButton"
 BringButton.Parent = ButtonsFrame1
 BringButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-BringButton.Position = UDim2.new(0.511441052, 0, 0.61148262, 0)
-BringButton.Size = UDim2.new(0.451400787, 0, 0.150000006, 0)
+BringButton.Position = UDim2.new(0.508700013, 0, 0.287439257, 0)
+BringButton.Size = UDim2.new(0.451400787, 0, 0.0728583485, 0)
 BringButton.AutoButtonColor = false
 BringButton.Font = Enum.Font.Gotham
 BringButton.Text = "Bring"
@@ -608,17 +552,17 @@ BringButton.TextScaled = true
 BringButton.TextSize = 14.000
 BringButton.TextWrapped = true
 
-UICorner_16.Parent = BringButton
+UICorner_12.Parent = BringButton
 
-UITextSizeConstraint_14.Parent = BringButton
-UITextSizeConstraint_14.MaxTextSize = 50
+UITextSizeConstraint_10.Parent = BringButton
+UITextSizeConstraint_10.MaxTextSize = 50
 
 NumberTextBox.Name = "NumberTextBox"
 NumberTextBox.Parent = ButtonsFrame1
 NumberTextBox.AnchorPoint = Vector2.new(0.5, 0.5)
 NumberTextBox.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-NumberTextBox.Position = UDim2.new(0.500510335, 0, 0.886871517, 0)
-NumberTextBox.Size = UDim2.new(0.929266214, 0, 0.15741235, 0)
+NumberTextBox.Position = UDim2.new(0.503251672, 0, 0.947373271, 0)
+NumberTextBox.Size = UDim2.new(0.929266274, 0, 0.0764586851, 0)
 NumberTextBox.Font = Enum.Font.GothamBold
 NumberTextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 NumberTextBox.PlaceholderText = "Enter Damage or Heal Input here"
@@ -628,16 +572,16 @@ NumberTextBox.TextScaled = true
 NumberTextBox.TextSize = 14.000
 NumberTextBox.TextWrapped = true
 
-UICorner_17.Parent = NumberTextBox
+UICorner_13.Parent = NumberTextBox
 
-UITextSizeConstraint_15.Parent = NumberTextBox
-UITextSizeConstraint_15.MaxTextSize = 29
+UITextSizeConstraint_11.Parent = NumberTextBox
+UITextSizeConstraint_11.MaxTextSize = 29
 
 DonutButton.Name = "DonutButton"
 DonutButton.Parent = ButtonsFrame1
 DonutButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-DonutButton.Position = UDim2.new(0.040279597, 0, 0.61148262, 0)
-DonutButton.Size = UDim2.new(0.450034708, 0, 0.150000006, 0)
+DonutButton.Position = UDim2.new(0.0375382975, 0, 0.287439257, 0)
+DonutButton.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
 DonutButton.AutoButtonColor = false
 DonutButton.Font = Enum.Font.Gotham
 DonutButton.Text = "Donut"
@@ -646,17 +590,285 @@ DonutButton.TextScaled = true
 DonutButton.TextSize = 14.000
 DonutButton.TextWrapped = true
 
-UICorner_18.Parent = DonutButton
+UICorner_14.Parent = DonutButton
 
-UITextSizeConstraint_16.Parent = DonutButton
-UITextSizeConstraint_16.MaxTextSize = 50
+UITextSizeConstraint_12.Parent = DonutButton
+UITextSizeConstraint_12.MaxTextSize = 50
 
-UIAspectRatioConstraint_8.Parent = Main
-UIAspectRatioConstraint_8.AspectRatio = 0.958
+DonutComboButton.Name = "DonutComboButton"
+DonutComboButton.Parent = ButtonsFrame1
+DonutComboButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+DonutComboButton.Position = UDim2.new(0.0379999988, 0, 0.382999986, 0)
+DonutComboButton.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
+DonutComboButton.AutoButtonColor = false
+DonutComboButton.Font = Enum.Font.Gotham
+DonutComboButton.Text = "Donut Combo"
+DonutComboButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DonutComboButton.TextScaled = true
+DonutComboButton.TextSize = 14.000
+DonutComboButton.TextWrapped = true
+
+UICorner_15.Parent = DonutComboButton
+
+UITextSizeConstraint_13.Parent = DonutComboButton
+UITextSizeConstraint_13.MaxTextSize = 50
+
+HeavyDamageButton.Name = "HeavyDamageButton"
+HeavyDamageButton.Parent = ButtonsFrame1
+HeavyDamageButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+HeavyDamageButton.Position = UDim2.new(0.510065913, 0, 0.382065833, 0)
+HeavyDamageButton.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
+HeavyDamageButton.AutoButtonColor = false
+HeavyDamageButton.Font = Enum.Font.Gotham
+HeavyDamageButton.Text = "Heavy Damage"
+HeavyDamageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HeavyDamageButton.TextScaled = true
+HeavyDamageButton.TextSize = 14.000
+HeavyDamageButton.TextWrapped = true
+
+UICorner_16.Parent = HeavyDamageButton
+
+UITextSizeConstraint_14.Parent = HeavyDamageButton
+UITextSizeConstraint_14.MaxTextSize = 50
+
+TeleportsBehindYouButton.Name = "TeleportsBehindYouButton"
+TeleportsBehindYouButton.Parent = ButtonsFrame1
+TeleportsBehindYouButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TeleportsBehindYouButton.Position = UDim2.new(0.0329999998, 0, 0.479301751, 0)
+TeleportsBehindYouButton.Size = UDim2.new(0.447695851, 0, 0.0728583485, 0)
+TeleportsBehindYouButton.AutoButtonColor = false
+TeleportsBehindYouButton.Font = Enum.Font.Gotham
+TeleportsBehindYouButton.Text = "Teleports Behind You"
+TeleportsBehindYouButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportsBehindYouButton.TextScaled = true
+TeleportsBehindYouButton.TextSize = 14.000
+TeleportsBehindYouButton.TextWrapped = true
+
+UICorner_17.Parent = TeleportsBehindYouButton
+
+UITextSizeConstraint_15.Parent = TeleportsBehindYouButton
+UITextSizeConstraint_15.MaxTextSize = 43
 
 UIPageLayout.Parent = Pages
 UIPageLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIPageLayout.Circular = true
+
+Page2.Name = "Page2"
+Page2.Parent = Pages
+Page2.AnchorPoint = Vector2.new(0.5, 0.5)
+Page2.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
+Page2.BackgroundTransparency = 1.000
+Page2.Position = UDim2.new(0.499877959, 0, 0.506210566, 0)
+Page2.Size = UDim2.new(1, 0, 0.987579048, 0)
+
+UICorner_18.Parent = Page2
+
+ButtonsFrame1_2.Name = "ButtonsFrame1"
+ButtonsFrame1_2.Parent = Page2
+ButtonsFrame1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonsFrame1_2.BackgroundTransparency = 1.000
+ButtonsFrame1_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ButtonsFrame1_2.Size = UDim2.new(0.99999994, 0, 0.999999881, 0)
+
+UIButton_2.Name = "UIButton"
+UIButton_2.Parent = ButtonsFrame1_2
+UIButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+UIButton_2.Position = UDim2.new(0.0334498808, 0, 0.118246868, 0)
+UIButton_2.Size = UDim2.new(0.447695851, 0, 0.0728583485, 0)
+UIButton_2.AutoButtonColor = false
+UIButton_2.Font = Enum.Font.Gotham
+UIButton_2.Text = "Ultra Instinct"
+UIButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+UIButton_2.TextScaled = true
+UIButton_2.TextSize = 14.000
+UIButton_2.TextWrapped = true
+
+UICorner_19.Parent = UIButton_2
+
+UITextSizeConstraint_16.Parent = UIButton_2
+UITextSizeConstraint_16.MaxTextSize = 27
+
+FlingButton_2.Name = "FlingButton"
+FlingButton_2.Parent = ButtonsFrame1_2
+FlingButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+FlingButton_2.Position = UDim2.new(0.512511015, 0, 0.118246838, 0)
+FlingButton_2.Size = UDim2.new(0.44989118, 0, 0.0727213025, 0)
+FlingButton_2.AutoButtonColor = false
+FlingButton_2.Font = Enum.Font.Gotham
+FlingButton_2.Text = "Fling"
+FlingButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlingButton_2.TextScaled = true
+FlingButton_2.TextSize = 14.000
+FlingButton_2.TextWrapped = true
+
+UICorner_20.Parent = FlingButton_2
+
+UITextSizeConstraint_17.Parent = FlingButton_2
+UITextSizeConstraint_17.MaxTextSize = 50
+
+TeleportButton_2.Name = "TeleportButton"
+TeleportButton_2.Parent = ButtonsFrame1_2
+TeleportButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TeleportButton_2.Position = UDim2.new(0.0331959017, 0, 0.201705232, 0)
+TeleportButton_2.Size = UDim2.new(0.447695851, 0, 0.0728583485, 0)
+TeleportButton_2.AutoButtonColor = false
+TeleportButton_2.Font = Enum.Font.Gotham
+TeleportButton_2.Text = "Teleport "
+TeleportButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportButton_2.TextScaled = true
+TeleportButton_2.TextSize = 14.000
+TeleportButton_2.TextWrapped = true
+
+UICorner_21.Parent = TeleportButton_2
+
+UITextSizeConstraint_18.Parent = TeleportButton_2
+UITextSizeConstraint_18.MaxTextSize = 43
+
+TextBox_2.Parent = ButtonsFrame1_2
+TextBox_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_2.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextBox_2.Position = UDim2.new(0.499365687, 0, 0.0540789478, 0)
+TextBox_2.Size = UDim2.new(0.921470106, 0, 0.0905609056, 0)
+TextBox_2.Font = Enum.Font.GothamBold
+TextBox_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.PlaceholderText = "Enter Player Name Here"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+
+UICorner_22.Parent = TextBox_2
+
+UITextSizeConstraint_19.Parent = TextBox_2
+UITextSizeConstraint_19.MaxTextSize = 29
+
+DamageButton_2.Name = "DamageButton"
+DamageButton_2.Parent = ButtonsFrame1_2
+DamageButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+DamageButton_2.Position = UDim2.new(0.510065913, 0, 0.201628104, 0)
+DamageButton_2.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
+DamageButton_2.AutoButtonColor = false
+DamageButton_2.Font = Enum.Font.Gotham
+DamageButton_2.Text = "Damage"
+DamageButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+DamageButton_2.TextScaled = true
+DamageButton_2.TextSize = 14.000
+DamageButton_2.TextWrapped = true
+
+UICorner_23.Parent = DamageButton_2
+
+UITextSizeConstraint_20.Parent = DamageButton_2
+UITextSizeConstraint_20.MaxTextSize = 50
+
+BringButton_2.Name = "BringButton"
+BringButton_2.Parent = ButtonsFrame1_2
+BringButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+BringButton_2.Position = UDim2.new(0.508700013, 0, 0.287439257, 0)
+BringButton_2.Size = UDim2.new(0.451400787, 0, 0.0728583485, 0)
+BringButton_2.AutoButtonColor = false
+BringButton_2.Font = Enum.Font.Gotham
+BringButton_2.Text = "Bring"
+BringButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BringButton_2.TextScaled = true
+BringButton_2.TextSize = 14.000
+BringButton_2.TextWrapped = true
+
+UICorner_24.Parent = BringButton_2
+
+UITextSizeConstraint_21.Parent = BringButton_2
+UITextSizeConstraint_21.MaxTextSize = 50
+
+NumberTextBox_2.Name = "NumberTextBox"
+NumberTextBox_2.Parent = ButtonsFrame1_2
+NumberTextBox_2.AnchorPoint = Vector2.new(0.5, 0.5)
+NumberTextBox_2.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+NumberTextBox_2.Position = UDim2.new(0.503251672, 0, 0.947373271, 0)
+NumberTextBox_2.Size = UDim2.new(0.929266274, 0, 0.0764586851, 0)
+NumberTextBox_2.Font = Enum.Font.GothamBold
+NumberTextBox_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+NumberTextBox_2.PlaceholderText = "Enter Damage or Heal Input here"
+NumberTextBox_2.Text = ""
+NumberTextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+NumberTextBox_2.TextScaled = true
+NumberTextBox_2.TextSize = 14.000
+NumberTextBox_2.TextWrapped = true
+
+UICorner_25.Parent = NumberTextBox_2
+
+UITextSizeConstraint_22.Parent = NumberTextBox_2
+UITextSizeConstraint_22.MaxTextSize = 29
+
+DonutButton_2.Name = "DonutButton"
+DonutButton_2.Parent = ButtonsFrame1_2
+DonutButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+DonutButton_2.Position = UDim2.new(0.0375382975, 0, 0.287439257, 0)
+DonutButton_2.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
+DonutButton_2.AutoButtonColor = false
+DonutButton_2.Font = Enum.Font.Gotham
+DonutButton_2.Text = "Donut"
+DonutButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+DonutButton_2.TextScaled = true
+DonutButton_2.TextSize = 14.000
+DonutButton_2.TextWrapped = true
+
+UICorner_26.Parent = DonutButton_2
+
+UITextSizeConstraint_23.Parent = DonutButton_2
+UITextSizeConstraint_23.MaxTextSize = 50
+
+DonutComboButton_2.Name = "DonutComboButton"
+DonutComboButton_2.Parent = ButtonsFrame1_2
+DonutComboButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+DonutComboButton_2.Position = UDim2.new(0.0379999988, 0, 0.382999986, 0)
+DonutComboButton_2.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
+DonutComboButton_2.AutoButtonColor = false
+DonutComboButton_2.Font = Enum.Font.Gotham
+DonutComboButton_2.Text = "Donut Combo"
+DonutComboButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+DonutComboButton_2.TextScaled = true
+DonutComboButton_2.TextSize = 14.000
+DonutComboButton_2.TextWrapped = true
+
+UICorner_27.Parent = DonutComboButton_2
+
+UITextSizeConstraint_24.Parent = DonutComboButton_2
+UITextSizeConstraint_24.MaxTextSize = 50
+
+HeavyDamageButton_2.Name = "HeavyDamageButton"
+HeavyDamageButton_2.Parent = ButtonsFrame1_2
+HeavyDamageButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+HeavyDamageButton_2.Position = UDim2.new(0.510065913, 0, 0.382065833, 0)
+HeavyDamageButton_2.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
+HeavyDamageButton_2.AutoButtonColor = false
+HeavyDamageButton_2.Font = Enum.Font.Gotham
+HeavyDamageButton_2.Text = "Heavy Damage"
+HeavyDamageButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+HeavyDamageButton_2.TextScaled = true
+HeavyDamageButton_2.TextSize = 14.000
+HeavyDamageButton_2.TextWrapped = true
+
+UICorner_28.Parent = HeavyDamageButton_2
+
+UITextSizeConstraint_25.Parent = HeavyDamageButton_2
+UITextSizeConstraint_25.MaxTextSize = 50
+
+TeleportsBehindYouButton_2.Name = "TeleportsBehindYouButton"
+TeleportsBehindYouButton_2.Parent = ButtonsFrame1_2
+TeleportsBehindYouButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TeleportsBehindYouButton_2.Position = UDim2.new(0.0329999998, 0, 0.479301751, 0)
+TeleportsBehindYouButton_2.Size = UDim2.new(0.447695851, 0, 0.0728583485, 0)
+TeleportsBehindYouButton_2.AutoButtonColor = false
+TeleportsBehindYouButton_2.Font = Enum.Font.Gotham
+TeleportsBehindYouButton_2.Text = "Teleports Behind You"
+TeleportsBehindYouButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportsBehindYouButton_2.TextScaled = true
+TeleportsBehindYouButton_2.TextSize = 14.000
+TeleportsBehindYouButton_2.TextWrapped = true
+
+UICorner_29.Parent = TeleportsBehindYouButton_2
+
+UITextSizeConstraint_26.Parent = TeleportsBehindYouButton_2
+UITextSizeConstraint_26.MaxTextSize = 43
 
 Previous.Name = "Previous"
 Previous.Parent = BorksFriendsPunch
@@ -673,13 +885,13 @@ Previous.TextScaled = true
 Previous.TextSize = 14.000
 Previous.TextWrapped = true
 
-UICorner_19.Parent = Previous
+UICorner_30.Parent = Previous
 
-UIAspectRatioConstraint_9.Parent = Previous
-UIAspectRatioConstraint_9.AspectRatio = 2.780
+UIAspectRatioConstraint_6.Parent = Previous
+UIAspectRatioConstraint_6.AspectRatio = 2.780
 
-UITextSizeConstraint_17.Parent = Previous
-UITextSizeConstraint_17.MaxTextSize = 35
+UITextSizeConstraint_27.Parent = Previous
+UITextSizeConstraint_27.MaxTextSize = 35
 
 Next.Name = "Next"
 Next.Parent = BorksFriendsPunch
@@ -696,17 +908,31 @@ Next.TextScaled = true
 Next.TextSize = 14.000
 Next.TextWrapped = true
 
-UICorner_20.Parent = Next
+UICorner_31.Parent = Next
 
-UIAspectRatioConstraint_10.Parent = Next
-UIAspectRatioConstraint_10.AspectRatio = 2.780
+UIAspectRatioConstraint_7.Parent = Next
+UIAspectRatioConstraint_7.AspectRatio = 2.780
 
-UITextSizeConstraint_18.Parent = Next
-UITextSizeConstraint_18.MaxTextSize = 50
+UITextSizeConstraint_28.Parent = Next
+UITextSizeConstraint_28.MaxTextSize = 50
+
+TimeErase.Name = "TimeErase"
+TimeErase.Parent = BorksFriendsPunch
+TimeErase.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TimeErase.BackgroundTransparency = 1.000
+TimeErase.Position = UDim2.new(-5.42402267e-05, 0, 0.907407403, 0)
+TimeErase.Size = UDim2.new(0, 200, 0, 50)
+TimeErase.Font = Enum.Font.GothamBlack
+TimeErase.Text = "X to Erase Time"
+TimeErase.TextColor3 = Color3.fromRGB(255, 255, 255)
+TimeErase.TextScaled = true
+TimeErase.TextSize = 14.000
+TimeErase.TextStrokeTransparency = 0.500
+TimeErase.TextWrapped = true
 
 -- Scripts:
 
-local function NQPZFIJ_fake_script() -- OpenGUI.LocalScript 
+local function HFVLF_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -719,25 +945,16 @@ local function NQPZFIJ_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NQPZFIJ_fake_script)()
-local function RKZBTY_fake_script() -- SuggestionsGUI.LocalScript 
-	local script = Instance.new('LocalScript', SuggestionsGUI)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Suggestions.Visible = true
-		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)	
-	end)
-end
-coroutine.wrap(RKZBTY_fake_script)()
-local function NNID_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(HFVLF_fake_script)()
+local function QRCXL_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(NNID_fake_script)()
-local function HOYSDK_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(QRCXL_fake_script)()
+local function TRVVP_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -747,17 +964,8 @@ local function HOYSDK_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(HOYSDK_fake_script)()
-local function NYPNU_fake_script() -- OkButton.LocalScript 
-	local script = Instance.new('LocalScript', OkButton)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Visible = false
-		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
-	end)
-end
-coroutine.wrap(NYPNU_fake_script)()
-local function SBMWK_fake_script() -- TimeSkipFrame.TimeSkip 
+coroutine.wrap(TRVVP_fake_script)()
+local function ZBZK_fake_script() -- TimeSkipFrame.TimeSkip 
 	local script = Instance.new('LocalScript', TimeSkipFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -844,8 +1052,278 @@ local function SBMWK_fake_script() -- TimeSkipFrame.TimeSkip
 		end
 	end)
 end
-coroutine.wrap(SBMWK_fake_script)()
-local function AIDJDX_fake_script() -- UIButton.LocalScript 
+coroutine.wrap(ZBZK_fake_script)()
+local function QFBHF_fake_script() -- TimeSkipFrame.TimeErase 
+	local script = Instance.new('LocalScript', TimeSkipFrame)
+
+	local UIS = game:GetService("UserInputService")
+	local debounce = false
+	local Players = game:GetService("Players")
+	
+	UIS.InputBegan:connect(function(Input,isTyping)
+	local MouseInput = Input.UserInputType
+	local KeyCode = Input.KeyCode
+	
+	if KeyCode == Enum.KeyCode.X then
+				if isTyping then
+				return
+				else
+	
+				--if not debounce then
+	
+	
+				--debounce = true
+	
+				local s1 = Instance.new("Sound")
+				s1.Name = "Sound"
+				s1.SoundId = "http://www.roblox.com/asset/?id=4432747006"
+				s1.Volume = 1
+				s1.Looped = false
+				s1.archivable = false
+				s1.Parent = game.Workspace
+	
+				local s3 = Instance.new("Sound")
+				s3.Name = "Sound"
+				s3.SoundId = "http://www.roblox.com/asset/?id=3289256209"
+				s3.Volume = 1
+				s3.Looped = false
+				s3.archivable = false
+				s3.Parent = game.Workspace
+	
+	
+				s1:play()
+				wait(1)
+				script.Parent.TimeErase1.Visible = true
+				wait(.01)
+				script.Parent.TimeErase2.Visible = true
+				script.Parent.TimeErase1.Visible = false
+				wait(.01)
+				script.Parent.TimeErase3.Visible = true
+				script.Parent.TimeErase2.Visible = false
+				wait(.01)
+				script.Parent.TimeErase4.Visible = true
+				script.Parent.TimeErase3.Visible = false
+				wait(.01)
+				script.Parent.TimeErase5.Visible = true
+				script.Parent.TimeErase4.Visible = false
+				wait(.01)
+				script.Parent.TimeErase6.Visible = true
+				script.Parent.TimeErase5.Visible = false
+				wait(.01)
+				script.Parent.TimeErase7.Visible = true
+				script.Parent.TimeErase6.Visible = false
+				wait(.01)
+				script.Parent.TimeErase8.Visible = true
+				script.Parent.TimeErase7.Visible = false
+				wait(.01)
+				script.Parent.TimeErase9.Visible = true
+				script.Parent.TimeErase8.Visible = false
+				wait(.01)
+				script.Parent.TimeErase10.Visible = true
+				script.Parent.TimeErase9.Visible = false
+				wait(.01)
+				script.Parent.TimeErase11.Visible = true
+				script.Parent.TimeErase10.Visible = false
+				wait(.01)
+				script.Parent.TimeErase12.Visible = true
+				script.Parent.TimeErase11.Visible = false
+				wait(.01)
+				script.Parent.TimeErase13.Visible = true
+				script.Parent.TimeErase12.Visible = false
+				wait(.01)
+				script.Parent.TimeErase14.Visible = true
+				script.Parent.TimeErase13.Visible = false
+				wait(.01)
+				script.Parent.TimeErase15.Visible = true
+				script.Parent.TimeErase14.Visible = false
+				wait(.01)
+				script.Parent.TimeErase16.Visible = true
+				script.Parent.TimeErase15.Visible = false
+				wait(.01)
+				script.Parent.TimeErase17.Visible = true
+				script.Parent.TimeErase16.Visible = false
+				wait(.01)
+				script.Parent.TimeErase17.Visible = false
+	
+				s3:Play()
+	
+	
+				local Skybox = game.Lighting.Sky
+	
+				Skybox.SkyboxBk = "http://www.roblox.com/asset/?id=159454299"
+				Skybox.SkyboxDn = "http://www.roblox.com/asset/?id=159454296"
+				Skybox.SkyboxFt = "http://www.roblox.com/asset/?id=159454293"
+				Skybox.SkyboxLf = "http://www.roblox.com/asset/?id=159454286"
+				Skybox.SkyboxRt = "http://www.roblox.com/asset/?id=159454300"
+				Skybox.SkyboxUp = "http://www.roblox.com/asset/?id=159454288"
+				
+				--[[
+				
+				game.Workspace.Baseplate.Back.Texture = "" --rbxassetid://13696542 is the texture btw
+				game.Workspace.Baseplate.Bottom.Texture = ""
+				game.Workspace.Baseplate.Front.Texture = ""
+				game.Workspace.Baseplate.Left.Texture = ""
+				game.Workspace.Baseplate.Right.Texture = ""
+				game.Workspace.Baseplate.Top.Texture = ""
+				--]]
+				
+				game.Workspace.Baseplate.Transparency = 1
+				
+				local standclone = game.Workspace.Dummy:Clone()
+				standclone.Parent = game.Workspace
+				standclone.Name = "King Crimson"
+				standclone.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-2,1,3)			
+				local weld = Instance.new("WeldConstraint")
+				weld.Part0 = standclone.HumanoidRootPart
+				weld.Part1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+				weld.Parent = game.Players.LocalPlayer.Character
+				standclone.Humanoid:remove()
+				standclone.HumanoidRootPart.Anchored = false
+				standclone.HumanoidRootPart.CanCollide = false
+				standclone.HumanoidRootPart.Massless = true
+				standclone.Head.face:remove()
+				local standchildren = workspace:WaitForChild("King Crimson"):GetChildren()
+				for i = 1, #standchildren do
+					print(i, standchildren[i].Name)
+					standchildren[i].Anchored = false
+					standchildren[i].CanCollide = false
+					standchildren[i].Massless = true
+					standchildren[i].Color = Color3.fromRGB(255, 0, 0)
+					standchildren[i].Material = Enum.Material.SmoothPlastic
+				end
+				
+				
+				
+				
+				local clone = game.Workspace.Dummy:Clone()
+				clone.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				clone.Parent = game.Workspace
+				clone.Name = "TimeEraseClone"
+				clone.Humanoid.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
+				clone.Humanoid:RemoveAccessories()
+				clone.Head:WaitForChild("face"):remove()
+				clone:WaitForChild("Shirt Graphic"):remove()
+				clone:WaitForChild("Shirt"):remove()
+				clone:WaitForChild("Pants"):remove()
+				clone.HumanoidRootPart.Anchored = true
+				clone:WaitForChild("Humanoid"):remove()
+				clone:WaitForChild("Shirt Graphic"):remove()
+				clone:WaitForChild("Head").Anchored = true
+				clone:WaitForChild("Head").CanCollide = false
+				clone:WaitForChild("Head").Color = Color3.fromRGB(255, 0, 0)
+				clone:WaitForChild("Head").Transparency = 0.5
+				local Children = clone:GetChildren()
+	
+				for i = 1, #Children do
+					Children[i].Anchored = true
+					Children[i].CanCollide = false
+					Children[i].Color = Color3.fromRGB(255, 0, 0)
+					Children[i].Transparency = 0.5
+					Children[i].Material = Enum.Material.SmoothPlastic
+	
+				
+	
+	
+				wait(10)
+				print("10 seconds have passed")
+					
+				--debounce = false
+						
+					standclone:remove()
+					clone:remove()
+					script.Parent.TimeErase1.Visible = true
+					wait(.01)
+					script.Parent.TimeErase2.Visible = true
+					script.Parent.TimeErase1.Visible = false
+					wait(.01)
+					script.Parent.TimeErase3.Visible = true
+					script.Parent.TimeErase2.Visible = false
+					wait(.01)
+					script.Parent.TimeErase4.Visible = true
+					script.Parent.TimeErase3.Visible = false
+					wait(.01)
+					script.Parent.TimeErase5.Visible = true
+					script.Parent.TimeErase4.Visible = false
+					wait(.01)
+					script.Parent.TimeErase6.Visible = true
+					script.Parent.TimeErase5.Visible = false
+					wait(.01)
+					script.Parent.TimeErase7.Visible = true
+					script.Parent.TimeErase6.Visible = false
+					wait(.01)
+					script.Parent.TimeErase8.Visible = true
+					script.Parent.TimeErase7.Visible = false
+					wait(.01)
+					script.Parent.TimeErase9.Visible = true
+					script.Parent.TimeErase8.Visible = false
+					wait(.01)
+					script.Parent.TimeErase10.Visible = true
+					script.Parent.TimeErase9.Visible = false
+					wait(.01)
+					script.Parent.TimeErase11.Visible = true
+					script.Parent.TimeErase10.Visible = false
+					wait(.01)
+					script.Parent.TimeErase12.Visible = true
+					script.Parent.TimeErase11.Visible = false
+					wait(.01)
+					script.Parent.TimeErase13.Visible = true
+					script.Parent.TimeErase12.Visible = false
+					wait(.01)
+					script.Parent.TimeErase14.Visible = true
+					script.Parent.TimeErase13.Visible = false
+					wait(.01)
+					script.Parent.TimeErase15.Visible = true
+					script.Parent.TimeErase14.Visible = false
+					wait(.01)
+					script.Parent.TimeErase16.Visible = true
+					script.Parent.TimeErase15.Visible = false
+					wait(.01)
+					script.Parent.TimeErase17.Visible = true
+					script.Parent.TimeErase16.Visible = false
+					wait(.01)
+					script.Parent.TimeErase17.Visible = false
+				
+					
+				
+					game.Workspace.Baseplate.Back.Texture = "rbxassetid://13696542" --rbxassetid://13696542 is the texture btw
+					game.Workspace.Baseplate.Bottom.Texture = "rbxassetid://13696542"
+					game.Workspace.Baseplate.Front.Texture = "rbxassetid://13696542"
+					game.Workspace.Baseplate.Left.Texture = "rbxassetid://13696542"
+					game.Workspace.Baseplate.Right.Texture = "rbxassetid://13696542"
+					game.Workspace.Baseplate.Top.Texture = "rbxassetid://13696542"
+	
+					
+				
+					game.Workspace.Baseplate.Transparency = 0
+				
+					local s2 = Instance.new("Sound")
+					s2.Name = "Sound"
+					s2.SoundId = "http://www.roblox.com/asset/?id=3373991228"
+					s2.Volume = 1
+					s2.Looped = false
+					s2.archivable = false
+					s2.Parent = game.Workspace
+	
+					s2:Play()
+					s3:Stop()
+	
+					local Skybox = game.Lighting.Sky
+	
+	
+					Skybox.SkyboxBk = "http://www.roblox.com/asset/?id=91458024"
+					Skybox.SkyboxDn = "http://www.roblox.com/asset/?id=91457980"
+					Skybox.SkyboxFt = "http://www.roblox.com/asset/?id=91458024"
+					Skybox.SkyboxLf = "http://www.roblox.com/asset/?id=91458024"
+					Skybox.SkyboxRt = "http://www.roblox.com/asset/?id=91458024"
+					Skybox.SkyboxUp = "http://www.roblox.com/asset/?id=91458002"
+				end
+				--end
+			end
+		end
+	end)
+end
+coroutine.wrap(QFBHF_fake_script)()
+local function XQHRVIB_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -884,8 +1362,8 @@ local function AIDJDX_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(AIDJDX_fake_script)()
-local function AAGR_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(XQHRVIB_fake_script)()
+local function VQIEUJH_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -901,10 +1379,10 @@ local function AAGR_fake_script() -- FlingButton.LocalScript
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Workspace:GetChildren()) do
 			if v.Name == PlayerName.Text then
-				script.Parent.Parent.Parent.Parent.Notification.Visible = true
-				script.Parent.Parent.Parent.Parent.Notification.NotifDes.Text = "Kinda Buggy"
+				script.Parent.Parent.Parent.Parent.Parent.Notification.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.Notification.NotifDes.Text = "Kinda Buggy"
 				wait(5)
-				script.Parent.Parent.Parent.Parent.Notification.Visible = false			
+				script.Parent.Parent.Parent.Parent.Parent.Notification.Visible = false			
 				
 				local args = {
 					[1] = "Light",
@@ -923,8 +1401,8 @@ local function AAGR_fake_script() -- FlingButton.LocalScript
 			
 	end)
 end
-coroutine.wrap(AAGR_fake_script)()
-local function SFSGA_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(VQIEUJH_fake_script)()
+local function ICGM_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -946,8 +1424,8 @@ local function SFSGA_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(SFSGA_fake_script)()
-local function TELY_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(ICGM_fake_script)()
+local function NRHYW_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -958,8 +1436,8 @@ local function TELY_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TELY_fake_script)()
-local function MFWG_fake_script() -- DamageButton.LocalScript 
+coroutine.wrap(NRHYW_fake_script)()
+local function TNTDY_fake_script() -- DamageButton.LocalScript 
 	local script = Instance.new('LocalScript', DamageButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -994,8 +1472,8 @@ local function MFWG_fake_script() -- DamageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MFWG_fake_script)()
-local function WESDGFI_fake_script() -- BringButton.LocalScript 
+coroutine.wrap(TNTDY_fake_script)()
+local function NQKNJBB_fake_script() -- BringButton.LocalScript 
 	local script = Instance.new('LocalScript', BringButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1029,8 +1507,8 @@ local function WESDGFI_fake_script() -- BringButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WESDGFI_fake_script)()
-local function DVUPAX_fake_script() -- DonutButton.LocalScript 
+coroutine.wrap(NQKNJBB_fake_script)()
+local function XOOLZ_fake_script() -- DonutButton.LocalScript 
 	local script = Instance.new('LocalScript', DonutButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1052,23 +1530,86 @@ local function DVUPAX_fake_script() -- DonutButton.LocalScript
 		end
 	end
 	
-for i,v in pairs(Players:GetChildren()) do
-	if v.Name == PlayerName then
-		print("Player Found!")
-	end
+	local Anim = Instance.new("Animation")
+	Anim.AnimationId = "rbxassetid://204062532"
+	local track = game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):LoadAnimation(Anim)
+	local swingACTIVE = false
+	game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
+		track = character:WaitForChild("Humanoid"):LoadAnimation(Anim)
+		swingACTIVE = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+	
+				local args = {
+					[1] = "Heavy",
+					[2] = tonumber(dmgNumber.Text),
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+	
+				local args2 = {
+					[1] = "Light",
+					[2] = tonumber(dmgNumber.Text),
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+	
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,1)
+				wait(.05)
+				track:Play()
+	
+				local s = Instance.new("Sound")
+				s.Name = "Sound"
+				s.SoundId = "http://www.roblox.com/asset/?id=1280294111"
+				s.Volume = 1
+				s.Looped = false
+				s.archivable = false
+				s.Parent = game.Workspace
+	
+				s:play()
+				wait(.25)
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+			end						
+		end
+	end)
 end
+coroutine.wrap(XOOLZ_fake_script)()
+local function OAWFQ_fake_script() -- DonutComboButton.LocalScript 
+	local script = Instance.new('LocalScript', DonutComboButton)
 
-local Anim = Instance.new("Animation")
-Anim.AnimationId = "rbxassetid://204062532"
-local track = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
-local swingACTIVE = false
-game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
-	track = character:WaitForChild("Humanoid"):LoadAnimation(Anim)
-	swingACTIVE = false
-end)
-
-script.Parent.MouseButton1Click:Connect(function()
-for i,v in pairs(game.Workspace:GetChildren()) do
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	local dmgNumber = script.Parent.Parent.NumberTextBox
+	
+	local Players = game:FindService("Players")
+	
+	for i,v in pairs(Players:GetChildren()) do
+		if v.Name == PlayerName then
+			print("Player Found!")
+		end
+	end
+	
+	local Anim = Instance.new("Animation")
+	Anim.AnimationId = "rbxassetid://204062532"
+	local track = game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):LoadAnimation(Anim)
+	local swingACTIVE = false
+	game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
+		track = character:WaitForChild("Humanoid"):LoadAnimation(Anim)
+		swingACTIVE = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	for i,v in pairs(game.Workspace:GetChildren()) do
 	if v.Name == PlayerName.Text then
 		
 		local args = {
@@ -1076,8 +1617,15 @@ for i,v in pairs(game.Workspace:GetChildren()) do
 			[2] = tonumber(dmgNumber.Text),
 			[3] = v.Humanoid,
 			[4] = "TheyWouldntNeverSeeThis"
-			}
-			
+				}
+				
+				local args2 = {
+					[1] = "Light",
+					[2] = tonumber(dmgNumber.Text),
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+				
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,1)
 		wait(.05)
 			track:Play()
@@ -1090,18 +1638,94 @@ for i,v in pairs(game.Workspace:GetChildren()) do
 			s.archivable = false
 			s.Parent = game.Workspace
 			
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("King Crimson's Ability", "All")
-			s:play()
-		wait(.25)
-			game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
-			
-			
+				s:play()
+				wait(.25)
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+				
+				wait(4)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-1)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.Orientation = Vector3.new(0,-180,0)
+				s:play()
+				wait(.25)
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args2))
+				wait(.1)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-1)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.Orientation = Vector3.new(0,-180,0)
+				track:Play()
+				wait(.25)
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args2))
+				wait(.1)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(-2,0,0)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.Orientation = Vector3.new(0,-90,0)
+				track:Play()
+				wait(.25)
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args2))
+				wait(.1)
+			end						
+		end
+	end)
+end
+coroutine.wrap(OAWFQ_fake_script)()
+local function VGOTBQH_fake_script() -- HeavyDamageButton.LocalScript 
+	local script = Instance.new('LocalScript', HeavyDamageButton)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	local dmgNumber = script.Parent.Parent.NumberTextBox
+	
+	local Players = game:FindService("Players")
+	
+	for i,v in pairs(Players:GetChildren()) do
+		if v.Name == PlayerName then
+			print("Player Found!")
 		end
 	end
-end)
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				local args = {
+					[1] = "Heavy",
+					[2] = tonumber(dmgNumber.Text),
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+			end
+		end
+	end)
 end
-coroutine.wrap(DVUPAX_fake_script)()
-local function GMQE_fake_script() -- Pages.SmoothDrag 
+coroutine.wrap(VGOTBQH_fake_script)()
+local function MNMY_fake_script() -- TeleportsBehindYouButton.LocalScript 
+	local script = Instance.new('LocalScript', TeleportsBehindYouButton)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame  * CFrame.new(0,0,2)
+			end
+		end
+		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+	end)
+end
+coroutine.wrap(MNMY_fake_script)()
+local function OLZTLQX_fake_script() -- Pages.SmoothDrag 
 	local script = Instance.new('LocalScript', Pages)
 
 	local Drag = script.Parent
@@ -1144,4 +1768,44 @@ local function GMQE_fake_script() -- Pages.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(GMQE_fake_script)()
+coroutine.wrap(OLZTLQX_fake_script)()
+local function OEVWT_fake_script() -- UIButton_2.LocalScript 
+	local script = Instance.new('LocalScript', UIButton_2)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+	local currentHealth = humanoid.Health
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Notification.Visible = true
+		script.Parent.Parent.Parent.Parent.Notification.NotifDes.Text = "Kinda Buggy"
+		wait(5)
+		script.Parent.Parent.Parent.Parent.Notification.Visible = false	
+	for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				game.ReplicatedStorage.Unblock.OnClientEvent:Connect(function()
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, -10)
+				end)
+	
+				game.ReplicatedStorage.Block.OnClientEvent:Connect(function()
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, 10)
+				end)
+	
+				while true do
+					local Event = game:GetService("ReplicatedStorage").Block
+					Event:FireServer()
+					wait(0.0000001)							
+				end		
+			end				
+		end	
+	end)
+end
+coroutine.wrap(OEVWT_fake_script)()
