@@ -1,4 +1,3 @@
-
 -- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
@@ -23,6 +22,8 @@ local UICorner_4 = Instance.new("UICorner")
 local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
 local SkipTime = Instance.new("TextLabel")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
 local TimeSkipFrame = Instance.new("Frame")
 local TimeErase1 = Instance.new("ImageLabel")
 local TimeErase10 = Instance.new("ImageLabel")
@@ -49,83 +50,73 @@ local UICorner_6 = Instance.new("UICorner")
 local ButtonsFrame1 = Instance.new("Frame")
 local UIButton = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
 local FlingButton = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
 local TeleportButton = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
-local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
 local TextBox = Instance.new("TextBox")
 local UICorner_10 = Instance.new("UICorner")
-local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
 local DamageButton = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
-local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
 local BringButton = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
-local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
 local NumberTextBox = Instance.new("TextBox")
 local UICorner_13 = Instance.new("UICorner")
-local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
 local DonutButton = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
-local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
 local DonutComboButton = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
-local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
 local HeavyDamageButton = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
-local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
 local TeleportsBehindYouButton = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
-local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
 local UIPageLayout = Instance.new("UIPageLayout")
 local Page2 = Instance.new("Frame")
 local UICorner_18 = Instance.new("UICorner")
 local ButtonsFrame1_2 = Instance.new("Frame")
-local UIButton_2 = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
-local FlingButton_2 = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
-local TeleportButton_2 = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
 local TextBox_2 = Instance.new("TextBox")
-local UICorner_22 = Instance.new("UICorner")
-local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
+local UICorner_19 = Instance.new("UICorner")
+local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
 local DamageButton_2 = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local UITextSizeConstraint_20 = Instance.new("UITextSizeConstraint")
-local BringButton_2 = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local UITextSizeConstraint_21 = Instance.new("UITextSizeConstraint")
+local UICorner_20 = Instance.new("UICorner")
+local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
 local NumberTextBox_2 = Instance.new("TextBox")
-local UICorner_25 = Instance.new("UICorner")
-local UITextSizeConstraint_22 = Instance.new("UITextSizeConstraint")
+local UICorner_21 = Instance.new("UICorner")
+local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
 local DonutButton_2 = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local UITextSizeConstraint_23 = Instance.new("UITextSizeConstraint")
-local DonutComboButton_2 = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local UITextSizeConstraint_24 = Instance.new("UITextSizeConstraint")
+local UICorner_22 = Instance.new("UICorner")
+local UITextSizeConstraint_20 = Instance.new("UITextSizeConstraint")
+local NumberTextBox_3 = Instance.new("TextBox")
+local UICorner_23 = Instance.new("UICorner")
+local UITextSizeConstraint_21 = Instance.new("UITextSizeConstraint")
 local HeavyDamageButton_2 = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
-local UITextSizeConstraint_25 = Instance.new("UITextSizeConstraint")
-local TeleportsBehindYouButton_2 = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
-local UITextSizeConstraint_26 = Instance.new("UITextSizeConstraint")
+local UICorner_24 = Instance.new("UICorner")
+local UITextSizeConstraint_22 = Instance.new("UITextSizeConstraint")
+local NumberTextBox_4 = Instance.new("TextBox")
+local UICorner_25 = Instance.new("UICorner")
+local UITextSizeConstraint_23 = Instance.new("UITextSizeConstraint")
 local Previous = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
-local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_27 = Instance.new("UITextSizeConstraint")
-local Next = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_28 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_24 = Instance.new("UITextSizeConstraint")
+local Next = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_25 = Instance.new("UITextSizeConstraint")
 local TimeErase = Instance.new("TextLabel")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_26 = Instance.new("UITextSizeConstraint")
 
 --Properties:
 
@@ -137,8 +128,8 @@ BorksFriendsPunch.ResetOnSpawn = false
 OpenGUI.Name = "OpenGUI"
 OpenGUI.Parent = BorksFriendsPunch
 OpenGUI.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
-OpenGUI.Position = UDim2.new(0.854925334, 0, 0.918518543, 0)
-OpenGUI.Size = UDim2.new(0.137571648, 0, 0.0462962948, 0)
+OpenGUI.Position = UDim2.new(0.885534585, 0, 0.918518603, 0)
+OpenGUI.Size = UDim2.new(0.113436289, 0, 0.0381741412, 0)
 OpenGUI.AutoButtonColor = false
 OpenGUI.Font = Enum.Font.GothamBlack
 OpenGUI.Text = "Open GUI"
@@ -158,8 +149,8 @@ UITextSizeConstraint.MaxTextSize = 49
 DestroyGUI.Name = "DestroyGUI"
 DestroyGUI.Parent = BorksFriendsPunch
 DestroyGUI.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
-DestroyGUI.Position = UDim2.new(0.854925334, 0, 0.864814818, 0)
-DestroyGUI.Size = UDim2.new(0.137571648, 0, 0.0462962948, 0)
+DestroyGUI.Position = UDim2.new(0.885534585, 0, 0.864814758, 0)
+DestroyGUI.Size = UDim2.new(0.113436289, 0, 0.0381741412, 0)
 DestroyGUI.AutoButtonColor = false
 DestroyGUI.Font = Enum.Font.GothamBlack
 DestroyGUI.Text = "Destroy GUI"
@@ -181,8 +172,8 @@ GUI.Parent = BorksFriendsPunch
 GUI.AnchorPoint = Vector2.new(0.5, 0.5)
 GUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 GUI.BackgroundTransparency = 1.000
-GUI.Position = UDim2.new(0.5, 0, 0.887962937, 0)
-GUI.Size = UDim2.new(0.154556021, 0, 0.100000001, 0)
+GUI.Position = UDim2.new(0.517902613, 0, 0.887962878, 0)
+GUI.Size = UDim2.new(0.127440959, 0, 0.0824561566, 0)
 GUI.Font = Enum.Font.Gotham
 GUI.Text = "This GUI is a WIP expect some things to not work"
 GUI.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -237,8 +228,8 @@ UIAspectRatioConstraint_4.AspectRatio = 3.414
 RejoinGame.Name = "RejoinGame"
 RejoinGame.Parent = BorksFriendsPunch
 RejoinGame.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
-RejoinGame.Position = UDim2.new(0.855000019, 0, 0.810185194, 0)
-RejoinGame.Size = UDim2.new(0.137571648, 0, 0.0462962948, 0)
+RejoinGame.Position = UDim2.new(0.885611892, 0, 0.810185194, 0)
+RejoinGame.Size = UDim2.new(0.113436289, 0, 0.0381741412, 0)
 RejoinGame.AutoButtonColor = false
 RejoinGame.Font = Enum.Font.GothamBlack
 RejoinGame.Text = "Rejoin"
@@ -259,8 +250,8 @@ SkipTime.Name = "SkipTime"
 SkipTime.Parent = BorksFriendsPunch
 SkipTime.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SkipTime.BackgroundTransparency = 1.000
-SkipTime.Position = UDim2.new(-5.42402267e-05, 0, 0.953703701, 0)
-SkipTime.Size = UDim2.new(0, 200, 0, 50)
+SkipTime.Position = UDim2.new(-5.42406633e-05, 0, 0.953703582, 0)
+SkipTime.Size = UDim2.new(0.107347578, 0, 0.0453703701, 0)
 SkipTime.Font = Enum.Font.GothamBlack
 SkipTime.Text = "V to Skip Time"
 SkipTime.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -268,6 +259,12 @@ SkipTime.TextScaled = true
 SkipTime.TextSize = 14.000
 SkipTime.TextStrokeTransparency = 0.500
 SkipTime.TextWrapped = true
+
+UIAspectRatioConstraint_6.Parent = SkipTime
+UIAspectRatioConstraint_6.AspectRatio = 4.204
+
+UITextSizeConstraint_5.Parent = SkipTime
+UITextSizeConstraint_5.MaxTextSize = 30
 
 TimeSkipFrame.Name = "TimeSkipFrame"
 TimeSkipFrame.Parent = BorksFriendsPunch
@@ -425,7 +422,7 @@ Pages.Parent = BorksFriendsPunch
 Pages.AnchorPoint = Vector2.new(0.5, 0.5)
 Pages.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Pages.ClipsDescendants = true
-Pages.Position = UDim2.new(0.897081792, 0, 0.584883511, 0)
+Pages.Position = UDim2.new(0.895518482, 0, 0.599698365, 0)
 Pages.Size = UDim2.new(0.189999998, 0, 0.407553434, 0)
 Pages.Visible = false
 
@@ -463,8 +460,8 @@ UIButton.TextWrapped = true
 
 UICorner_7.Parent = UIButton
 
-UITextSizeConstraint_5.Parent = UIButton
-UITextSizeConstraint_5.MaxTextSize = 27
+UITextSizeConstraint_6.Parent = UIButton
+UITextSizeConstraint_6.MaxTextSize = 27
 
 FlingButton.Name = "FlingButton"
 FlingButton.Parent = ButtonsFrame1
@@ -481,8 +478,8 @@ FlingButton.TextWrapped = true
 
 UICorner_8.Parent = FlingButton
 
-UITextSizeConstraint_6.Parent = FlingButton
-UITextSizeConstraint_6.MaxTextSize = 50
+UITextSizeConstraint_7.Parent = FlingButton
+UITextSizeConstraint_7.MaxTextSize = 50
 
 TeleportButton.Name = "TeleportButton"
 TeleportButton.Parent = ButtonsFrame1
@@ -499,8 +496,8 @@ TeleportButton.TextWrapped = true
 
 UICorner_9.Parent = TeleportButton
 
-UITextSizeConstraint_7.Parent = TeleportButton
-UITextSizeConstraint_7.MaxTextSize = 43
+UITextSizeConstraint_8.Parent = TeleportButton
+UITextSizeConstraint_8.MaxTextSize = 43
 
 TextBox.Parent = ButtonsFrame1
 TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -518,8 +515,8 @@ TextBox.TextWrapped = true
 
 UICorner_10.Parent = TextBox
 
-UITextSizeConstraint_8.Parent = TextBox
-UITextSizeConstraint_8.MaxTextSize = 29
+UITextSizeConstraint_9.Parent = TextBox
+UITextSizeConstraint_9.MaxTextSize = 29
 
 DamageButton.Name = "DamageButton"
 DamageButton.Parent = ButtonsFrame1
@@ -536,8 +533,8 @@ DamageButton.TextWrapped = true
 
 UICorner_11.Parent = DamageButton
 
-UITextSizeConstraint_9.Parent = DamageButton
-UITextSizeConstraint_9.MaxTextSize = 50
+UITextSizeConstraint_10.Parent = DamageButton
+UITextSizeConstraint_10.MaxTextSize = 50
 
 BringButton.Name = "BringButton"
 BringButton.Parent = ButtonsFrame1
@@ -554,8 +551,8 @@ BringButton.TextWrapped = true
 
 UICorner_12.Parent = BringButton
 
-UITextSizeConstraint_10.Parent = BringButton
-UITextSizeConstraint_10.MaxTextSize = 50
+UITextSizeConstraint_11.Parent = BringButton
+UITextSizeConstraint_11.MaxTextSize = 50
 
 NumberTextBox.Name = "NumberTextBox"
 NumberTextBox.Parent = ButtonsFrame1
@@ -574,8 +571,8 @@ NumberTextBox.TextWrapped = true
 
 UICorner_13.Parent = NumberTextBox
 
-UITextSizeConstraint_11.Parent = NumberTextBox
-UITextSizeConstraint_11.MaxTextSize = 29
+UITextSizeConstraint_12.Parent = NumberTextBox
+UITextSizeConstraint_12.MaxTextSize = 29
 
 DonutButton.Name = "DonutButton"
 DonutButton.Parent = ButtonsFrame1
@@ -592,8 +589,8 @@ DonutButton.TextWrapped = true
 
 UICorner_14.Parent = DonutButton
 
-UITextSizeConstraint_12.Parent = DonutButton
-UITextSizeConstraint_12.MaxTextSize = 50
+UITextSizeConstraint_13.Parent = DonutButton
+UITextSizeConstraint_13.MaxTextSize = 50
 
 DonutComboButton.Name = "DonutComboButton"
 DonutComboButton.Parent = ButtonsFrame1
@@ -610,8 +607,8 @@ DonutComboButton.TextWrapped = true
 
 UICorner_15.Parent = DonutComboButton
 
-UITextSizeConstraint_13.Parent = DonutComboButton
-UITextSizeConstraint_13.MaxTextSize = 50
+UITextSizeConstraint_14.Parent = DonutComboButton
+UITextSizeConstraint_14.MaxTextSize = 50
 
 HeavyDamageButton.Name = "HeavyDamageButton"
 HeavyDamageButton.Parent = ButtonsFrame1
@@ -628,8 +625,8 @@ HeavyDamageButton.TextWrapped = true
 
 UICorner_16.Parent = HeavyDamageButton
 
-UITextSizeConstraint_14.Parent = HeavyDamageButton
-UITextSizeConstraint_14.MaxTextSize = 50
+UITextSizeConstraint_15.Parent = HeavyDamageButton
+UITextSizeConstraint_15.MaxTextSize = 50
 
 TeleportsBehindYouButton.Name = "TeleportsBehindYouButton"
 TeleportsBehindYouButton.Parent = ButtonsFrame1
@@ -646,8 +643,8 @@ TeleportsBehindYouButton.TextWrapped = true
 
 UICorner_17.Parent = TeleportsBehindYouButton
 
-UITextSizeConstraint_15.Parent = TeleportsBehindYouButton
-UITextSizeConstraint_15.MaxTextSize = 43
+UITextSizeConstraint_16.Parent = TeleportsBehindYouButton
+UITextSizeConstraint_16.MaxTextSize = 43
 
 UIPageLayout.Parent = Pages
 UIPageLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -669,60 +666,6 @@ ButtonsFrame1_2.BackgroundTransparency = 1.000
 ButtonsFrame1_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ButtonsFrame1_2.Size = UDim2.new(0.99999994, 0, 0.999999881, 0)
 
-UIButton_2.Name = "UIButton"
-UIButton_2.Parent = ButtonsFrame1_2
-UIButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-UIButton_2.Position = UDim2.new(0.0334498808, 0, 0.118246868, 0)
-UIButton_2.Size = UDim2.new(0.447695851, 0, 0.0728583485, 0)
-UIButton_2.AutoButtonColor = false
-UIButton_2.Font = Enum.Font.Gotham
-UIButton_2.Text = "Ultra Instinct"
-UIButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-UIButton_2.TextScaled = true
-UIButton_2.TextSize = 14.000
-UIButton_2.TextWrapped = true
-
-UICorner_19.Parent = UIButton_2
-
-UITextSizeConstraint_16.Parent = UIButton_2
-UITextSizeConstraint_16.MaxTextSize = 27
-
-FlingButton_2.Name = "FlingButton"
-FlingButton_2.Parent = ButtonsFrame1_2
-FlingButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-FlingButton_2.Position = UDim2.new(0.512511015, 0, 0.118246838, 0)
-FlingButton_2.Size = UDim2.new(0.44989118, 0, 0.0727213025, 0)
-FlingButton_2.AutoButtonColor = false
-FlingButton_2.Font = Enum.Font.Gotham
-FlingButton_2.Text = "Fling"
-FlingButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlingButton_2.TextScaled = true
-FlingButton_2.TextSize = 14.000
-FlingButton_2.TextWrapped = true
-
-UICorner_20.Parent = FlingButton_2
-
-UITextSizeConstraint_17.Parent = FlingButton_2
-UITextSizeConstraint_17.MaxTextSize = 50
-
-TeleportButton_2.Name = "TeleportButton"
-TeleportButton_2.Parent = ButtonsFrame1_2
-TeleportButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-TeleportButton_2.Position = UDim2.new(0.0331959017, 0, 0.201705232, 0)
-TeleportButton_2.Size = UDim2.new(0.447695851, 0, 0.0728583485, 0)
-TeleportButton_2.AutoButtonColor = false
-TeleportButton_2.Font = Enum.Font.Gotham
-TeleportButton_2.Text = "Teleport "
-TeleportButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TeleportButton_2.TextScaled = true
-TeleportButton_2.TextSize = 14.000
-TeleportButton_2.TextWrapped = true
-
-UICorner_21.Parent = TeleportButton_2
-
-UITextSizeConstraint_18.Parent = TeleportButton_2
-UITextSizeConstraint_18.MaxTextSize = 43
-
 TextBox_2.Parent = ButtonsFrame1_2
 TextBox_2.AnchorPoint = Vector2.new(0.5, 0.5)
 TextBox_2.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
@@ -737,15 +680,15 @@ TextBox_2.TextScaled = true
 TextBox_2.TextSize = 14.000
 TextBox_2.TextWrapped = true
 
-UICorner_22.Parent = TextBox_2
+UICorner_19.Parent = TextBox_2
 
-UITextSizeConstraint_19.Parent = TextBox_2
-UITextSizeConstraint_19.MaxTextSize = 29
+UITextSizeConstraint_17.Parent = TextBox_2
+UITextSizeConstraint_17.MaxTextSize = 29
 
 DamageButton_2.Name = "DamageButton"
 DamageButton_2.Parent = ButtonsFrame1_2
 DamageButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-DamageButton_2.Position = UDim2.new(0.510065913, 0, 0.201628104, 0)
+DamageButton_2.Position = UDim2.new(0.510065913, 0, 0.128012508, 0)
 DamageButton_2.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
 DamageButton_2.AutoButtonColor = false
 DamageButton_2.Font = Enum.Font.Gotham
@@ -755,35 +698,17 @@ DamageButton_2.TextScaled = true
 DamageButton_2.TextSize = 14.000
 DamageButton_2.TextWrapped = true
 
-UICorner_23.Parent = DamageButton_2
+UICorner_20.Parent = DamageButton_2
 
-UITextSizeConstraint_20.Parent = DamageButton_2
-UITextSizeConstraint_20.MaxTextSize = 50
-
-BringButton_2.Name = "BringButton"
-BringButton_2.Parent = ButtonsFrame1_2
-BringButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-BringButton_2.Position = UDim2.new(0.508700013, 0, 0.287439257, 0)
-BringButton_2.Size = UDim2.new(0.451400787, 0, 0.0728583485, 0)
-BringButton_2.AutoButtonColor = false
-BringButton_2.Font = Enum.Font.Gotham
-BringButton_2.Text = "Bring"
-BringButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-BringButton_2.TextScaled = true
-BringButton_2.TextSize = 14.000
-BringButton_2.TextWrapped = true
-
-UICorner_24.Parent = BringButton_2
-
-UITextSizeConstraint_21.Parent = BringButton_2
-UITextSizeConstraint_21.MaxTextSize = 50
+UITextSizeConstraint_18.Parent = DamageButton_2
+UITextSizeConstraint_18.MaxTextSize = 50
 
 NumberTextBox_2.Name = "NumberTextBox"
-NumberTextBox_2.Parent = ButtonsFrame1_2
+NumberTextBox_2.Parent = DamageButton_2
 NumberTextBox_2.AnchorPoint = Vector2.new(0.5, 0.5)
 NumberTextBox_2.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
-NumberTextBox_2.Position = UDim2.new(0.503251672, 0, 0.947373271, 0)
-NumberTextBox_2.Size = UDim2.new(0.929266274, 0, 0.0764586851, 0)
+NumberTextBox_2.Position = UDim2.new(0.50693208, 0, 1.5903008, 0)
+NumberTextBox_2.Size = UDim2.new(0.953083098, 0, 1.17672205, 0)
 NumberTextBox_2.Font = Enum.Font.GothamBold
 NumberTextBox_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 NumberTextBox_2.PlaceholderText = "Enter Damage or Heal Input here"
@@ -793,15 +718,15 @@ NumberTextBox_2.TextScaled = true
 NumberTextBox_2.TextSize = 14.000
 NumberTextBox_2.TextWrapped = true
 
-UICorner_25.Parent = NumberTextBox_2
+UICorner_21.Parent = NumberTextBox_2
 
-UITextSizeConstraint_22.Parent = NumberTextBox_2
-UITextSizeConstraint_22.MaxTextSize = 29
+UITextSizeConstraint_19.Parent = NumberTextBox_2
+UITextSizeConstraint_19.MaxTextSize = 29
 
 DonutButton_2.Name = "DonutButton"
 DonutButton_2.Parent = ButtonsFrame1_2
 DonutButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-DonutButton_2.Position = UDim2.new(0.0375382975, 0, 0.287439257, 0)
+DonutButton_2.Position = UDim2.new(0.0375382975, 0, 0.128705621, 0)
 DonutButton_2.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
 DonutButton_2.AutoButtonColor = false
 DonutButton_2.Font = Enum.Font.Gotham
@@ -811,33 +736,35 @@ DonutButton_2.TextScaled = true
 DonutButton_2.TextSize = 14.000
 DonutButton_2.TextWrapped = true
 
-UICorner_26.Parent = DonutButton_2
+UICorner_22.Parent = DonutButton_2
 
-UITextSizeConstraint_23.Parent = DonutButton_2
-UITextSizeConstraint_23.MaxTextSize = 50
+UITextSizeConstraint_20.Parent = DonutButton_2
+UITextSizeConstraint_20.MaxTextSize = 50
 
-DonutComboButton_2.Name = "DonutComboButton"
-DonutComboButton_2.Parent = ButtonsFrame1_2
-DonutComboButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-DonutComboButton_2.Position = UDim2.new(0.0379999988, 0, 0.382999986, 0)
-DonutComboButton_2.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
-DonutComboButton_2.AutoButtonColor = false
-DonutComboButton_2.Font = Enum.Font.Gotham
-DonutComboButton_2.Text = "Donut Combo"
-DonutComboButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-DonutComboButton_2.TextScaled = true
-DonutComboButton_2.TextSize = 14.000
-DonutComboButton_2.TextWrapped = true
+NumberTextBox_3.Name = "NumberTextBox"
+NumberTextBox_3.Parent = DonutButton_2
+NumberTextBox_3.AnchorPoint = Vector2.new(0.5, 0.5)
+NumberTextBox_3.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+NumberTextBox_3.Position = UDim2.new(0.50693208, 0, 1.5903008, 0)
+NumberTextBox_3.Size = UDim2.new(0.953083098, 0, 1.17672205, 0)
+NumberTextBox_3.Font = Enum.Font.GothamBold
+NumberTextBox_3.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+NumberTextBox_3.PlaceholderText = "Enter Damage or Heal Input here"
+NumberTextBox_3.Text = ""
+NumberTextBox_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+NumberTextBox_3.TextScaled = true
+NumberTextBox_3.TextSize = 14.000
+NumberTextBox_3.TextWrapped = true
 
-UICorner_27.Parent = DonutComboButton_2
+UICorner_23.Parent = NumberTextBox_3
 
-UITextSizeConstraint_24.Parent = DonutComboButton_2
-UITextSizeConstraint_24.MaxTextSize = 50
+UITextSizeConstraint_21.Parent = NumberTextBox_3
+UITextSizeConstraint_21.MaxTextSize = 29
 
 HeavyDamageButton_2.Name = "HeavyDamageButton"
 HeavyDamageButton_2.Parent = ButtonsFrame1_2
 HeavyDamageButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-HeavyDamageButton_2.Position = UDim2.new(0.510065913, 0, 0.382065833, 0)
+HeavyDamageButton_2.Position = UDim2.new(0.0301009528, 0, 0.324553639, 0)
 HeavyDamageButton_2.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
 HeavyDamageButton_2.AutoButtonColor = false
 HeavyDamageButton_2.Font = Enum.Font.Gotham
@@ -847,35 +774,37 @@ HeavyDamageButton_2.TextScaled = true
 HeavyDamageButton_2.TextSize = 14.000
 HeavyDamageButton_2.TextWrapped = true
 
-UICorner_28.Parent = HeavyDamageButton_2
+UICorner_24.Parent = HeavyDamageButton_2
 
-UITextSizeConstraint_25.Parent = HeavyDamageButton_2
-UITextSizeConstraint_25.MaxTextSize = 50
+UITextSizeConstraint_22.Parent = HeavyDamageButton_2
+UITextSizeConstraint_22.MaxTextSize = 50
 
-TeleportsBehindYouButton_2.Name = "TeleportsBehindYouButton"
-TeleportsBehindYouButton_2.Parent = ButtonsFrame1_2
-TeleportsBehindYouButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-TeleportsBehindYouButton_2.Position = UDim2.new(0.0329999998, 0, 0.479301751, 0)
-TeleportsBehindYouButton_2.Size = UDim2.new(0.447695851, 0, 0.0728583485, 0)
-TeleportsBehindYouButton_2.AutoButtonColor = false
-TeleportsBehindYouButton_2.Font = Enum.Font.Gotham
-TeleportsBehindYouButton_2.Text = "Teleports Behind You"
-TeleportsBehindYouButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TeleportsBehindYouButton_2.TextScaled = true
-TeleportsBehindYouButton_2.TextSize = 14.000
-TeleportsBehindYouButton_2.TextWrapped = true
+NumberTextBox_4.Name = "NumberTextBox"
+NumberTextBox_4.Parent = HeavyDamageButton_2
+NumberTextBox_4.AnchorPoint = Vector2.new(0.5, 0.5)
+NumberTextBox_4.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+NumberTextBox_4.Position = UDim2.new(0.50693208, 0, 1.5903008, 0)
+NumberTextBox_4.Size = UDim2.new(0.953083098, 0, 1.17672205, 0)
+NumberTextBox_4.Font = Enum.Font.GothamBold
+NumberTextBox_4.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+NumberTextBox_4.PlaceholderText = "Enter Damage or Heal Input here"
+NumberTextBox_4.Text = ""
+NumberTextBox_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+NumberTextBox_4.TextScaled = true
+NumberTextBox_4.TextSize = 14.000
+NumberTextBox_4.TextWrapped = true
 
-UICorner_29.Parent = TeleportsBehindYouButton_2
+UICorner_25.Parent = NumberTextBox_4
 
-UITextSizeConstraint_26.Parent = TeleportsBehindYouButton_2
-UITextSizeConstraint_26.MaxTextSize = 43
+UITextSizeConstraint_23.Parent = NumberTextBox_4
+UITextSizeConstraint_23.MaxTextSize = 29
 
 Previous.Name = "Previous"
 Previous.Parent = BorksFriendsPunch
 Previous.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Previous.BorderColor3 = Color3.fromRGB(68, 68, 68)
-Previous.Position = UDim2.new(0.350182235, 0, 0.944444299, 0)
-Previous.Size = UDim2.new(0.0724335611, 0, 0.114454083, 0)
+Previous.Position = UDim2.new(0.362721115, 0, 0.944444239, 0)
+Previous.Size = UDim2.new(0.0750267729, 0, 0.0479537658, 0)
 Previous.Visible = false
 Previous.AutoButtonColor = false
 Previous.Font = Enum.Font.GothamBold
@@ -885,20 +814,20 @@ Previous.TextScaled = true
 Previous.TextSize = 14.000
 Previous.TextWrapped = true
 
-UICorner_30.Parent = Previous
+UICorner_26.Parent = Previous
 
-UIAspectRatioConstraint_6.Parent = Previous
-UIAspectRatioConstraint_6.AspectRatio = 2.780
+UIAspectRatioConstraint_7.Parent = Previous
+UIAspectRatioConstraint_7.AspectRatio = 2.780
 
-UITextSizeConstraint_27.Parent = Previous
-UITextSizeConstraint_27.MaxTextSize = 35
+UITextSizeConstraint_24.Parent = Previous
+UITextSizeConstraint_24.MaxTextSize = 35
 
 Next.Name = "Next"
 Next.Parent = BorksFriendsPunch
 Next.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Next.BorderColor3 = Color3.fromRGB(68, 68, 68)
-Next.Position = UDim2.new(0.576862991, 0, 0.944444299, 0)
-Next.Size = UDim2.new(0.0724335611, 0, 0.114454083, 0)
+Next.Position = UDim2.new(0.597517312, 0, 0.944444239, 0)
+Next.Size = UDim2.new(0.0750267729, 0, 0.0479537658, 0)
 Next.Visible = false
 Next.AutoButtonColor = false
 Next.Font = Enum.Font.GothamBold
@@ -908,31 +837,37 @@ Next.TextScaled = true
 Next.TextSize = 14.000
 Next.TextWrapped = true
 
-UICorner_31.Parent = Next
+UICorner_27.Parent = Next
 
-UIAspectRatioConstraint_7.Parent = Next
-UIAspectRatioConstraint_7.AspectRatio = 2.780
+UIAspectRatioConstraint_8.Parent = Next
+UIAspectRatioConstraint_8.AspectRatio = 2.780
 
-UITextSizeConstraint_28.Parent = Next
-UITextSizeConstraint_28.MaxTextSize = 50
+UITextSizeConstraint_25.Parent = Next
+UITextSizeConstraint_25.MaxTextSize = 50
 
 TimeErase.Name = "TimeErase"
 TimeErase.Parent = BorksFriendsPunch
 TimeErase.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TimeErase.BackgroundTransparency = 1.000
-TimeErase.Position = UDim2.new(-5.42402267e-05, 0, 0.907407403, 0)
-TimeErase.Size = UDim2.new(0, 200, 0, 50)
+TimeErase.Position = UDim2.new(-5.42406633e-05, 0, 0.907407403, 0)
+TimeErase.Size = UDim2.new(0.107347578, 0, 0.0453703701, 0)
 TimeErase.Font = Enum.Font.GothamBlack
-TimeErase.Text = "X to Erase Time"
+TimeErase.Text = "B to Erase Time"
 TimeErase.TextColor3 = Color3.fromRGB(255, 255, 255)
 TimeErase.TextScaled = true
 TimeErase.TextSize = 14.000
 TimeErase.TextStrokeTransparency = 0.500
 TimeErase.TextWrapped = true
 
+UIAspectRatioConstraint_9.Parent = TimeErase
+UIAspectRatioConstraint_9.AspectRatio = 4.204
+
+UITextSizeConstraint_26.Parent = TimeErase
+UITextSizeConstraint_26.MaxTextSize = 28
+
 -- Scripts:
 
-local function OWUAE_fake_script() -- OpenGUI.LocalScript 
+local function TCKET_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -945,16 +880,16 @@ local function OWUAE_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OWUAE_fake_script)()
-local function NBDLX_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(TCKET_fake_script)()
+local function XPCRDE_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(NBDLX_fake_script)()
-local function YWPZOA_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(XPCRDE_fake_script)()
+local function SQHVO_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -964,8 +899,8 @@ local function YWPZOA_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(YWPZOA_fake_script)()
-local function WLHLYPQ_fake_script() -- TimeSkipFrame.TimeSkip 
+coroutine.wrap(SQHVO_fake_script)()
+local function JGVOLO_fake_script() -- TimeSkipFrame.TimeSkip 
 	local script = Instance.new('LocalScript', TimeSkipFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1052,28 +987,28 @@ local function WLHLYPQ_fake_script() -- TimeSkipFrame.TimeSkip
 		end
 	end)
 end
-coroutine.wrap(WLHLYPQ_fake_script)()
-local function FKJVI_fake_script() -- TimeSkipFrame.TimeErase 
+coroutine.wrap(JGVOLO_fake_script)()
+local function INOW_fake_script() -- TimeSkipFrame.TimeErase 
 	local script = Instance.new('LocalScript', TimeSkipFrame)
 
 	local UIS = game:GetService("UserInputService")
 	local debounce = false
 	local Players = game:GetService("Players")
+	local TE = script.Parent.TE
 	
 	UIS.InputBegan:connect(function(Input,isTyping)
 	local MouseInput = Input.UserInputType
 	local KeyCode = Input.KeyCode
 		
-		--[[
-	if KeyCode == Enum.KeyCode.X then
+	if KeyCode == Enum.KeyCode.B then
 				if isTyping then
 				return
 				else
 	
-				--if not debounce then
+				if not debounce then
 	
 	
-				--debounce = true
+				debounce = true
 	
 				local s1 = Instance.new("Sound")
 				s1.Name = "Sound"
@@ -1147,8 +1082,9 @@ local function FKJVI_fake_script() -- TimeSkipFrame.TimeErase
 				script.Parent.TimeErase17.Visible = false
 	
 				s3:Play()
-	
-	
+				
+				TE.Value = true
+				
 				local Skybox = game.Lighting.Sky
 	
 				Skybox.SkyboxBk = "http://www.roblox.com/asset/?id=159454299"
@@ -1165,22 +1101,24 @@ local function FKJVI_fake_script() -- TimeSkipFrame.TimeErase
 				game.Workspace.Baseplate.Left.Texture = ""
 				game.Workspace.Baseplate.Right.Texture = ""
 				game.Workspace.Baseplate.Top.Texture = ""
-				
+					
 				game.Workspace.Baseplate.Transparency = 1
 				
-				local standclone = game.Workspace.Dummy:Clone()
+							--[[
+				local standclone = game.Players.LocalPlayer.Character:Clone()
 				standclone.Parent = game.Workspace
-				standclone.Name = "King Crimson"
-				standclone:WaitForChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-2,1,3)			
+	
+				standclone.Name = "Stand"
+				standclone:WaitForChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame * CFrame.new(-1,1,2.5)			
 				local weld = Instance.new("WeldConstraint")
-				weld.Part0 = standclone.HumanoidRootPart
-				weld.Part1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+				weld.Part0 = standclone:WaitForChild("HumanoidRootPart")
+				weld.Part1 = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
 				weld.Parent = game.Players.LocalPlayer.Character
 				standclone.Humanoid:remove()
-				standclone.HumanoidRootPart.Anchored = false
-				standclone.HumanoidRootPart.CanCollide = false
-				standclone.HumanoidRootPart.Massless = true
-				standclone.Head.face:remove()
+				standclone:WaitForChild("HumanoidRootPart").Anchored = false
+				standclone:WaitForChild("HumanoidRootPart").CanCollide = false
+				standclone:WaitForChild("HumanoidRootPart").Massless = true
+				standclone.Head:WaitForChild("face"):remove()
 				local standchildren = workspace:WaitForChild("King Crimson"):GetChildren()
 				for i = 1, #standchildren do
 					print(i, standchildren[i].Name)
@@ -1189,13 +1127,12 @@ local function FKJVI_fake_script() -- TimeSkipFrame.TimeErase
 					standchildren[i].Massless = true
 					standchildren[i].Color = Color3.fromRGB(255, 0, 0)
 					standchildren[i].Material = Enum.Material.SmoothPlastic
-				end
 				
 				
 				
 				
 				local clone = game.Workspace.Dummy:Clone()
-				clone.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				clone:WaitForChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame
 				clone.Parent = game.Workspace
 				clone.Name = "TimeEraseClone"
 				clone.Humanoid.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
@@ -1204,7 +1141,7 @@ local function FKJVI_fake_script() -- TimeSkipFrame.TimeErase
 				clone:WaitForChild("Shirt Graphic"):remove()
 				clone:WaitForChild("Shirt"):remove()
 				clone:WaitForChild("Pants"):remove()
-				clone.HumanoidRootPart.Anchored = true
+				clone:WaitForChild("HumanoidRootPart").Anchored = true
 				clone:WaitForChild("Humanoid"):remove()
 				clone:WaitForChild("Shirt Graphic"):remove()
 				clone:WaitForChild("Head").Anchored = true
@@ -1212,13 +1149,536 @@ local function FKJVI_fake_script() -- TimeSkipFrame.TimeErase
 				clone:WaitForChild("Head").Color = Color3.fromRGB(255, 0, 0)
 				clone:WaitForChild("Head").Transparency = 0.5
 				local Children = clone:GetChildren()
-	
+				
+				
 				for i = 1, #Children do
 					Children[i].Anchored = true
 					Children[i].CanCollide = false
 					Children[i].Color = Color3.fromRGB(255, 0, 0)
 					Children[i].Transparency = 0.5
 					Children[i].Material = Enum.Material.SmoothPlastic
+	--]]
+				local Stand = Instance.new("Model")
+				Stand.Name = "Stand"
+	
+				local HumanoidRootPart = Instance.new("Part")
+				HumanoidRootPart.Name = "HumanoidRootPart"
+				HumanoidRootPart.BottomSurface = Enum.SurfaceType.Smooth
+				HumanoidRootPart.CanCollide = false
+				HumanoidRootPart.TopSurface = Enum.SurfaceType.Smooth
+				HumanoidRootPart.Color = Color3.fromRGB(196, 40, 28)
+				HumanoidRootPart.Massless = true
+				HumanoidRootPart.Material = Enum.Material.SmoothPlastic
+				HumanoidRootPart.Size = Vector3.new(2, 2, 1)
+				HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame * CFrame.new(-1,1,2.5)			
+				local HUMRPWeld = Instance.new("WeldConstraint")
+				HUMRPWeld.Part0 = HumanoidRootPart
+				HUMRPWeld.Part1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+				HumanoidRootPart.Parent = Stand
+	
+				local RootHip = Instance.new("Motor6D")
+				RootHip.Name = "Root Hip"
+				RootHip.C1 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, 0)
+				RootHip.C0 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, 0)
+				RootHip.MaxVelocity = 0.1
+				RootHip.Parent = HumanoidRootPart
+	
+				local Torso = Instance.new("Part")
+				Torso.Name = "Torso"
+				Torso.BottomSurface = Enum.SurfaceType.Smooth
+				Torso.CanCollide = false
+				Torso.TopSurface = Enum.SurfaceType.Smooth
+				Torso.Color = Color3.fromRGB(196, 40, 28)
+				Torso.Massless = true
+				Torso.Material = Enum.Material.SmoothPlastic
+				Torso.Size = Vector3.new(2, 2, 1)
+				Torso.CFrame = game.Players.LocalPlayer.Character:WaitForChild("Torso").CFrame * CFrame.new(-1,1,2.5)	
+				local HUMRPWeld = Instance.new("WeldConstraint")
+				HUMRPWeld.Part0 = Torso
+				HUMRPWeld.Part1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+				Torso.Parent = Stand
+	
+				local LeftLeg = Instance.new("Part")
+				LeftLeg.Name = "Left Leg"
+				LeftLeg.BottomSurface = Enum.SurfaceType.Smooth
+				LeftLeg.CanCollide = false
+				LeftLeg.TopSurface = Enum.SurfaceType.Smooth
+				LeftLeg.Color = Color3.fromRGB(196, 40, 28)
+				LeftLeg.Massless = true
+				LeftLeg.Material = Enum.Material.SmoothPlastic
+				LeftLeg.Size = Vector3.new(1, 2, 1)
+				LeftLeg.CFrame = game.Players.LocalPlayer.Character:WaitForChild("Left Leg").CFrame * CFrame.new(-1,1,2.5)
+				local HUMRPWeld = Instance.new("WeldConstraint")
+				HUMRPWeld.Part0 = LeftLeg
+				HUMRPWeld.Part1 = game.Players.LocalPlayer.Character.HumanoidRootPart	
+				LeftLeg.Parent = Stand
+	
+				local RightLeg = Instance.new("Part")
+				RightLeg.Name = "Right Leg"
+				RightLeg.BottomSurface = Enum.SurfaceType.Smooth
+				RightLeg.CanCollide = false
+				RightLeg.TopSurface = Enum.SurfaceType.Smooth
+				RightLeg.Color = Color3.fromRGB(196, 40, 28)
+				RightLeg.Massless = true
+				RightLeg.Material = Enum.Material.SmoothPlastic
+				RightLeg.Size = Vector3.new(1, 2, 1)
+				RightLeg.CFrame = game.Players.LocalPlayer.Character:WaitForChild("Right Leg").CFrame * CFrame.new(-1,1,2.5)	
+				local HUMRPWeld = Instance.new("WeldConstraint")
+				HUMRPWeld.Part0 = RightLeg
+				HUMRPWeld.Part1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+				RightLeg.Parent = Stand
+	
+				local Weld = Instance.new("Weld")
+				Weld.C1 = CFrame.new(0.49999809265137, -0.42690467834473, 0.23852920532227, -1.4007333675181e-06, -2.979814972548e-08, -1, -0.16759705543518, 0.98585563898087, 2.0538215039778e-07, 0.98585563898087, 0.16759705543518, -1.3859149703421e-06)
+				Weld.C0 = CFrame.new(-0.49999904632568, 0, 1.9073486328125e-06, -1.4007333675181e-06, 4.5085502171915e-12, -1, 3.2336079129891e-06, 1, -2.8421733147327e-14, 1, -3.2336081403628e-06, -1.4007333675181e-06)
+				Weld.Parent = RightLeg
+	
+				local LeftArm = Instance.new("Part")
+				LeftArm.Name = "Left Arm"
+				LeftArm.BottomSurface = Enum.SurfaceType.Smooth
+				LeftArm.CanCollide = false
+				LeftArm.TopSurface = Enum.SurfaceType.Smooth
+				LeftArm.Color = Color3.fromRGB(196, 40, 28)
+				LeftArm.Massless = true
+				LeftArm.Material = Enum.Material.SmoothPlastic
+				LeftArm.Size = Vector3.new(1, 2, 1)
+				LeftArm.CFrame = game.Players.LocalPlayer.Character:WaitForChild("Left Arm").CFrame * CFrame.new(-1,1,2.5)	
+				local HUMRPWeld = Instance.new("WeldConstraint")
+				HUMRPWeld.Part0 = LeftArm
+				HUMRPWeld.Part1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+				LeftArm.Parent = Stand
+	
+				local RightArm = Instance.new("Part")
+				RightArm.Name = "Right Arm"
+				RightArm.BottomSurface = Enum.SurfaceType.Smooth
+				RightArm.CanCollide = false
+				RightArm.TopSurface = Enum.SurfaceType.Smooth
+				RightArm.Color = Color3.fromRGB(196, 40, 28)
+				RightArm.Massless = true
+				RightArm.Material = Enum.Material.SmoothPlastic
+				RightArm.Size = Vector3.new(1, 2, 1)
+				RightArm.CFrame = game.Players.LocalPlayer.Character:WaitForChild("Right Arm").CFrame * CFrame.new(-1,1,2.5)	
+				local RightArmWeld = Instance.new("WeldConstraint")
+				RightArmWeld.Part0 = RightArm
+				RightArmWeld.Part1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+				RightArm.Parent = Stand
+	
+				local Head = Instance.new("Part")
+				Head.Name = "Head"
+				Head.BottomSurface = Enum.SurfaceType.Smooth
+				Head.CanCollide = false
+				Head.TopSurface = Enum.SurfaceType.Smooth
+				Head.Color = Color3.fromRGB(196, 40, 28)
+				Head.Massless = true
+				Head.Material = Enum.Material.SmoothPlastic
+				Head.Size = Vector3.new(2, 1, 1)
+				Head.CFrame = game.Players.LocalPlayer.Character:WaitForChild("Head").CFrame * CFrame.new(-1,1,2.5)		
+				local HEADWeld = Instance.new("WeldConstraint")
+				HEADWeld.Part0 = RightArm
+				HEADWeld.Part1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+				Head.Parent = Stand
+	
+				local Mesh = Instance.new("SpecialMesh")
+				Mesh.Scale = Vector3.new(1.25, 1.25, 1.25)
+				Mesh.Parent = Head
+	
+				local OriginalSize = Instance.new("Vector3Value")
+				OriginalSize.Name = "OriginalSize"
+				OriginalSize.Value = Vector3.new(1.25, 1.25, 1.25)
+				OriginalSize.Parent = Mesh
+	
+				local FaceCenterAttachment = Instance.new("Attachment")
+				FaceCenterAttachment.Name = "FaceCenterAttachment"
+				FaceCenterAttachment.WorldSecondaryAxis = Vector3.new(7.793036438386e-09, 0.99999666213989, 1.107663072375e-09)
+				FaceCenterAttachment.WorldOrientation = Vector3.new(2.544443605465e-14, -8.089545249939, -4.5099656631464e-07)
+				FaceCenterAttachment.CFrame = CFrame.new(0, 0, 0, 1, 7.8713755513604e-09, 3.0299812714461e-15, -7.8713755513604e-09, 1, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 1)
+				FaceCenterAttachment.WorldPosition = Vector3.new(-23.515552520752, 4.4904890060425, 22.370893478394)
+				FaceCenterAttachment.Axis = Vector3.new(1, -7.8713755513604e-09, -3.0299812714461e-15)
+				FaceCenterAttachment.Rotation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				FaceCenterAttachment.WorldCFrame = CFrame.new(-23.515552520752, 4.4904890060425, 22.370893478394, 0.99004757404327, 7.793036438386e-09, -0.14071986079216, -7.8713489060078e-09, 0.99999666213989, -4.4408920985006e-16, 0.14072033762932, 1.107663072375e-09, 0.99004429578781)
+				FaceCenterAttachment.SecondaryAxis = Vector3.new(7.8713755513604e-09, 1, 4.1444255377035e-16)
+				FaceCenterAttachment.Orientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				FaceCenterAttachment.WorldAxis = Vector3.new(0.99004757404327, -7.8713489060078e-09, 0.14072033762932)
+				FaceCenterAttachment.Parent = Head
+	
+				local OriginalPosition = Instance.new("Vector3Value")
+				OriginalPosition.Name = "OriginalPosition"
+				OriginalPosition.Parent = FaceCenterAttachment
+	
+				local FaceFrontAttachment = Instance.new("Attachment")
+				FaceFrontAttachment.Name = "FaceFrontAttachment"
+				FaceFrontAttachment.WorldSecondaryAxis = Vector3.new(7.793036438386e-09, 0.99999666213989, 1.107663072375e-09)
+				FaceFrontAttachment.WorldOrientation = Vector3.new(2.544443605465e-14, -8.089545249939, -4.5099656631464e-07)
+				FaceFrontAttachment.CFrame = CFrame.new(0, 0, -0.60000002384186, 1, 7.8713755513604e-09, 3.0299812714461e-15, -7.8713755513604e-09, 1, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 1)
+				FaceFrontAttachment.WorldPosition = Vector3.new(-23.431123733521, 4.4904890060425, 21.77686882019)
+				FaceFrontAttachment.Axis = Vector3.new(1, -7.8713755513604e-09, -3.0299812714461e-15)
+				FaceFrontAttachment.Rotation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				FaceFrontAttachment.WorldCFrame = CFrame.new(-23.431123733521, 4.4904890060425, 21.77686882019, 0.99004757404327, 7.793036438386e-09, -0.14071986079216, -7.8713489060078e-09, 0.99999666213989, -4.4408920985006e-16, 0.14072033762932, 1.107663072375e-09, 0.99004429578781)
+				FaceFrontAttachment.SecondaryAxis = Vector3.new(7.8713755513604e-09, 1, 4.1444255377035e-16)
+				FaceFrontAttachment.Position = Vector3.new(0, 0, -0.60000002384186)
+				FaceFrontAttachment.Orientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				FaceFrontAttachment.WorldAxis = Vector3.new(0.99004757404327, -7.8713489060078e-09, 0.14072033762932)
+				FaceFrontAttachment.Parent = Head
+	
+				local OriginalPosition1 = Instance.new("Vector3Value")
+				OriginalPosition1.Name = "OriginalPosition"
+				OriginalPosition1.Value = Vector3.new(0, 0, -0.60000002384186)
+				OriginalPosition1.Parent = FaceFrontAttachment
+	
+				local HairAttachment = Instance.new("Attachment")
+				HairAttachment.Name = "HairAttachment"
+				HairAttachment.WorldSecondaryAxis = Vector3.new(7.793036438386e-09, 0.99999666213989, 1.107663072375e-09)
+				HairAttachment.WorldOrientation = Vector3.new(2.544443605465e-14, -8.089545249939, -4.5099656631464e-07)
+				HairAttachment.CFrame = CFrame.new(0, 0.60000002384186, 0, 1, 7.8713755513604e-09, 3.0299812714461e-15, -7.8713755513604e-09, 1, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 1)
+				HairAttachment.WorldPosition = Vector3.new(-23.515552520752, 5.0904870033264, 22.370893478394)
+				HairAttachment.Axis = Vector3.new(1, -7.8713755513604e-09, -3.0299812714461e-15)
+				HairAttachment.Rotation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				HairAttachment.WorldCFrame = CFrame.new(-23.515552520752, 5.0904870033264, 22.370893478394, 0.99004757404327, 7.793036438386e-09, -0.14071986079216, -7.8713489060078e-09, 0.99999666213989, -4.4408920985006e-16, 0.14072033762932, 1.107663072375e-09, 0.99004429578781)
+				HairAttachment.SecondaryAxis = Vector3.new(7.8713755513604e-09, 1, 4.1444255377035e-16)
+				HairAttachment.Position = Vector3.new(0, 0.60000002384186, 0)
+				HairAttachment.Orientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				HairAttachment.WorldAxis = Vector3.new(0.99004757404327, -7.8713489060078e-09, 0.14072033762932)
+				HairAttachment.Parent = Head
+	
+				local OriginalPosition2 = Instance.new("Vector3Value")
+				OriginalPosition2.Name = "OriginalPosition"
+				OriginalPosition2.Value = Vector3.new(0, 0.60000002384186, 0)
+				OriginalPosition2.Parent = HairAttachment
+	
+				local HatAttachment = Instance.new("Attachment")
+				HatAttachment.Name = "HatAttachment"
+				HatAttachment.WorldSecondaryAxis = Vector3.new(7.793036438386e-09, 0.99999666213989, 1.107663072375e-09)
+				HatAttachment.WorldOrientation = Vector3.new(2.544443605465e-14, -8.089545249939, -4.5099656631464e-07)
+				HatAttachment.CFrame = CFrame.new(0, 0.60000002384186, 0, 1, 7.8713755513604e-09, 3.0299812714461e-15, -7.8713755513604e-09, 1, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 1)
+				HatAttachment.WorldPosition = Vector3.new(-23.515552520752, 5.0904870033264, 22.370893478394)
+				HatAttachment.Axis = Vector3.new(1, -7.8713755513604e-09, -3.0299812714461e-15)
+				HatAttachment.Rotation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				HatAttachment.WorldCFrame = CFrame.new(-23.515552520752, 5.0904870033264, 22.370893478394, 0.99004757404327, 7.793036438386e-09, -0.14071986079216, -7.8713489060078e-09, 0.99999666213989, -4.4408920985006e-16, 0.14072033762932, 1.107663072375e-09, 0.99004429578781)
+				HatAttachment.SecondaryAxis = Vector3.new(7.8713755513604e-09, 1, 4.1444255377035e-16)
+				HatAttachment.Position = Vector3.new(0, 0.60000002384186, 0)
+				HatAttachment.Orientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				HatAttachment.WorldAxis = Vector3.new(0.99004757404327, -7.8713489060078e-09, 0.14072033762932)
+				HatAttachment.Parent = Head
+	
+				local OriginalPosition3 = Instance.new("Vector3Value")
+				OriginalPosition3.Name = "OriginalPosition"
+				OriginalPosition3.Value = Vector3.new(0, 0.60000002384186, 0)
+				OriginalPosition3.Parent = HatAttachment
+	
+				local NeckRigAttachment = Instance.new("Attachment")
+				NeckRigAttachment.Name = "NeckRigAttachment"
+				NeckRigAttachment.WorldSecondaryAxis = Vector3.new(0, 0.99999666213989, 0)
+				NeckRigAttachment.WorldOrientation = Vector3.new(-0, -8.089545249939, 0)
+				NeckRigAttachment.CFrame = CFrame.new(0, -0.5, 0)
+				NeckRigAttachment.WorldPosition = Vector3.new(-23.515552520752, 3.9904906749725, 22.370893478394)
+				NeckRigAttachment.WorldCFrame = CFrame.new(-23.515552520752, 3.9904906749725, 22.370893478394, 0.99004757404327, 0, -0.14071986079216, 0, 0.99999666213989, 0, 0.14072033762932, 0, 0.99004429578781)
+				NeckRigAttachment.Position = Vector3.new(0, -0.5, 0)
+				NeckRigAttachment.WorldAxis = Vector3.new(0.99004757404327, 0, 0.14072033762932)
+				NeckRigAttachment.Parent = Head
+	
+				local OriginalPosition4 = Instance.new("Vector3Value")
+				OriginalPosition4.Name = "OriginalPosition"
+				OriginalPosition4.Value = Vector3.new(0, -0.5, 0)
+				OriginalPosition4.Parent = NeckRigAttachment
+	
+				local OriginalSize1 = Instance.new("Vector3Value")
+				OriginalSize1.Name = "OriginalSize"
+				OriginalSize1.Value = Vector3.new(2, 1, 1)
+				OriginalSize1.Parent = Head
+	
+				local Weld1 = Instance.new("Weld")
+				Weld1.C1 = CFrame.new(2.8610229492188e-06, 0.99050951004028, 3.814697265625e-06, 0.90908229351044, 0.41661676764488, 0, 0, 0, -1, -0.41661682724953, 0.90908223390579, 0)
+				Weld1.C0 = CFrame.new(-1.9073486328125e-06, -0.49999332427979, 3.814697265625e-06, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+				Weld1.Parent = Head
+	
+				local Weld2 = Instance.new("Weld")
+				Weld2.C1 = CFrame.new(2.8610229492188e-06, 0.99050951004028, 3.814697265625e-06, 0.90908229351044, 0.41661676764488, 0, 0, 0, -1, -0.41661682724953, 0.90908223390579, 0)
+				Weld2.C0 = CFrame.new(-1.9073486328125e-06, -0.49999332427979, 3.814697265625e-06, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+				Weld2.Parent = Head
+	
+				RootHip.Part1 = Torso
+				RootHip.Part0 = HumanoidRootPart
+	
+				Weld.Part1 = LeftLeg
+				Weld.Part0 = RightLeg
+	
+				Weld1.Part1 = HumanoidRootPart
+				Weld1.Part0 = Head
+	
+				Weld2.Part1 = Torso
+				Weld2.Part0 = Head
+	
+				Stand.PrimaryPart = HumanoidRootPart
+				Stand.Parent = workspace
+				
+				local TimeEraseClone = Instance.new("Model")
+				TimeEraseClone.Name = "TimeEraseClone"
+	
+				local HumanoidRootPart = Instance.new("Part")
+				HumanoidRootPart.Name = "HumanoidRootPart"
+				HumanoidRootPart.Anchored = true
+				HumanoidRootPart.BottomSurface = Enum.SurfaceType.Smooth
+				HumanoidRootPart.CanCollide = false
+				HumanoidRootPart.TopSurface = Enum.SurfaceType.Smooth
+				HumanoidRootPart.Color = Color3.fromRGB(255, 0, 0)
+				HumanoidRootPart.Transparency = 0.5
+				HumanoidRootPart.Material = Enum.Material.SmoothPlastic
+				HumanoidRootPart.Size = Vector3.new(2, 2, 1)
+				HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				HumanoidRootPart.Parent = TimeEraseClone
+	
+				local RootHip = Instance.new("Motor6D")
+				RootHip.Name = "Root Hip"
+				RootHip.C1 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, 0)
+				RootHip.C0 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, 0)
+				RootHip.MaxVelocity = 0.1
+				RootHip.Parent = HumanoidRootPart
+	
+				local Torso = Instance.new("Part")
+				Torso.Name = "Torso"
+				Torso.Anchored = true
+				Torso.BottomSurface = Enum.SurfaceType.Smooth
+				Torso.CanCollide = false
+				Torso.TopSurface = Enum.SurfaceType.Smooth
+				Torso.Color = Color3.fromRGB(255, 0, 0)
+				Torso.Transparency = 0.5
+				Torso.Material = Enum.Material.SmoothPlastic
+				Torso.Size = Vector3.new(2, 2, 1)
+				Torso.CFrame = game.Players.LocalPlayer.Character.Torso.CFrame
+				Torso.Parent = TimeEraseClone
+	
+				local LeftHip = Instance.new("Motor6D")
+				LeftHip.Name = "Left Hip"
+				LeftHip.C1 = CFrame.new(-0.5, 1, 0, -4.3711388286738e-08, 0, -1, 0, 0.99999994039536, 0, 1, 0, -4.3711388286738e-08)
+				LeftHip.C0 = CFrame.new(-1, -1, 0, -4.3711388286738e-08, 0, -1, 0, 0.99999994039536, 0, 1, 0, -4.3711388286738e-08)
+				LeftHip.MaxVelocity = 0.1
+				LeftHip.Parent = Torso
+	
+				local RightHip = Instance.new("Motor6D")
+				RightHip.Name = "Right Hip"
+				RightHip.C1 = CFrame.new(0.5, 1, 0, -4.3711388286738e-08, 0, 1, 0, 0.99999994039536, 0, -1, 0, -4.3711388286738e-08)
+				RightHip.C0 = CFrame.new(1, -1, 0, -4.3711388286738e-08, 0, 1, -0, 0.99999994039536, 0, -1, 0, -4.3711388286738e-08)
+				RightHip.MaxVelocity = 0.1
+				RightHip.Parent = Torso
+	
+				local LeftShoulder = Instance.new("Motor6D")
+				LeftShoulder.Name = "Left Shoulder"
+				LeftShoulder.C1 = CFrame.new(0.5, 0.5, 0, -4.3711388286738e-08, 0, -1, 0, 0.99999994039536, 0, 1, 0, -4.3711388286738e-08)
+				LeftShoulder.C0 = CFrame.new(-1, 0.5, 0, -4.3711388286738e-08, 0, -1, 0, 0.99999994039536, 0, 1, 0, -4.3711388286738e-08)
+				LeftShoulder.MaxVelocity = 0.1
+				LeftShoulder.Parent = Torso
+	
+				local RightShoulder = Instance.new("Motor6D")
+				RightShoulder.Name = "Right Shoulder"
+				RightShoulder.C1 = CFrame.new(-0.5, 0.5, 0, -4.3711388286738e-08, 0, 1, 0, 0.99999994039536, 0, -1, 0, -4.3711388286738e-08)
+				RightShoulder.C0 = CFrame.new(1, 0.5, 0, -4.3711388286738e-08, 0, 1, -0, 0.99999994039536, 0, -1, 0, -4.3711388286738e-08)
+				RightShoulder.MaxVelocity = 0.1
+				RightShoulder.Parent = Torso
+	
+				local LeftLeg = Instance.new("Part")
+				LeftLeg.Name = "Left Leg"
+				LeftLeg.Anchored = true
+				LeftLeg.BottomSurface = Enum.SurfaceType.Smooth
+				LeftLeg.CanCollide = false
+				LeftLeg.TopSurface = Enum.SurfaceType.Smooth
+				LeftLeg.Color = Color3.fromRGB(255, 0, 0)
+				LeftLeg.Transparency = 0.5
+				LeftLeg.Material = Enum.Material.SmoothPlastic
+				LeftLeg.Size = Vector3.new(1, 2, 1)
+				LeftLeg.CFrame = game.Players.LocalPlayer.Character:WaitForChild("Left Leg").CFrame
+				LeftLeg.Parent = TimeEraseClone
+	
+				local Weld = Instance.new("Weld")
+				Weld.C1 = CFrame.new(-11.583206176758, 10, 13.911840438843, 1, 0, 0, 0, 0, -1, 0, 0.99999988079071, 0)
+				Weld.C0 = CFrame.new(0, -0.99999988079071, 0, 1, 0, 0, 0, 0, -0.99999988079071, 0, 0.99999964237213, 0)
+				Weld.Parent = LeftLeg
+	
+				local RightLeg = Instance.new("Part")
+				RightLeg.Name = "Right Leg"
+				RightLeg.Anchored = true
+				RightLeg.BottomSurface = Enum.SurfaceType.Smooth
+				RightLeg.CanCollide = false
+				RightLeg.TopSurface = Enum.SurfaceType.Smooth
+				RightLeg.Color = Color3.fromRGB(255, 0, 0)
+				RightLeg.Transparency = 0.5
+				RightLeg.Material = Enum.Material.SmoothPlastic
+				RightLeg.CFrame = game.Players.LocalPlayer.Character:WaitForChild("Right Leg").CFrame
+				RightLeg.Size = Vector3.new(1, 2, 1)
+				RightLeg.Parent = TimeEraseClone
+	
+				local Weld1 = Instance.new("Weld")
+				Weld1.C1 = CFrame.new(-10.583206176758, 10, 13.911840438843, 1, 0, 0, 0, 0, -1, 0, 0.99999988079071, 0)
+				Weld1.C0 = CFrame.new(0, -0.99999988079071, 0, 1, 0, 0, 0, 0, -0.99999988079071, 0, 0.99999964237213, 0)
+				Weld1.Parent = RightLeg
+	
+				local LeftArm = Instance.new("Part")
+				LeftArm.Name = "Left Arm"
+				LeftArm.Anchored = true
+				LeftArm.BottomSurface = Enum.SurfaceType.Smooth
+				LeftArm.CanCollide = false
+				LeftArm.TopSurface = Enum.SurfaceType.Smooth
+				LeftArm.Color = Color3.fromRGB(255, 0, 0)
+				LeftArm.Transparency = 0.5
+				LeftArm.Material = Enum.Material.SmoothPlastic
+				LeftArm.CFrame = game.Players.LocalPlayer.Character:WaitForChild("Left Arm").CFrame
+				LeftArm.Size = Vector3.new(1, 2, 1)
+				LeftArm.Parent = TimeEraseClone
+	
+				local RightArm = Instance.new("Part")
+				RightArm.Name = "Right Arm"
+				RightArm.Anchored = true
+				RightArm.BottomSurface = Enum.SurfaceType.Smooth
+				RightArm.CanCollide = false
+				RightArm.TopSurface = Enum.SurfaceType.Smooth
+				RightArm.Color = Color3.fromRGB(255, 0, 0)
+				RightArm.Transparency = 0.5
+				RightArm.Material = Enum.Material.SmoothPlastic
+				RightArm.CFrame = game.Players.LocalPlayer.Character:WaitForChild("Right Arm").CFrame
+				RightArm.Size = Vector3.new(1, 2, 1)
+				RightArm.Parent = TimeEraseClone
+	
+				local Head = Instance.new("Part")
+				Head.Name = "Head"
+				Head.Anchored = true
+				Head.BottomSurface = Enum.SurfaceType.Smooth
+				Head.CanCollide = false
+				Head.TopSurface = Enum.SurfaceType.Smooth
+				Head.Color = Color3.fromRGB(255, 0, 0)
+				Head.Transparency = 0.5
+				Head.Material = Enum.Material.SmoothPlastic
+				Head.CFrame = game.Players.LocalPlayer.Character.Head.CFrame
+				Head.Size = Vector3.new(2, 1, 1)
+				Head.Parent = TimeEraseClone
+	
+				local Mesh = Instance.new("SpecialMesh")
+				Mesh.Scale = Vector3.new(1.25, 1.25, 1.25)
+				Mesh.Parent = Head
+	
+				local OriginalSize = Instance.new("Vector3Value")
+				OriginalSize.Name = "OriginalSize"
+				OriginalSize.Value = Vector3.new(1.25, 1.25, 1.25)
+				OriginalSize.Parent = Mesh
+	
+				local FaceCenterAttachment = Instance.new("Attachment")
+				FaceCenterAttachment.Name = "FaceCenterAttachment"
+				FaceCenterAttachment.WorldSecondaryAxis = Vector3.new(7.8713755513604e-09, 0.99999976158142, 4.1444255377035e-16)
+				FaceCenterAttachment.WorldOrientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				FaceCenterAttachment.CFrame = CFrame.new(0, 0, 0, 1, 7.8713755513604e-09, 3.0299812714461e-15, -7.8713755513604e-09, 1, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 1)
+				FaceCenterAttachment.WorldPosition = Vector3.new(-11.082712173462, 4.4999856948853, 13.91167640686)
+				FaceCenterAttachment.Axis = Vector3.new(1, -7.8713755513604e-09, -3.0299812714461e-15)
+				FaceCenterAttachment.Rotation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				FaceCenterAttachment.WorldCFrame = CFrame.new(-11.082712173462, 4.4999856948853, 13.91167640686, 1, 7.8713755513604e-09, 3.0299806361714e-15, -7.8713737750036e-09, 0.99999976158142, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 0.99999976158142)
+				FaceCenterAttachment.SecondaryAxis = Vector3.new(7.8713755513604e-09, 1, 4.1444255377035e-16)
+				FaceCenterAttachment.Orientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				FaceCenterAttachment.WorldAxis = Vector3.new(1, -7.8713737750036e-09, -3.0299812714461e-15)
+				FaceCenterAttachment.Parent = Head
+	
+				local OriginalPosition = Instance.new("Vector3Value")
+				OriginalPosition.Name = "OriginalPosition"
+				OriginalPosition.Parent = FaceCenterAttachment
+	
+				local FaceFrontAttachment = Instance.new("Attachment")
+				FaceFrontAttachment.Name = "FaceFrontAttachment"
+				FaceFrontAttachment.WorldSecondaryAxis = Vector3.new(7.8713755513604e-09, 0.99999976158142, 4.1444255377035e-16)
+				FaceFrontAttachment.WorldOrientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				FaceFrontAttachment.CFrame = CFrame.new(0, 0, -0.60000002384186, 1, 7.8713755513604e-09, 3.0299812714461e-15, -7.8713755513604e-09, 1, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 1)
+				FaceFrontAttachment.WorldPosition = Vector3.new(-11.082712173462, 4.4999856948853, 13.311676025391)
+				FaceFrontAttachment.Axis = Vector3.new(1, -7.8713755513604e-09, -3.0299812714461e-15)
+				FaceFrontAttachment.Rotation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				FaceFrontAttachment.WorldCFrame = CFrame.new(-11.082712173462, 4.4999856948853, 13.311676025391, 1, 7.8713755513604e-09, 3.0299806361714e-15, -7.8713737750036e-09, 0.99999976158142, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 0.99999976158142)
+				FaceFrontAttachment.SecondaryAxis = Vector3.new(7.8713755513604e-09, 1, 4.1444255377035e-16)
+				FaceFrontAttachment.Position = Vector3.new(0, 0, -0.60000002384186)
+				FaceFrontAttachment.Orientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				FaceFrontAttachment.WorldAxis = Vector3.new(1, -7.8713737750036e-09, -3.0299812714461e-15)
+				FaceFrontAttachment.Parent = Head
+	
+				local OriginalPosition1 = Instance.new("Vector3Value")
+				OriginalPosition1.Name = "OriginalPosition"
+				OriginalPosition1.Value = Vector3.new(0, 0, -0.60000002384186)
+				OriginalPosition1.Parent = FaceFrontAttachment
+	
+				local HairAttachment = Instance.new("Attachment")
+				HairAttachment.Name = "HairAttachment"
+				HairAttachment.WorldSecondaryAxis = Vector3.new(7.8713755513604e-09, 0.99999976158142, 4.1444255377035e-16)
+				HairAttachment.WorldOrientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				HairAttachment.CFrame = CFrame.new(0, 0.60000002384186, 0, 1, 7.8713755513604e-09, 3.0299812714461e-15, -7.8713755513604e-09, 1, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 1)
+				HairAttachment.WorldPosition = Vector3.new(-11.082712173462, 5.0999855995178, 13.91167640686)
+				HairAttachment.Axis = Vector3.new(1, -7.8713755513604e-09, -3.0299812714461e-15)
+				HairAttachment.Rotation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				HairAttachment.WorldCFrame = CFrame.new(-11.082712173462, 5.0999855995178, 13.91167640686, 1, 7.8713755513604e-09, 3.0299806361714e-15, -7.8713737750036e-09, 0.99999976158142, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 0.99999976158142)
+				HairAttachment.SecondaryAxis = Vector3.new(7.8713755513604e-09, 1, 4.1444255377035e-16)
+				HairAttachment.Position = Vector3.new(0, 0.60000002384186, 0)
+				HairAttachment.Orientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				HairAttachment.WorldAxis = Vector3.new(1, -7.8713737750036e-09, -3.0299812714461e-15)
+				HairAttachment.Parent = Head
+	
+				local OriginalPosition2 = Instance.new("Vector3Value")
+				OriginalPosition2.Name = "OriginalPosition"
+				OriginalPosition2.Value = Vector3.new(0, 0.60000002384186, 0)
+				OriginalPosition2.Parent = HairAttachment
+	
+				local HatAttachment = Instance.new("Attachment")
+				HatAttachment.Name = "HatAttachment"
+				HatAttachment.WorldSecondaryAxis = Vector3.new(7.8713755513604e-09, 0.99999976158142, 4.1444255377035e-16)
+				HatAttachment.WorldOrientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				HatAttachment.CFrame = CFrame.new(0, 0.60000002384186, 0, 1, 7.8713755513604e-09, 3.0299812714461e-15, -7.8713755513604e-09, 1, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 1)
+				HatAttachment.WorldPosition = Vector3.new(-11.082712173462, 5.0999855995178, 13.91167640686)
+				HatAttachment.Axis = Vector3.new(1, -7.8713755513604e-09, -3.0299812714461e-15)
+				HatAttachment.Rotation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				HatAttachment.WorldCFrame = CFrame.new(-11.082712173462, 5.0999855995178, 13.91167640686, 1, 7.8713755513604e-09, 3.0299806361714e-15, -7.8713737750036e-09, 0.99999976158142, -4.1444258024013e-16, -3.0299812714461e-15, 4.1444255377035e-16, 0.99999976158142)
+				HatAttachment.SecondaryAxis = Vector3.new(7.8713755513604e-09, 1, 4.1444255377035e-16)
+				HatAttachment.Position = Vector3.new(0, 0.60000002384186, 0)
+				HatAttachment.Orientation = Vector3.new(2.3745809734754e-14, 1.7360513525876e-13, -4.5099656631464e-07)
+				HatAttachment.WorldAxis = Vector3.new(1, -7.8713737750036e-09, -3.0299812714461e-15)
+				HatAttachment.Parent = Head
+	
+				local OriginalPosition3 = Instance.new("Vector3Value")
+				OriginalPosition3.Name = "OriginalPosition"
+				OriginalPosition3.Value = Vector3.new(0, 0.60000002384186, 0)
+				OriginalPosition3.Parent = HatAttachment
+	
+				local NeckRigAttachment = Instance.new("Attachment")
+				NeckRigAttachment.Name = "NeckRigAttachment"
+				NeckRigAttachment.WorldSecondaryAxis = Vector3.new(0, 0.99999976158142, 0)
+				NeckRigAttachment.CFrame = CFrame.new(0, -0.5, 0)
+				NeckRigAttachment.WorldPosition = Vector3.new(-11.082712173462, 3.9999856948853, 13.91167640686)
+				NeckRigAttachment.WorldCFrame = CFrame.new(-11.082712173462, 3.9999856948853, 13.91167640686, 1, 0, 0, 0, 0.99999976158142, 0, 0, 0, 0.99999976158142)
+				NeckRigAttachment.Position = Vector3.new(0, -0.5, 0)
+				NeckRigAttachment.Parent = Head
+	
+				local OriginalPosition4 = Instance.new("Vector3Value")
+				OriginalPosition4.Name = "OriginalPosition"
+				OriginalPosition4.Value = Vector3.new(0, -0.5, 0)
+				OriginalPosition4.Parent = NeckRigAttachment
+	
+				local OriginalSize1 = Instance.new("Vector3Value")
+				OriginalSize1.Name = "OriginalSize"
+				OriginalSize1.Value = Vector3.new(2, 1, 1)
+				OriginalSize1.Parent = Head
+	
+				RootHip.Part1 = Torso
+				RootHip.Part0 = HumanoidRootPart
+	
+				LeftHip.Part1 = LeftLeg
+				LeftHip.Part0 = Torso
+	
+				RightHip.Part1 = RightLeg
+				RightHip.Part0 = Torso
+	
+				LeftShoulder.Part1 = LeftArm
+				LeftShoulder.Part0 = Torso
+	
+				RightShoulder.Part1 = RightArm
+				RightShoulder.Part0 = Torso
+	
+				Weld.Part1 = workspace.Baseplate
+				Weld.Part0 = LeftLeg
+	
+				Weld1.Part1 = workspace.Baseplate
+				Weld1.Part0 = RightLeg
+	
+				TimeEraseClone.PrimaryPart = HumanoidRootPart
+				TimeEraseClone.Parent = workspace
 	
 				
 	
@@ -1226,10 +1686,12 @@ local function FKJVI_fake_script() -- TimeSkipFrame.TimeErase
 				wait(10)
 				print("10 seconds have passed")
 					
-				--debounce = false
-						
-					standclone:remove()
-					clone:remove()
+				debounce = false
+				
+					TE.Value = true
+				--standclone:remove()
+					Stand:remove()
+					TimeEraseClone:remove()
 					script.Parent.TimeErase1.Visible = true
 					wait(.01)
 					script.Parent.TimeErase2.Visible = true
@@ -1283,14 +1745,12 @@ local function FKJVI_fake_script() -- TimeSkipFrame.TimeErase
 					script.Parent.TimeErase17.Visible = false
 				
 					
-				
 					game.Workspace.Baseplate.Back.Texture = "rbxassetid://13696542" --rbxassetid://13696542 is the texture btw
 					game.Workspace.Baseplate.Bottom.Texture = "rbxassetid://13696542"
 					game.Workspace.Baseplate.Front.Texture = "rbxassetid://13696542"
 					game.Workspace.Baseplate.Left.Texture = "rbxassetid://13696542"
 					game.Workspace.Baseplate.Right.Texture = "rbxassetid://13696542"
 					game.Workspace.Baseplate.Top.Texture = "rbxassetid://13696542"
-	
 					
 				
 					game.Workspace.Baseplate.Transparency = 0
@@ -1314,16 +1774,29 @@ local function FKJVI_fake_script() -- TimeSkipFrame.TimeErase
 					Skybox.SkyboxFt = "http://www.roblox.com/asset/?id=91458024"
 					Skybox.SkyboxLf = "http://www.roblox.com/asset/?id=91458024"
 					Skybox.SkyboxRt = "http://www.roblox.com/asset/?id=91458024"
-					Skybox.SkyboxUp = "http://www.roblox.com/asset/?id=91458002"
-				end
-				--end
+							Skybox.SkyboxUp = "http://www.roblox.com/asset/?id=91458002"
+							
+							
+					end
+					--end
+						--end
 			end
 		end
-		--]]
 	end)
 end
-coroutine.wrap(FKJVI_fake_script)()
-local function MDUBF_fake_script() -- UIButton.LocalScript 
+coroutine.wrap(INOW_fake_script)()
+local function EKNNZW_fake_script() -- TimeSkipFrame.TEInvis 
+	local script = Instance.new('LocalScript', TimeSkipFrame)
+
+	-- FE Invisible
+	local TE = script.Parent.TE
+	
+	if TE.Value == true then
+		game.Players.LocalPlayer.Character:WaitForChild("Left Arm").CFrame = game.Workspace.TimeEraseClone:WaitForChild("Left Arm").CFrame
+	end
+end
+coroutine.wrap(EKNNZW_fake_script)()
+local function OXBKTP_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1362,8 +1835,8 @@ local function MDUBF_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(MDUBF_fake_script)()
-local function IBYMJHN_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(OXBKTP_fake_script)()
+local function PHJVFH_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1401,8 +1874,8 @@ local function IBYMJHN_fake_script() -- FlingButton.LocalScript
 			
 	end)
 end
-coroutine.wrap(IBYMJHN_fake_script)()
-local function ZAMW_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(PHJVFH_fake_script)()
+local function LHOQJRK_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1424,8 +1897,8 @@ local function ZAMW_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(ZAMW_fake_script)()
-local function DYGA_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(LHOQJRK_fake_script)()
+local function WEXF_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -1436,8 +1909,8 @@ local function DYGA_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DYGA_fake_script)()
-local function JIOMIJD_fake_script() -- DamageButton.LocalScript 
+coroutine.wrap(WEXF_fake_script)()
+local function WJRG_fake_script() -- DamageButton.LocalScript 
 	local script = Instance.new('LocalScript', DamageButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1472,8 +1945,8 @@ local function JIOMIJD_fake_script() -- DamageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JIOMIJD_fake_script)()
-local function KBIBSHV_fake_script() -- BringButton.LocalScript 
+coroutine.wrap(WJRG_fake_script)()
+local function MIRGXA_fake_script() -- BringButton.LocalScript 
 	local script = Instance.new('LocalScript', BringButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1507,8 +1980,8 @@ local function KBIBSHV_fake_script() -- BringButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KBIBSHV_fake_script)()
-local function ADWODKC_fake_script() -- DonutButton.LocalScript 
+coroutine.wrap(MIRGXA_fake_script)()
+local function CXDJ_fake_script() -- DonutButton.LocalScript 
 	local script = Instance.new('LocalScript', DonutButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1576,8 +2049,8 @@ local function ADWODKC_fake_script() -- DonutButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ADWODKC_fake_script)()
-local function VCEJGZ_fake_script() -- DonutComboButton.LocalScript 
+coroutine.wrap(CXDJ_fake_script)()
+local function SHICOH_fake_script() -- DonutComboButton.LocalScript 
 	local script = Instance.new('LocalScript', DonutComboButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1665,8 +2138,8 @@ local function VCEJGZ_fake_script() -- DonutComboButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VCEJGZ_fake_script)()
-local function IQYHCK_fake_script() -- HeavyDamageButton.LocalScript 
+coroutine.wrap(SHICOH_fake_script)()
+local function CSFRZ_fake_script() -- HeavyDamageButton.LocalScript 
 	local script = Instance.new('LocalScript', HeavyDamageButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1701,8 +2174,8 @@ local function IQYHCK_fake_script() -- HeavyDamageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IQYHCK_fake_script)()
-local function OSRE_fake_script() -- TeleportsBehindYouButton.LocalScript 
+coroutine.wrap(CSFRZ_fake_script)()
+local function MNQHSE_fake_script() -- TeleportsBehindYouButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportsBehindYouButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1724,8 +2197,8 @@ local function OSRE_fake_script() -- TeleportsBehindYouButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(OSRE_fake_script)()
-local function AEGDIJ_fake_script() -- Pages.SmoothDrag 
+coroutine.wrap(MNQHSE_fake_script)()
+local function EQTJ_fake_script() -- Pages.SmoothDrag 
 	local script = Instance.new('LocalScript', Pages)
 
 	local Drag = script.Parent
@@ -1768,9 +2241,21 @@ local function AEGDIJ_fake_script() -- Pages.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(AEGDIJ_fake_script)()
-local function FDRL_fake_script() -- UIButton_2.LocalScript 
-	local script = Instance.new('LocalScript', UIButton_2)
+coroutine.wrap(EQTJ_fake_script)()
+local function LQQLASU_fake_script() -- TextBox_2.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_2)
+
+	script.Parent.FocusLost:connect(function()
+		for i,v in pairs(game.Players:GetChildren()) do
+			if (string.sub(string.lower(v.Name),1,string.len(script.Parent.Text))) == string.lower(script.Parent.Text) then
+				script.Parent.Text = v.Name
+			end
+		end
+	end)
+end
+coroutine.wrap(LQQLASU_fake_script)()
+local function MHYFT_fake_script() -- DamageButton_2.LocalScript 
+	local script = Instance.new('LocalScript', DamageButton_2)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
 		function(enterPressed)
@@ -1781,31 +2266,132 @@ local function FDRL_fake_script() -- UIButton_2.LocalScript
 	)
 	
 	local PlayerName = script.Parent.Parent.TextBox
-	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-	local currentHealth = humanoid.Health
+	local dmgNumber = script.NumberTextBox
 	
+	local Players = game:FindService("Players")
+	
+	for i,v in pairs(Players:GetChildren()) do
+		if v.Name == PlayerName then
+			print("Player Found!")
+		end
+	end
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Parent.Notification.Visible = true
-		script.Parent.Parent.Parent.Parent.Notification.NotifDes.Text = "Kinda Buggy"
-		wait(5)
-		script.Parent.Parent.Parent.Parent.Notification.Visible = false	
-	for i,v in pairs(game.Workspace:GetChildren()) do
+		for i,v in pairs(game.Workspace:GetChildren()) do
 			if v.Name == PlayerName.Text then
-				game.ReplicatedStorage.Unblock.OnClientEvent:Connect(function()
-					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, -10)
-				end)
-	
-				game.ReplicatedStorage.Block.OnClientEvent:Connect(function()
-					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.IusetobeMr_Goodiie.Character.HumanoidRootPart.CFrame * CFrame.new(0,0, 10)
-				end)
-	
-				while true do
-					local Event = game:GetService("ReplicatedStorage").Block
-					Event:FireServer()
-					wait(0.0000001)							
-				end		
-			end				
-		end	
+				local args = {
+					[1] = "Light",
+					[2] = tonumber(dmgNumber.Text),
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+			end
+		end
 	end)
 end
-coroutine.wrap(FDRL_fake_script)()
+coroutine.wrap(MHYFT_fake_script)()
+local function XRAQI_fake_script() -- DonutButton_2.LocalScript 
+	local script = Instance.new('LocalScript', DonutButton_2)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	local dmgNumber = script.NumberTextBox
+	
+	local Players = game:FindService("Players")
+	
+	for i,v in pairs(Players:GetChildren()) do
+		if v.Name == PlayerName then
+			print("Player Found!")
+		end
+	end
+	
+	local Anim = Instance.new("Animation")
+	Anim.AnimationId = "rbxassetid://204062532"
+	local track = game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):LoadAnimation(Anim)
+	local swingACTIVE = false
+	game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
+		track = character:WaitForChild("Humanoid"):LoadAnimation(Anim)
+		swingACTIVE = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+	
+				local args = {
+					[1] = "Heavy",
+					[2] = tonumber(dmgNumber.Text),
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+	
+				local args2 = {
+					[1] = "Light",
+					[2] = tonumber(dmgNumber.Text),
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+	
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,1)
+				wait(.05)
+				track:Play()
+	
+				local s = Instance.new("Sound")
+				s.Name = "Sound"
+				s.SoundId = "http://www.roblox.com/asset/?id=1280294111"
+				s.Volume = 1
+				s.Looped = false
+				s.archivable = false
+				s.Parent = game.Workspace
+	
+				s:play()
+				wait(.25)
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+			end						
+		end
+	end)
+end
+coroutine.wrap(XRAQI_fake_script)()
+local function XRFM_fake_script() -- HeavyDamageButton_2.LocalScript 
+	local script = Instance.new('LocalScript', HeavyDamageButton_2)
+
+	script.Parent.Parent.TextBox.FocusLost:connect(
+		function(enterPressed)
+			if enterPressed then
+				print(script.Parent.Parent.TextBox.Text)
+			end
+		end
+	)
+	
+	local PlayerName = script.Parent.Parent.TextBox
+	local dmgNumber = script.NumberTextBox
+	
+	local Players = game:FindService("Players")
+	
+	for i,v in pairs(Players:GetChildren()) do
+		if v.Name == PlayerName then
+			print("Player Found!")
+		end
+	end
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.Name == PlayerName.Text then
+				local args = {
+					[1] = "Heavy",
+					[2] = tonumber(dmgNumber.Text),
+					[3] = v.Humanoid,
+					[4] = "TheyWouldntNeverSeeThis"
+				}
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+			end
+		end
+	end)
+end
+coroutine.wrap(XRFM_fake_script)()
