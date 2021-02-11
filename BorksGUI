@@ -463,18 +463,6 @@ UICorner_7.Parent = UIButton
 UITextSizeConstraint_6.Parent = UIButton
 UITextSizeConstraint_6.MaxTextSize = 27
 
-FlingButton.Name = "FlingButton"
-FlingButton.Parent = ButtonsFrame1
-FlingButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-FlingButton.Position = UDim2.new(0.512511015, 0, 0.118246838, 0)
-FlingButton.Size = UDim2.new(0.44989118, 0, 0.0727213025, 0)
-FlingButton.AutoButtonColor = false
-FlingButton.Font = Enum.Font.Gotham
-FlingButton.Text = "Fling"
-FlingButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlingButton.TextScaled = true
-FlingButton.TextSize = 14.000
-FlingButton.TextWrapped = true
 
 UICorner_8.Parent = FlingButton
 
@@ -518,38 +506,9 @@ UICorner_10.Parent = TextBox
 UITextSizeConstraint_9.Parent = TextBox
 UITextSizeConstraint_9.MaxTextSize = 29
 
-DamageButton.Name = "DamageButton"
-DamageButton.Parent = ButtonsFrame1
-DamageButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-DamageButton.Position = UDim2.new(0.510065913, 0, 0.201628104, 0)
-DamageButton.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
-DamageButton.AutoButtonColor = false
-DamageButton.Font = Enum.Font.Gotham
-DamageButton.Text = "Damage"
-DamageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-DamageButton.TextScaled = true
-DamageButton.TextSize = 14.000
-DamageButton.TextWrapped = true
-
-UICorner_11.Parent = DamageButton
 
 UITextSizeConstraint_10.Parent = DamageButton
 UITextSizeConstraint_10.MaxTextSize = 50
-
-BringButton.Name = "BringButton"
-BringButton.Parent = ButtonsFrame1
-BringButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-BringButton.Position = UDim2.new(0.508700013, 0, 0.287439257, 0)
-BringButton.Size = UDim2.new(0.451400787, 0, 0.0728583485, 0)
-BringButton.AutoButtonColor = false
-BringButton.Font = Enum.Font.Gotham
-BringButton.Text = "Bring"
-BringButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-BringButton.TextScaled = true
-BringButton.TextSize = 14.000
-BringButton.TextWrapped = true
-
-UICorner_12.Parent = BringButton
 
 UITextSizeConstraint_11.Parent = BringButton
 UITextSizeConstraint_11.MaxTextSize = 50
@@ -574,20 +533,6 @@ UICorner_13.Parent = NumberTextBox
 UITextSizeConstraint_12.Parent = NumberTextBox
 UITextSizeConstraint_12.MaxTextSize = 29
 
-DonutButton.Name = "DonutButton"
-DonutButton.Parent = ButtonsFrame1
-DonutButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-DonutButton.Position = UDim2.new(0.0375382975, 0, 0.287439257, 0)
-DonutButton.Size = UDim2.new(0.450034708, 0, 0.0728583485, 0)
-DonutButton.AutoButtonColor = false
-DonutButton.Font = Enum.Font.Gotham
-DonutButton.Text = "Donut"
-DonutButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-DonutButton.TextScaled = true
-DonutButton.TextSize = 14.000
-DonutButton.TextWrapped = true
-
-UICorner_14.Parent = DonutButton
 
 UITextSizeConstraint_13.Parent = DonutButton
 UITextSizeConstraint_13.MaxTextSize = 50
