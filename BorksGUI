@@ -1,3 +1,4 @@
+-- Instances:
 
 local BorksFriendsPunch = Instance.new("ScreenGui")
 local OpenGUI = Instance.new("TextButton")
@@ -81,7 +82,6 @@ local TeleportsBehindYouButton = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
 local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
 local UIPageLayout = Instance.new("UIPageLayout")
-local Page2 = Instance.new("Frame")
 local UICorner_18 = Instance.new("UICorner")
 local ButtonsFrame1_2 = Instance.new("Frame")
 local TextBox_2 = Instance.new("TextBox")
@@ -423,7 +423,6 @@ Pages.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Pages.ClipsDescendants = true
 Pages.Position = UDim2.new(0.897081792, 0, 0.597846508, 0)
 Pages.Size = UDim2.new(0.189999998, 0, 0.407553434, 0)
-Pages.Visible = false
 
 UICorner_5.Parent = Pages
 
@@ -866,7 +865,7 @@ UITextSizeConstraint_26.MaxTextSize = 28
 
 -- Scripts:
 
-local function HHPP_fake_script() -- OpenGUI.LocalScript 
+local function LTFRYJO_fake_script() -- OpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', OpenGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -879,16 +878,16 @@ local function HHPP_fake_script() -- OpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HHPP_fake_script)()
-local function DFDHFR_fake_script() -- DestroyGUI.LocalScript 
+coroutine.wrap(LTFRYJO_fake_script)()
+local function YACFY_fake_script() -- DestroyGUI.LocalScript 
 	local script = Instance.new('LocalScript', DestroyGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(DFDHFR_fake_script)()
-local function YVLKUS_fake_script() -- RejoinGame.LocalScript 
+coroutine.wrap(YACFY_fake_script)()
+local function JYXMLYW_fake_script() -- RejoinGame.LocalScript 
 	local script = Instance.new('LocalScript', RejoinGame)
 
 	local ts = game:GetService("TeleportService")
@@ -898,8 +897,8 @@ local function YVLKUS_fake_script() -- RejoinGame.LocalScript
 		ts:Teleport(game.PlaceId, p)	
 	end)
 end
-coroutine.wrap(YVLKUS_fake_script)()
-local function NOJGGE_fake_script() -- TimeSkipFrame.TimeSkip 
+coroutine.wrap(JYXMLYW_fake_script)()
+local function ABLQMV_fake_script() -- TimeSkipFrame.TimeSkip 
 	local script = Instance.new('LocalScript', TimeSkipFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -986,8 +985,8 @@ local function NOJGGE_fake_script() -- TimeSkipFrame.TimeSkip
 		end
 	end)
 end
-coroutine.wrap(NOJGGE_fake_script)()
-local function OLMSWP_fake_script() -- TimeSkipFrame.TimeErase 
+coroutine.wrap(ABLQMV_fake_script)()
+local function HXDNAHB_fake_script() -- TimeSkipFrame.TimeErase 
 	local script = Instance.new('LocalScript', TimeSkipFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1781,7 +1780,7 @@ local function OLMSWP_fake_script() -- TimeSkipFrame.TimeErase
 					Skybox.SkyboxFt = "http://www.roblox.com/asset/?id=91458024"
 					Skybox.SkyboxLf = "http://www.roblox.com/asset/?id=91458024"
 					Skybox.SkyboxRt = "http://www.roblox.com/asset/?id=91458024"
-							Skybox.SkyboxUp = "http://www.roblox.com/asset/?id=91458002"
+					Skybox.SkyboxUp = "http://www.roblox.com/asset/?id=91458002"
 							
 							
 					end
@@ -1791,9 +1790,9 @@ local function OLMSWP_fake_script() -- TimeSkipFrame.TimeErase
 		end
 	end)
 end
-coroutine.wrap(OLMSWP_fake_script)()
+coroutine.wrap(HXDNAHB_fake_script)()
 -- TimeSkipFrame.TEInvis is disabled.
-local function EKJQVY_fake_script() -- UIButton.LocalScript 
+local function FLPXFK_fake_script() -- UIButton.LocalScript 
 	local script = Instance.new('LocalScript', UIButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1832,8 +1831,8 @@ local function EKJQVY_fake_script() -- UIButton.LocalScript
 		end	
 	end)
 end
-coroutine.wrap(EKJQVY_fake_script)()
-local function XTGFS_fake_script() -- FlingButton.LocalScript 
+coroutine.wrap(FLPXFK_fake_script)()
+local function BLWG_fake_script() -- FlingButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1871,8 +1870,8 @@ local function XTGFS_fake_script() -- FlingButton.LocalScript
 			
 	end)
 end
-coroutine.wrap(XTGFS_fake_script)()
-local function YKAHM_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(BLWG_fake_script)()
+local function PGQB_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1894,8 +1893,8 @@ local function YKAHM_fake_script() -- TeleportButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(YKAHM_fake_script)()
-local function OGMQ_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(PGQB_fake_script)()
+local function LUCSEE_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -1906,8 +1905,8 @@ local function OGMQ_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OGMQ_fake_script)()
-local function ZRKPLKB_fake_script() -- DamageButton.LocalScript 
+coroutine.wrap(LUCSEE_fake_script)()
+local function SUUKRU_fake_script() -- DamageButton.LocalScript 
 	local script = Instance.new('LocalScript', DamageButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1929,6 +1928,11 @@ local function ZRKPLKB_fake_script() -- DamageButton.LocalScript
 		end
 	end
 	script.Parent.MouseButton1Click:Connect(function()
+		if game.Players.LocalPlayer.UserId == "461051278" then
+			game.Players.LocalPlayer:Kick("No more Abusing, Mr. Goodiie")
+			
+		else
+			
 		for i,v in pairs(game.Workspace:GetChildren()) do
 			if v.Name == PlayerName.Text then
 				local args = {
@@ -1937,13 +1941,14 @@ local function ZRKPLKB_fake_script() -- DamageButton.LocalScript
 					[3] = v.Humanoid,
 					[4] = "TheyWouldntNeverSeeThis"
 				}
-				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+					game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+				end
 			end
 		end
 	end)
 end
-coroutine.wrap(ZRKPLKB_fake_script)()
-local function JNBCOC_fake_script() -- BringButton.LocalScript 
+coroutine.wrap(SUUKRU_fake_script)()
+local function WJBJ_fake_script() -- BringButton.LocalScript 
 	local script = Instance.new('LocalScript', BringButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -1977,8 +1982,8 @@ local function JNBCOC_fake_script() -- BringButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JNBCOC_fake_script)()
-local function NTDKF_fake_script() -- DonutButton.LocalScript 
+coroutine.wrap(WJBJ_fake_script)()
+local function DQIDZS_fake_script() -- DonutButton.LocalScript 
 	local script = Instance.new('LocalScript', DonutButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -2010,71 +2015,47 @@ local function NTDKF_fake_script() -- DonutButton.LocalScript
 	end)
 	
 	script.Parent.MouseButton1Click:Connect(function()
+		if game.Players.LocalPlayer.UserId == "461051278" then
+			game.Players.LocalPlayer:Kick("No more Abusing, Mr. Goodiie")
+	
+		else
 		for i,v in pairs(game.Workspace:GetChildren()) do
 			if v.Name == PlayerName.Text then
 				
-							
-script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase1.Visible = true
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase2.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase1.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase3.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase2.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase4.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase3.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase5.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase4.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase6.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase5.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase7.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase6.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase8.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase7.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase9.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase8.Visible = false
-			local s = Instance.new("Sound")
-			s.Name = "Sound"
-			s.SoundId = "http://www.roblox.com/asset/?id=4225410300"
-			s.Volume = 1
-			s.Looped = false
-			s.archivable = false
-			s.Parent = game.Workspace
-
-			s:play()
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase10.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase9.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase11.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase10.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase12.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase11.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase13.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase12.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase14.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase13.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase15.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase14.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase16.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase15.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase17.Visible = true
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase16.Visible = false
-			wait(.01)
-			script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase17.Visible = false
-			
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase1.Visible = true
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase2.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase1.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase3.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase2.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase4.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase3.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase5.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase4.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase6.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase5.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase7.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase6.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase8.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase7.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase9.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase8.Visible = false
+				local s = Instance.new("Sound")
+				s.Name = "Sound"
+				s.SoundId = "http://www.roblox.com/asset/?id=4225410300"
+				s.Volume = 1
+				s.Looped = false
+				s.archivable = false
+				s.Parent = game.Workspace
+	
+				s:play()
 				
 				local args = {
 					[1] = "Heavy",
@@ -2093,15 +2074,43 @@ script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase1.Visible = tru
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,1)
 				wait(.05)
 				track:Play()
-	
 				wait(1)
 				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase10.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase9.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase11.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase10.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase12.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase11.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase13.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase12.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase14.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase13.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase15.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase14.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase16.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase15.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase17.Visible = true
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase16.Visible = false
+				wait(.01)
+				script.Parent.Parent.Parent.Parent.Parent.TimeSkipFrame.TimeErase17.Visible = false
+				
+				
+				end
 			end
 		end
 	end)
 end
-coroutine.wrap(NTDKF_fake_script)()
-local function UXGNBBL_fake_script() -- DonutComboButton.LocalScript 
+coroutine.wrap(DQIDZS_fake_script)()
+local function GSIXHT_fake_script() -- DonutComboButton.LocalScript 
 	local script = Instance.new('LocalScript', DonutComboButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -2133,6 +2142,10 @@ local function UXGNBBL_fake_script() -- DonutComboButton.LocalScript
 	end)
 	
 	script.Parent.MouseButton1Click:Connect(function()
+		if game.Players.LocalPlayer.UserId == "461051278" then
+			game.Players.LocalPlayer:Kick("No more Abusing, Mr. Goodiie")
+	
+		else
 	for i,v in pairs(game.Workspace:GetChildren()) do
 	if v.Name == PlayerName.Text then
 		
@@ -2185,12 +2198,13 @@ local function UXGNBBL_fake_script() -- DonutComboButton.LocalScript
 				wait(.25)
 				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args2))
 				wait(.1)
-			end						
+				end	
+			end
 		end
 	end)
 end
-coroutine.wrap(UXGNBBL_fake_script)()
-local function HIYR_fake_script() -- HeavyDamageButton.LocalScript 
+coroutine.wrap(GSIXHT_fake_script)()
+local function YPDB_fake_script() -- HeavyDamageButton.LocalScript 
 	local script = Instance.new('LocalScript', HeavyDamageButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -2212,6 +2226,10 @@ local function HIYR_fake_script() -- HeavyDamageButton.LocalScript
 		end
 	end
 	script.Parent.MouseButton1Click:Connect(function()
+		if game.Players.LocalPlayer.UserId == "461051278" then
+			game.Players.LocalPlayer:Kick("No more Abusing, Mr. Goodiie")
+	
+		else
 		for i,v in pairs(game.Workspace:GetChildren()) do
 			if v.Name == PlayerName.Text then
 				local args = {
@@ -2220,13 +2238,14 @@ local function HIYR_fake_script() -- HeavyDamageButton.LocalScript
 					[3] = v.Humanoid,
 					[4] = "TheyWouldntNeverSeeThis"
 				}
-				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+					game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))	
+				end
 			end
 		end
 	end)
 end
-coroutine.wrap(HIYR_fake_script)()
-local function XCWNE_fake_script() -- TeleportsBehindYouButton.LocalScript 
+coroutine.wrap(YPDB_fake_script)()
+local function UYXNP_fake_script() -- TeleportsBehindYouButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportsBehindYouButton)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -2248,8 +2267,8 @@ local function XCWNE_fake_script() -- TeleportsBehindYouButton.LocalScript
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(XCWNE_fake_script)()
-local function QIKJAPD_fake_script() -- Pages.SmoothDrag 
+coroutine.wrap(UYXNP_fake_script)()
+local function FFMXVA_fake_script() -- Pages.SmoothDrag 
 	local script = Instance.new('LocalScript', Pages)
 
 	local Drag = script.Parent
@@ -2292,8 +2311,8 @@ local function QIKJAPD_fake_script() -- Pages.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(QIKJAPD_fake_script)()
-local function EMHKO_fake_script() -- TextBox_2.LocalScript 
+coroutine.wrap(FFMXVA_fake_script)()
+local function GBON_fake_script() -- TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_2)
 
 	script.Parent.FocusLost:connect(function()
@@ -2304,8 +2323,8 @@ local function EMHKO_fake_script() -- TextBox_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EMHKO_fake_script)()
-local function MQWCJ_fake_script() -- DamageButton_2.LocalScript 
+coroutine.wrap(GBON_fake_script)()
+local function GGZFOXA_fake_script() -- DamageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', DamageButton_2)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -2340,8 +2359,8 @@ local function MQWCJ_fake_script() -- DamageButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MQWCJ_fake_script)()
-local function UJYVJCF_fake_script() -- DonutButton_2.LocalScript 
+coroutine.wrap(GGZFOXA_fake_script)()
+local function OUAHY_fake_script() -- DonutButton_2.LocalScript 
 	local script = Instance.new('LocalScript', DonutButton_2)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -2463,8 +2482,8 @@ local function UJYVJCF_fake_script() -- DonutButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UJYVJCF_fake_script)()
-local function UCKGNHG_fake_script() -- HeavyDamageButton_2.LocalScript 
+coroutine.wrap(OUAHY_fake_script)()
+local function ERPQCJ_fake_script() -- HeavyDamageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', HeavyDamageButton_2)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -2499,8 +2518,8 @@ local function UCKGNHG_fake_script() -- HeavyDamageButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UCKGNHG_fake_script)()
-local function WVUW_fake_script() -- BorksFriendsPunch.Respawn 
+coroutine.wrap(ERPQCJ_fake_script)()
+local function ITJTY_fake_script() -- BorksFriendsPunch.Respawn 
 	local script = Instance.new('LocalScript', BorksFriendsPunch)
 
 	function log() deadpos = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame end
@@ -2511,4 +2530,4 @@ local function WVUW_fake_script() -- BorksFriendsPunch.Respawn
 		char:WaitForChild("HumanoidRootPart", 3).CFrame = deadpos
 	end)
 end
-coroutine.wrap(WVUW_fake_script)()
+coroutine.wrap(ITJTY_fake_script)()
